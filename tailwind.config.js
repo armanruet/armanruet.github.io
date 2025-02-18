@@ -32,7 +32,17 @@ module.exports = {
         tightest: '-.075em',
       },
       fontSize: {
-        '8.5xl': '7rem',
+        'base': ['1.125rem', { lineHeight: '1.75rem' }],  // 18px base
+        'lg': ['1.25rem', { lineHeight: '1.875rem' }],    // 20px
+        'xl': ['1.5rem', { lineHeight: '2rem' }],         // 24px
+        '2xl': ['1.875rem', { lineHeight: '2.25rem' }],   // 30px
+        '3xl': ['2.25rem', { lineHeight: '2.5rem' }],     // 36px
+        '4xl': ['3rem', { lineHeight: '3rem' }],          // 48px
+        '5xl': ['3.75rem', { lineHeight: '3.75rem' }],    // 60px
+        '6xl': ['4.5rem', { lineHeight: '4.5rem' }],      // 72px
+        '7xl': ['6rem', { lineHeight: '6rem' }],          // 96px
+        '8xl': ['8rem', { lineHeight: '8rem' }],          // 128px
+        '8.5xl': ['9rem', { lineHeight: '9rem' }],        // 144px
       },
       fontFamily: {
         sans: ['Mukta', ...defaultTheme.fontFamily.sans],
@@ -109,30 +119,45 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
+            fontSize: '1.125rem',
             color: theme('colors.gray.700'),
+            lineHeight: '1.75',
+            p: {
+              marginTop: '1.5em',
+              marginBottom: '1.5em',
+            },
+            'h1, h2, h3, h4': {
+              marginTop: '2em',
+              marginBottom: '1em',
+              lineHeight: '1.3',
+            },
+            h1: {
+              fontSize: '2.5em',
+              fontWeight: '700',
+              letterSpacing: theme('letterSpacing.tight'),
+              color: theme('colors.gray.900'),
+            },
+            h2: {
+              fontSize: '2em',
+              fontWeight: '700',
+              letterSpacing: theme('letterSpacing.tight'),
+              color: theme('colors.gray.900'),
+            },
+            h3: {
+              fontSize: '1.5em',
+              fontWeight: '600',
+              color: theme('colors.gray.900'),
+            },
+            'h4,h5,h6': {
+              fontSize: '1.25em',
+              color: theme('colors.gray.900'),
+            },
             a: {
               color: theme('colors.gray.700'),
               '&:hover': {
                 color: theme('colors.gray.700'),
               },
               code: { color: theme('colors.primary.400') },
-            },
-            h1: {
-              fontWeight: '700',
-              letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.900'),
-            },
-            h2: {
-              fontWeight: '700',
-              letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.900'),
-            },
-            h3: {
-              fontWeight: '600',
-              color: theme('colors.gray.900'),
-            },
-            'h4,h5,h6': {
-              color: theme('colors.gray.900'),
             },
             code: {
               color: theme('colors.green.500'),
@@ -178,30 +203,45 @@ module.exports = {
         },
         dark: {
           css: {
+            fontSize: '1.125rem',
             color: theme('colors.gray.300'),
+            lineHeight: '1.75',
+            p: {
+              marginTop: '1.5em',
+              marginBottom: '1.5em',
+            },
+            'h1, h2, h3, h4': {
+              marginTop: '2em',
+              marginBottom: '1em',
+              lineHeight: '1.3',
+            },
+            h1: {
+              fontSize: '2.5em',
+              fontWeight: '700',
+              letterSpacing: theme('letterSpacing.tight'),
+              color: theme('colors.gray.100'),
+            },
+            h2: {
+              fontSize: '2em',
+              fontWeight: '700',
+              letterSpacing: theme('letterSpacing.tight'),
+              color: theme('colors.gray.100'),
+            },
+            h3: {
+              fontSize: '1.5em',
+              fontWeight: '600',
+              color: theme('colors.gray.100'),
+            },
+            'h4,h5,h6': {
+              fontSize: '1.25em',
+              color: theme('colors.gray.100'),
+            },
             a: {
               color: theme('colors.gray.300'),
               '&:hover': {
                 color: theme('colors.gray.300'),
               },
               code: { color: theme('colors.primary.400') },
-            },
-            h1: {
-              fontWeight: '700',
-              letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.100'),
-            },
-            h2: {
-              fontWeight: '700',
-              letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.100'),
-            },
-            h3: {
-              fontWeight: '600',
-              color: theme('colors.gray.100'),
-            },
-            'h4,h5,h6': {
-              color: theme('colors.gray.100'),
             },
             code: {
               backgroundColor: theme('colors.gray.800'),

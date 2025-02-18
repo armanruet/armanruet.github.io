@@ -22,18 +22,18 @@ export default function Hero() {
         Hello I&apos;m Arman Hossen, I&apos;m a software developer, and I love building things for the web.
       </h1>
       <div className="relative z-10 flex min-h-screen items-center">
-        <div className="mx-auto w-full max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-0">
+        <div className="mx-auto w-full max-w-4xl px-4 sm:px-9 xl:max-w-6xl xl:px-0">
           <div className="-mt-36">
-            <div ref={ref} className="flex cursor-default flex-col space-y-6">
-              <h1 className="text-4xl font-bold sm:text-6xl md:text-7xl xl:text-8xl">
+            <div ref={ref} className="flex cursor-default flex-col space-y-8">
+              <h1 className="text-5xl font-bold sm:text-6xl md:text-7xl xl:text-8xl">
                 Arman Hossen
               </h1>
-              <h2 className="text-2xl font-medium text-gray-700 dark:text-gray-300 sm:text-4xl md:text-5xl xl:text-6xl">
-              I transform complex problems into elegant solutions.
+              <h2 className="text-3xl font-medium text-gray-700 dark:text-gray-300 sm:text-4xl md:text-5xl xl:text-6xl">
+                I transform complex problems into elegant solutions.
               </h2>
               <Link
                 href="/about"
-                className="underline-magical w-max text-lg sm:text-xl md:text-2xl"
+                className="underline-magical w-max text-xl sm:text-2xl md:text-3xl"
               >
                 Read more about me →
               </Link>
