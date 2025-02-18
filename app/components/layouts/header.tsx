@@ -13,18 +13,18 @@ export default function Header() {
         </Link>
 
         {/* Right side navigation */}
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-8">
           {/* Navigation Links */}
           <Link 
             href="/blog" 
-            className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white relative group"
+            className="text-lg sm:text-xl font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white relative group"
           >
             Blog
             <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary-500 scale-x-0 group-hover:scale-x-100 transition-transform"></span>
           </Link>
           <Link 
             href="/about"
-            className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white relative group"
+            className="text-lg sm:text-xl font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white relative group"
           >
             About
             <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary-500 scale-x-0 group-hover:scale-x-100 transition-transform"></span>
