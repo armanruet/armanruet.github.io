@@ -9,9 +9,7 @@ const nextConfig = {
         hostname: '**',
       },
     ],
-  },
-  basePath: '/armanruet52.github.io',
-  assetPrefix: '/armanruet52.github.io',
+  }
 }
 
 module.exports = nextConfig 
