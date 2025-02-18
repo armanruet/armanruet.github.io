@@ -1,0 +1,420 @@
+1:HL["/_next/static/css/f188426929e6f5d8.css","style",{"crossOrigin":""}]
+0:["1x6kC3MXV9Nu4GbpiiABS",[[["",{"children":["blog",{"children":[["slug","Excalidraw","d"],{"children":["__PAGE__?{\"slug\":\"Excalidraw\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/f188426929e6f5d8.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:HL["/_next/static/css/9c9b59e93ea147b4.css","style",{"crossOrigin":""}]
+5:I[4504,["779","static/chunks/0e762574-ada009a30e142e51.js","792","static/chunks/d320e741-96a90c74a8b40801.js","326","static/chunks/326-18d065f4d22c966e.js","750","static/chunks/750-65b981a2bb3ba5be.js","710","static/chunks/710-3e1fea2f304d5cf7.js","185","static/chunks/app/layout-f487495895a7f12a.js"],""]
+6:I[9769,["779","static/chunks/0e762574-ada009a30e142e51.js","792","static/chunks/d320e741-96a90c74a8b40801.js","326","static/chunks/326-18d065f4d22c966e.js","750","static/chunks/750-65b981a2bb3ba5be.js","710","static/chunks/710-3e1fea2f304d5cf7.js","185","static/chunks/app/layout-f487495895a7f12a.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+9:I[8326,["779","static/chunks/0e762574-ada009a30e142e51.js","792","static/chunks/d320e741-96a90c74a8b40801.js","326","static/chunks/326-18d065f4d22c966e.js","750","static/chunks/750-65b981a2bb3ba5be.js","710","static/chunks/710-3e1fea2f304d5cf7.js","185","static/chunks/app/layout-f487495895a7f12a.js"],""]
+a:I[4955,["750","static/chunks/750-65b981a2bb3ba5be.js","206","static/chunks/app/blog/%5Bslug%5D/layout-db2cc87206fcc634.js"],""]
+b:I[498,["750","static/chunks/750-65b981a2bb3ba5be.js","206","static/chunks/app/blog/%5Bslug%5D/layout-db2cc87206fcc634.js"],""]
+f:I[2050,["779","static/chunks/0e762574-ada009a30e142e51.js","792","static/chunks/d320e741-96a90c74a8b40801.js","326","static/chunks/326-18d065f4d22c966e.js","750","static/chunks/750-65b981a2bb3ba5be.js","710","static/chunks/710-3e1fea2f304d5cf7.js","185","static/chunks/app/layout-f487495895a7f12a.js"],""]
+e:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z2:[null,["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/static/favicons/favicon.ico"}],["$","meta",null,{"name":"theme-color","content":"#000000"}]]}],["$","body",null,{"className":"min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white","suppressHydrationWarning":true,"children":["$","$L5",null,{"attribute":"class","defaultTheme":"dark","enableSystem":false,"themes":["dark","light"],"children":[["$","div",null,{"className":"flex min-h-screen flex-col","children":[["$","$L6",null,{}],["$","main",null,{"className":"flex-1 px-4 py-8 sm:px-6 lg:px-8","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"flex min-h-screen flex-col items-center justify-center","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"404 - Page Not Found"}],["$","p",null,{"className":"mt-4 text-lg text-gray-600 dark:text-gray-400","children":"The page you're looking for doesn't exist."}],["$","$L9",null,{"href":"/","className":"mt-6 rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-600","children":"Go Home"}]]}],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":[null,[["$","$La",null,{}],["$","$Lb",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children",["slug","Excalidraw","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$Lc","$Ld",null],"childPropSegment":"__PAGE__?{\"slug\":\"Excalidraw\"}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9c9b59e93ea147b4.css","precedence":"next","crossOrigin":""}]]}]}]],null],"childPropSegment":["slug","Excalidraw","d"],"styles":null}],"childPropSegment":"blog","styles":null}]}],["$","footer",null,{"className":"w-full border-t border-gray-200 dark:border-gray-800","children":["$","div",null,{"className":"mx-auto max-w-4xl px-4 py-8","children":["$","div",null,{"className":"flex items-center justify-between text-gray-500 dark:text-gray-400","children":[["$","div",null,{"className":"flex items-center space-x-2 text-sm","children":[["$","span",null,{"children":"© 2025"}],["$","span",null,{"children":"•"}],["$","span",null,{"children":"Arman Hossen"}]]}],["$","div",null,{"className":"flex items-center space-x-5","children":[["$","$L9",null,{"href":"https://linkedin.com/in/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 1024 1024","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"LinkedIn"}]]}],["$","$L9",null,{"href":"https://github.com/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"$e","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"GitHub"}]]}],["$","$L9",null,{"href":"https://twitter.com/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"Twitter"}]]}]]}]]}]}]}]]}],["$","$Lf",null,{}]]}]}]]}],null]
+3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Unleash Your Inner Visual Thinker: Mastering Excalidraw | Arman Hossen"}],["$","meta","3",{"property":"og:title","content":"Unleash Your Inner Visual Thinker: Mastering Excalidraw | Arman Hossen"}],["$","meta","4",{"property":"og:image:type","content":"image/png"}],["$","meta","5",{"property":"og:image:width","content":"1106"}],["$","meta","6",{"property":"og:image:height","content":"483"}],["$","meta","7",{"property":"og:image","content":"https://armanruet.github.io/opengraph-image.png?fdbfcb345ced5315"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Unleash Your Inner Visual Thinker: Mastering Excalidraw | Arman Hossen"}],["$","meta","10",{"name":"twitter:image:type","content":"image/png"}],["$","meta","11",{"name":"twitter:image:width","content":"1106"}],["$","meta","12",{"name":"twitter:image:height","content":"483"}],["$","meta","13",{"name":"twitter:image","content":"https://armanruet.github.io/opengraph-image.png?fdbfcb345ced5315"}]]
+10:I[8825,["326","static/chunks/326-18d065f4d22c966e.js","413","static/chunks/413-c57d1146be5fe876.js","308","static/chunks/app/blog/%5Bslug%5D/page-f607c50ba9fee675.js"],"MDXClient"]
+11:T514f,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h3: "h3",
+    p: "p",
+    img: "img",
+    strong: "strong",
+    ul: "ul",
+    li: "li",
+    a: "a",
+    code: "code",
+    ol: "ol"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h3, {
+      children: "The infinite canvas for creative collaboration"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.img, {
+        src: "https://cdn-images-1.medium.com/max/1600/0*9n5ARCU1LcEg59fV",
+        alt: "image"
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: "Introduction"
+    }), "\n", _jsxs(_components.p, {
+      children: ["In a fast-paced world, sometimes the most effective way to communicate an idea is to sketch it. A single diagram can cut through complexity far more quickly than dense blocks of text. Enter ", _jsx(_components.strong, {
+        children: "Excalidraw"
+      }), ", an open-source, browser-based virtual whiteboard that’s as simple as doodling in a notebook, yet powerful enough to manage team-wide brainstorming."]
+    }), "\n", _jsx(_components.p, {
+      children: "Excalidraw’s hand-drawn aesthetic sets it apart. Instead of intimidating you with hyper-polished visuals, it embraces imperfection, making even complex ideas feel approachable. Whether you’re a designer mapping user flows, a product manager outlining project plans, a developer visualizing system architecture, or a teacher illustrating class concepts, Excalidraw helps you think visually and communicate clearly."
+    }), "\n", _jsx(_components.p, {
+      children: "This comprehensive guide will help you start as a complete novice and grow into a power user. You’ll learn core drawing techniques, time-saving shortcuts, real-time collaboration, advanced integrations, and best practices for building truly dynamic visual documents."
+    }), "\n", _jsx(_components.h3, {
+      children: "Why Excalidraw?"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Hand-drawn charm:"
+        }), " Its imperfect lines and shapes bring a friendly, human touch to digital diagrams."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Simple by design:"
+        }), " A minimal toolbar and intuitive interface keep your focus on the idea, not the tool."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Instant collaboration:"
+        }), " Just share a link to invite teammates; no login required. Everyone can draw and edit in real time."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Infinite canvas:"
+        }), " Zoom and pan without limits. Give your creativity the space it needs to grow."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Open-source & flexible:"
+        }), " Customize, integrate, and extend Excalidraw to fit your unique workflow."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.img, {
+        src: "https://cdn-images-1.medium.com/max/1600/1*Sn1y8D9sKcVvPFeH2zQ-BQ.png",
+        alt: "image"
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: "Getting Started: The Basics"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Step 1: Accessing Excalidraw"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "No installation needed:"
+        }), " Visit ", _jsx(_components.a, {
+          href: "https://excalidraw.com/",
+          children: "excalidraw.com"
+        }), " and start drawing immediately."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Offline mode:"
+        }), " Use it offline with a Progressive Web App (PWA) installation or by downloading the repository."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Step 2: The Interface"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Toolbar:"
+        }), " On the left, access shapes, arrows, text, and a color picker."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Properties panel:"
+        }), " When you select an element, the top toolbar lets you adjust stroke style, color, font, and more."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Canvas controls:"
+        }), " Click and drag empty space to pan, use your mouse wheel or pinch gestures to zoom, and enable the mini-map to navigate large projects."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Step 3: Your First Drawing"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Draw shapes:"
+        }), " Select the Rectangle tool, click and drag on the canvas."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Add text:"
+        }), " Choose the Text tool and type a label or heading."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Connect with arrows:"
+        }), " Link shapes to build simple flows."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Style it:"
+        }), " Experiment with colors, stroke thickness, and line styles to make it pop."]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "Core Skills for Mastery"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Keyboard Shortcuts for Speed"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Space (hold):"
+        }), " Pan around quickly."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Shift + Drag:"
+        }), " Create perfect straight lines or equal-sided shapes."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Ctrl/Cmd + S:"
+        }), " Save your diagram."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Ctrl/Cmd + Z/Y:"
+        }), " Undo/Redo for rapid iteration."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Layers & Grouping"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Grouping:"
+        }), " Select multiple elements and press Ctrl/Cmd + G to treat them as a single unit."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Reordering:"
+        }), " Bring elements forward or send them back to keep complex diagrams organized."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Styling Tips"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Consistent color schemes:"
+        }), " Stick to a limited palette for a cohesive look."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Varying strokes:"
+        }), " Thicker lines can highlight key points; thinner lines can show detail without overwhelming."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Text hierarchy:"
+        }), " Larger, bolder headers and smaller annotations guide the viewer’s eye."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Managing Larger Projects"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Sections & anchors:"
+        }), " Organize the infinite canvas into regions for different parts of a project."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Labels & legends:"
+        }), " Add keys to explain color codes or symbols."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Custom libraries:"
+        }), " Save frequently used icons or diagrams for quick reuse."]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "Collaboration & Teamwork"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Real-time Collaboration:"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Easy sharing:"
+        }), " Click “Share” and send the link. Everyone can contribute instantly."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Watch ideas evolve:"
+        }), " See colleagues’ cursors and edits live."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Version history:"
+        }), " Roll back to previous versions if you need a reset."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Team Strategies:"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Role assignment:"
+        }), " One person shapes the overall structure; others fill in details."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Color-coding authors:"
+        }), " Assign different colors to each team member’s additions."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Group brainstorming:"
+        }), " Start with loose sketches and refine as insights emerge."]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "Advanced techniques & power user features"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "1. Integrations & embedding"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Atlassian suite (Confluence/Jira):"
+        }), " Insert Excalidraw boards to enhance your documentation or add clarity to tickets."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Notion & Obsidian:"
+        }), " Embed interactive diagrams right inside your notes. Perfect for visual knowledge management."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "VS code & developer tooling:"
+        }), " Use Excalidraw to outline architecture directly in your code environment.\n", _jsx(_components.img, {
+          src: "https://cdn-images-1.medium.com/max/1600/1*5g9rey5j6X5cNyJul9thXA.png",
+          alt: "image"
+        })]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "2. Importing & exporting"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Import templates:"
+        }), " Start from community-created templates for flowcharts, mind maps, or UI wireframes."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Export as PNG, SVG, or EXCALIDRAW Files:"
+        }), " Use PNG or SVG for presentations and websites. ", _jsx(_components.code, {
+          children: ".excalidraw"
+        }), " files preserve editability."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Drag & drop:"
+        }), " Move between different boards or reuse elements from previous diagrams."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "3. Custom libraries & plugins"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Build your own library:"
+        }), " Save commonly used UML symbols, system icons, or branding assets to speed up future projects."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Third-party plugins:"
+        }), " Explore the Excalidraw community’s plugins that add features like sticky notes, advanced shapes, or integration with diagramming libraries."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "4. Binding elements & smart connectors"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Snap lines & grids:"
+        }), " Enable snapping to keep your diagram neat and aligned."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Smart connectors:"
+        }), " Some updates and plugins allow connectors that “stick” to shapes, making rearranging elements far easier."]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "5. Stylus and tablet use"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Pen input:"
+        }), " For a more organic, freehand drawing experience, use a stylus or tablet."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Pressure sensitivity (if supported):"
+        }), " Adjust line thickness with the pressure of your pen for a more natural sketching feel."]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "Advanced use cases & scenarios"
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Product design & wireframing:"
+        }), " Create user flows for mobile apps. Use Excalidraw’s free-form shapes to quickly iterate on interfaces before moving into high-fidelity design tools."]
+      }), "\n", _jsx(_components.li, {
+        children: "**System architecture & technical diagrams:**Sketch server topologies, database schemas, and API flows. The hand-drawn look keeps discussions focused on big-picture ideas rather than pixel perfection."
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Teaching & learning:"
+        }), " Teachers can illustrate concepts like historical timelines, complex math equations, or scientific diagrams. Students can collaboratively map out group projects or visualize class notes."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Consulting & client meetings:"
+        }), " Impress clients by sketching ideas live in a meeting. Translate complex business processes into easily understood flows, right before their eyes."]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "Excalidraw vs. other visual collaboration tools"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.img, {
+        src: "https://cdn-images-1.medium.com/max/1600/1*JAWEJ_Dj_rFFbmeNVeUfxw.png",
+        alt: "image"
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: "Becoming a pro: tips & best practices"
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Establish a personal workflow:"
+        }), " Start every project with a rough outline, then refine step-by-step. Use colors for grouping concepts and keep text labels consistent."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Leverage shortcuts & libraries:"
+        }), " Memorize essential keyboard shortcuts and build custom libraries of reusable components to speed up your workflow."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Practice, practice, practice:"
+        }), " The more you use Excalidraw, the better you’ll understand how to visually communicate your ideas. Treat it like visual thinking gym — every session makes you stronger."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Learn from the community:"
+        }), " Join the Excalidraw community on GitHub or forums. Explore shared templates, watch tutorials, and learn tips from other power users."]
+      }), "\n", _jsx(_components.li, {
+        children: "**Iterate & evolve your diagrams:**Don’t aim for perfection at once. Scribble down initial ideas, reorganize them as your understanding grows, and finalize when the concept is clear."
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "Staying involved & inspired"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Contribute to the project:"
+        }), " Being open-source, Excalidraw welcomes your feature requests, bug reports, or code contributions on GitHub."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Community templates & showcases:"
+        }), " Browse community libraries to jumpstart your diagrams, or share your own creative workflows as inspiration for others."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Follow product updates:"
+        }), " Keep an eye on release notes and community newsletters. The tool evolves, adding new features and refinements regularly."]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "Conclusion"
+    }), "\n", _jsx(_components.p, {
+      children: "Excalidraw isn’t just a digital whiteboard — it’s a catalyst for visual thinking. By combining a human, hand-drawn feel with powerful functionality, it empowers you to clarify complex ideas, foster collaboration, and communicate with impact."
+    }), "\n", _jsxs(_components.p, {
+      children: ["Start small: outline a project plan, sketch a user flow, or brainstorm with your team. Over time, you’ll develop a visual language that cuts through confusion and resonates with others. Ready to embrace a new way of thinking? Head to ", _jsx(_components.a, {
+        href: "https://excalidraw.com/",
+        children: "excalidraw.com"
+      }), ", open a blank canvas, and let your imagination flow."]
+    }), "\n", _jsx(_components.p, {
+      children: "Share this guide with colleagues, students, or fellow creators and discover how Excalidraw transforms scattered thoughts into clear, compelling visuals. Your journey into visual thinking awaits — grab your virtual pen and start drawing."
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+d:["$","article",null,{"className":"mx-auto max-w-[900px] px-4 py-12","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"blog-post_title__ew4vR","children":"Unleash Your Inner Visual Thinker: Mastering Excalidraw"}],["$","p",null,{"className":"text-gray-500 dark:text-gray-400 mt-2","children":"$undefined"}]]}],["$","div",null,{"className":"blog-post_content__Ydq91","children":["$","$L10",null,{"content":{"compiledSource":"$11","frontmatter":{},"scope":{}}}]}]]}]
+c:null

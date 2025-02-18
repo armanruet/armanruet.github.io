@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://armanruet.github.io/
+Sitemap: https://armanruet.github.io//sitemap.xml
