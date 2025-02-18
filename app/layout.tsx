@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   },
   description: 'I transform complex problems into elegant solutions',
   metadataBase: new URL('https://armanruet.github.io'),
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -23,9 +28,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/static/favicons/favicon.ico" />
         <meta name="theme-color" content="#000000" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
       </head>
       <body
-        className="min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white"
+        className="min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white text-base"
         suppressHydrationWarning
       >
         <ThemeProvider
