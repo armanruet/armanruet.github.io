@@ -18,20 +18,30 @@ export const metadata: Metadata = {
   viewport: {
     width: 'device-width',
     initialScale: 1,
-    maximumScale: 1,
+    maximumScale: 5,
   },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="text-[18px]" suppressHydrationWarning>
       <head>
         <link rel="icon" type="image/x-icon" href="/static/favicons/favicon.ico" />
         <meta name="theme-color" content="#000000" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>{`
+          html {
+            font-size: 18px !important;
+          }
+          @media (min-width: 768px) {
+            html {
+              font-size: 18px !important;
+            }
+          }
+        `}</style>
       </head>
       <body
-        className="min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white text-base"
+        className="min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white text-[1rem]"
         suppressHydrationWarning
       >
         <ThemeProvider

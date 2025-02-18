@@ -2,20 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base font size settings */
-:root {
-  font-size: 16px;
-}
-
-@media (min-width: 768px) {
-  :root {
-    font-size: 16px;
+@layer base {
+  html {
+    font-size: 18px !important;
   }
-}
-
-@media (min-width: 1024px) {
-  :root {
-    font-size: 16px;
+  
+  body {
+    @apply text-base;
+  }
+  
+  h1 {
+    @apply text-4xl font-bold md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl font-semibold md:text-4xl lg:text-5xl;
+  }
+  
+  p {
+    @apply text-base md:text-lg;
   }
 }
 
