@@ -2,7 +2,7 @@ export default function Education() {
   return (
     <div className="mb-12">
       <h2 className="text-2xl font-bold mb-8">Education</h2>
-      <div className="space-y-8">
+      <div className="space-y-2">
         {/* Inha University */}
         <div>
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
