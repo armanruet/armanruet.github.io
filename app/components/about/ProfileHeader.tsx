@@ -48,11 +48,10 @@ export default function ProfileHeader() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex flex-row items-center justify-center gap-3"
+          className="flex flex-col items-center gap-4"
         >
-          <h1 className="text-3xl font-bold text-center">Arman Hossen</h1>
-          <span className="text-gray-400 mx-1">•</span>
-          <h2 className="text-xl text-gray-600 dark:text-gray-400 font-mono text-center">
+          <h1 className="text-5xl font-bold text-center">Arman Hossen</h1>
+          <h2 className="text-2xl text-gray-600 dark:text-gray-400 font-mono text-center">
             Software Engineer
           </h2>
         </motion.div>
