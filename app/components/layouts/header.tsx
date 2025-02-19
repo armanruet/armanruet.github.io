@@ -29,6 +29,15 @@ export default function Header() {
             About
             <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary-500 scale-x-0 group-hover:scale-x-100 transition-transform"></span>
           </Link>
+          <a 
+            href="https://armanruet.github.io/Luxembourgish/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[1.1rem] sm:text-[1.2rem] font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white relative group"
+          >
+            Luxembourgish
+            <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary-500 scale-x-0 group-hover:scale-x-100 transition-transform"></span>
+          </a>
 
           {/* Theme Toggle */}
           <ThemeSwitch />
