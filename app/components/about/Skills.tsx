@@ -106,10 +106,48 @@ export default function Skills() {
     },
   ];
 
+  // Function to get skill level category
+  const getSkillLevel = (level: number) => {
+    if (level >= 90) return 'Expert';
+    if (level >= 80) return 'Advanced';
+    if (level >= 70) return 'Proficient';
+    return 'Intermediate';
+  };
+
+  // Function to get color class based on level
+  const getColorClass = (level: number) => {
+    if (level >= 90) return 'bg-purple-600 dark:bg-purple-500';
+    if (level >= 80) return 'bg-pink-600 dark:bg-pink-500';
+    if (level >= 70) return 'bg-blue-600 dark:bg-blue-500';
+    return 'bg-gray-600 dark:bg-gray-500';
+  };
+
   return (
     <div className="mb-12">
       <h2 className="text-2xl font-bold mb-8">Skills</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      {/* Mobile View */}
+      <div className="md:hidden">
+        <div className="space-y-6">
+          {skills.map((skill) => (
+            <div key={skill.name} className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 shadow-sm">
+              <div className="flex justify-between items-center mb-2">
+                <span className="font-medium text-gray-900 dark:text-gray-100">{skill.name}</span>
+                <span className="text-sm text-gray-600 dark:text-gray-400">{getSkillLevel(skill.level)}</span>
+              </div>
+              <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                <div
+                  className={`h-full ${getColorClass(skill.level)} rounded-full transition-all duration-500`}
+                  style={{ width: `${skill.level}%` }}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Desktop View */}
+      <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {[1, 2, 3, 4].map((columnNum) => (
           <div key={columnNum} className="space-y-4">
             {skills
@@ -121,7 +159,7 @@ export default function Skills() {
                     <div
                       className="h-full bg-pink-600 dark:bg-pink-500 rounded-full transition-all duration-500"
                       style={{ width: `${skill.level}%` }}
-                    ></div>
+                    />
                   </div>
                 </div>
               ))}
