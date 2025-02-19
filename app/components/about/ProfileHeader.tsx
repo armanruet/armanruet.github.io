@@ -35,8 +35,8 @@ export default function ProfileHeader() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="hidden md:flex md:flex-col md:items-start"
         >
-          <h1 className="text-4xl font-bold">Arman Hossen</h1>
-          <h2 className="text-2xl text-gray-600 dark:text-gray-400 font-mono mt-2">
+          <h1 className="text-3xl font-bold">Arman Hossen</h1>
+          <h2 className="text-xl text-gray-600 dark:text-gray-400 font-mono mt-2">
             Software Engineer
           </h2>
         </motion.div>

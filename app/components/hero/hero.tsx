@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="mx-auto w-full max-w-4xl px-4 sm:px-9 xl:max-w-6xl xl:px-0">
           <div className="-mt-36">
             <div ref={ref} className="flex cursor-default flex-col space-y-8">
-              <h1 className="text-5xl font-bold sm:text-6xl md:text-7xl xl:text-8xl">
+              <h1 className="text-3xl font-bold sm:text-6xl md:text-7xl xl:text-8xl">
                 Arman Hossen
               </h1>
               <h2 className="text-3xl font-medium text-gray-700 dark:text-gray-300 sm:text-4xl md:text-5xl xl:text-6xl">
