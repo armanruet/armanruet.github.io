@@ -14,18 +14,18 @@ const publications: Publication[] = [
     authors: ['M. A. Hossen', 'Sang-Jo Yoo'],
     title: 'Q-Learning–Based Multi-Objective Clustering Algorithm for Cognitive Radio Ad-Hoc Networks',
     journal: 'IEEE access Journal',
-    year: '2023'
+    year: '2019'
   },
   {
-    authors: ['M. A. Hossen', 'et al.'],
+    authors: ['M. A. Hossen', 'et al'],
     title: 'Joint Resource Allocation and Link Adaptation for Ultra-reliable and Low-latency Services',
-    journal: 'IEEE Consumer Communications & Networking Conference (CCNC)',
+    journal: 'CCNC',
     year: '2023'
   },
   {
-    authors: ['M. A. Hossen','et al.'],
+    authors: ['M. A. Hossen','et al'],
     title: 'Effect of Signal Length in Cross-correlation based Underwater Network Size Estimation',
-    journal: '2nd International Conference on Electrical Engineering and Information Communication Technology (ICEEICT)',
+    journal: 'ICEEICT',
     year: '2015'
   }
 ];
