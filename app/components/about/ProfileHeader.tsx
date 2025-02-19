@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 export default function ProfileHeader() {
   return (
-    <div className="flex justify-between items-start gap-8 mb-12">
+    <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-12">
       {/* Left Side - Photo and Name */}
       <div className="flex items-start gap-4">
         <motion.div
@@ -34,7 +34,6 @@ export default function ProfileHeader() {
         >
           <div className="flex items-center gap-2">
             <h1 className="text-4xl font-bold">Arman Hossen</h1>
-            <HiOutlineArrowUpRight className="text-2xl text-gray-400" />
           </div>
           <h2 className="text-2xl text-gray-600 dark:text-gray-400 font-mono mt-2">
             Software Engineer
@@ -47,11 +46,11 @@ export default function ProfileHeader() {
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        className="flex flex-col items-end gap-4"
+        className="flex flex-col items-start md:items-end gap-4 w-full md:w-auto mt-6 md:mt-0"
       >
         <a
           href="mailto:armanruet@gmail.com"
-          className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200"
+          className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 text-[18px]"
         >
           <span>armanruet@gmail.com</span>
           <HiOutlineArrowUpRight className="text-sm" />
@@ -61,18 +60,18 @@ export default function ProfileHeader() {
           href="https://armanruet.github.io/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200"
+          className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 text-[18px] break-all"
         >
           <span>https://armanruet.github.io/</span>
-          <HiOutlineArrowUpRight className="text-sm" />
+          <HiOutlineArrowUpRight className="text-sm flex-shrink-0" />
         </a>
 
-        <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
-          <IoLocationSharp />
+        <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400 text-[18px]">
+          <IoLocationSharp className="flex-shrink-0" />
           <span>Differdange, LUX</span>
         </div>
 
-        <div className="flex gap-4 text-2xl text-gray-600 dark:text-gray-400">
+        <div className="flex gap-4 text-2xl text-gray-600 dark:text-gray-400 mt-2">
           <a
             href="https://github.com/armanruet"
             target="_blank"
