@@ -45,7 +45,7 @@ export default function Publications() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="prose dark:prose-invert max-w-none"
+            className="prose dark:prose-invert max-w-none text-[18px]"
           >
             <p className="mb-2">
               <strong>• </strong>
