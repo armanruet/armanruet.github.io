@@ -16,7 +16,7 @@ export default function ProfileHeader() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="relative w-48 h-48 rounded-full overflow-hidden flex-shrink-0 mb-4 md:mb-0"
+          className="relative w-48 h-48 rounded-full overflow-hidden flex-shrink-0 mb-8 md:mb-0"
         >
           <Image
             src="/armanruet52.github.io/static/images/avatar.png"
@@ -43,15 +43,15 @@ export default function ProfileHeader() {
       </div>
 
       {/* Mobile-only layout */}
-      <div className="flex flex-col items-center md:hidden w-full gap-6">
+      <div className="flex flex-col items-center md:hidden w-full gap-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex flex-col items-center gap-2"
+          className="flex flex-col items-center gap-6"
         >
-          <h1 className="text-4xl font-bold">Arman Hossen</h1>
-          <h2 className="text-2xl text-gray-600 dark:text-gray-400 font-mono">
+          <h1 className="text-5xl font-bold text-center">Arman Hossen</h1>
+          <h2 className="text-2xl text-gray-600 dark:text-gray-400 font-mono text-center">
             Software Engineer
           </h2>
         </motion.div>
@@ -61,41 +61,13 @@ export default function ProfileHeader() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="flex items-center justify-center gap-6 text-2xl text-gray-600 dark:text-gray-400"
+          className="flex items-center justify-center gap-8 text-3xl text-gray-600 dark:text-gray-400"
         >
-          <div className="flex items-center gap-1">
-            <IoLocationSharp className="text-2xl" />
-          </div>
-          <a
-            href="mailto:armanruet@gmail.com"
-            className="hover:text-gray-900 dark:hover:text-gray-200"
-          >
-            <SiGmail />
-          </a>
-          <a
-            href="https://github.com/armanruet"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-900 dark:hover:text-gray-200"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/armanruet/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-900 dark:hover:text-gray-200"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="https://armanruet.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-900 dark:hover:text-gray-200"
-          >
-            <FaGlobe />
-          </a>
+          <IoLocationSharp />
+          <SiGmail />
+          <FaGithub />
+          <FaLinkedin />
+          <FaGlobe />
         </motion.div>
       </div>
 
