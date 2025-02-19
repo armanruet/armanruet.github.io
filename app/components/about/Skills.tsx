@@ -106,44 +106,40 @@ export default function Skills() {
     },
   ];
 
-  // Function to get skill level category
-  const getSkillLevel = (level: number) => {
-    if (level >= 90) return 'Expert';
-    if (level >= 80) return 'Advanced';
-    if (level >= 70) return 'Proficient';
-    return 'Intermediate';
-  };
-
-  // Function to get color class based on level
-  const getColorClass = (level: number) => {
-    if (level >= 90) return 'bg-purple-600 dark:bg-purple-500';
-    if (level >= 80) return 'bg-pink-600 dark:bg-pink-500';
-    if (level >= 70) return 'bg-blue-600 dark:bg-blue-500';
-    return 'bg-gray-600 dark:bg-gray-500';
-  };
+  // Group skills by level for mobile view
+  const groupedSkills = skills.reduce((acc, skill) => {
+    const level = skill.level >= 90 ? 'Expert' :
+                 skill.level >= 80 ? 'Advanced' :
+                 skill.level >= 70 ? 'Proficient' : 'Intermediate';
+    
+    if (!acc[level]) {
+      acc[level] = [];
+    }
+    acc[level].push(skill);
+    return acc;
+  }, {} as Record<string, typeof skills>);
 
   return (
     <div className="mb-12">
       <h2 className="text-2xl font-bold mb-8">Skills</h2>
       
       {/* Mobile View */}
-      <div className="md:hidden">
-        <div className="space-y-6">
-          {skills.map((skill) => (
-            <div key={skill.name} className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 shadow-sm">
-              <div className="flex justify-between items-center mb-2">
-                <span className="font-medium text-gray-900 dark:text-gray-100">{skill.name}</span>
-                <span className="text-sm text-gray-600 dark:text-gray-400">{getSkillLevel(skill.level)}</span>
-              </div>
-              <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-                <div
-                  className={`h-full ${getColorClass(skill.level)} rounded-full transition-all duration-500`}
-                  style={{ width: `${skill.level}%` }}
-                />
-              </div>
+      <div className="md:hidden space-y-6">
+        {Object.entries(groupedSkills).map(([level, levelSkills]) => (
+          <div key={level} className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+            <h3 className="text-lg font-semibold mb-3 text-purple-600 dark:text-purple-400">{level}</h3>
+            <div className="flex flex-wrap gap-2">
+              {levelSkills.map((skill) => (
+                <span
+                  key={skill.name}
+                  className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm text-gray-800 dark:text-gray-200"
+                >
+                  {skill.name}
+                </span>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
 
       {/* Desktop View */}
