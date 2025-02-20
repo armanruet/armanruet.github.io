@@ -20,7 +20,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md">
+    <header className={`sticky top-0 z-50 ${isMenuOpen ? 'bg-white dark:bg-black' : 'bg-white/80 dark:bg-black/80 backdrop-blur-md'}`}>
       <nav className="mx-auto flex max-w-4xl items-center justify-between p-4">
         {/* Logo/Name */}
         <Link href="/" className="flex items-center z-50">
@@ -69,19 +69,19 @@ export default function Header() {
 
         {/* Mobile Menu Overlay */}
         {isMenuOpen && (
-          <div className="fixed inset-0 bg-white z-40 flex flex-col px-8 pt-32">
+          <div className="fixed inset-0 bg-white dark:bg-black z-40 flex flex-col px-8 pt-32">
             <div className="space-y-8">
               <Link 
                 href="/"
                 onClick={toggleMenu}
-                className="block text-[2rem] font-mono text-gray-900"
+                className="block text-[2rem] font-medium text-gray-900 dark:text-gray-100"
               >
                 Home
               </Link>
               <Link 
                 href="/blog"
                 onClick={toggleMenu}
-                className="block text-[2rem] font-mono text-gray-900"
+                className="block text-[2rem] font-medium text-gray-900 dark:text-gray-100"
               >
                 Blog
               </Link>
@@ -90,14 +90,14 @@ export default function Header() {
                 onClick={toggleMenu}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-[2rem] font-mono text-gray-900"
+                className="block text-[2rem] font-medium text-gray-900 dark:text-gray-100"
               >
                 Luxembourgish
               </a>
               <Link 
                 href="/about"
                 onClick={toggleMenu}
-                className="block text-[2rem] font-mono text-gray-900 relative w-fit"
+                className="block text-[2rem] font-medium text-gray-900 dark:text-gray-100 relative w-fit"
               >
                 About
                 <span className="absolute -bottom-1 left-0 w-full h-1 bg-primary-500"></span>
