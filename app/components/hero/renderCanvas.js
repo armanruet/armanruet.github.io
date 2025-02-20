@@ -1,103 +1,115 @@
-function WaveAnimation(e) {
-  this.init(e || {});
+function WaveAnimation(params) {
+  this.init(params || {});
 }
 WaveAnimation.prototype = {
-  init: function (e) {
-    this.phase = e.phase || 0;
-    this.offset = e.offset || 0;
-    this.frequency = e.frequency || 0.001;
-    this.amplitude = e.amplitude || 1;
+  init: function (params) {
+    this.phase = params.phase || 0;
+    this.offset = params.offset || 0;
+    this.frequency = params.frequency || 0.001;
+    this.amplitude = params.amplitude || 1;
   },
   update: function () {
-    return (
-      (this.phase += this.frequency), (e = this.offset + Math.sin(this.phase) * this.amplitude)
-    );
+    this.phase += this.frequency;
+    return this.offset + Math.sin(this.phase) * this.amplitude;
   },
   value: function () {
-    return e;
+    return this.offset + Math.sin(this.phase) * this.amplitude;
   },
 };
 
-function Line(e) {
-  this.init(e || {});
+function Line(params) {
+  this.init(params || {});
 }
 
 Line.prototype = {
-  init: function (e) {
-    this.spring = e.spring + 0.1 * Math.random() - 0.05;
+  init: function (params) {
+    this.spring = params.spring + 0.1 * Math.random() - 0.05;
     this.friction = E.friction + 0.01 * Math.random() - 0.005;
     this.nodes = [];
-    for (var t, n = 0; n < E.size; n++) {
-      t = new Node();
-      t.x = pos.x;
-      t.y = pos.y;
-      this.nodes.push(t);
+    for (var i = 0; i < E.size; i++) {
+      var node = new Node();
+      node.x = pos.x;
+      node.y = pos.y;
+      this.nodes.push(node);
     }
   },
   update: function () {
-    var e = this.spring,
-      t = this.nodes[0];
-    t.vx += (pos.x - t.x) * e;
-    t.vy += (pos.y - t.y) * e;
-    for (var n, i = 0, a = this.nodes.length; i < a; i++)
-      (t = this.nodes[i]),
-        0 < i &&
-          ((n = this.nodes[i - 1]),
-          (t.vx += (n.x - t.x) * e),
-          (t.vy += (n.y - t.y) * e),
-          (t.vx += n.vx * E.dampening),
-          (t.vy += n.vy * E.dampening)),
-        (t.vx *= this.friction),
-        (t.vy *= this.friction),
-        (t.x += t.vx),
-        (t.y += t.vy),
-        (e *= E.tension);
+    var springForce = this.spring,
+      currentNode = this.nodes[0];
+    currentNode.vx += (pos.x - currentNode.x) * springForce;
+    currentNode.vy += (pos.y - currentNode.y) * springForce;
+    for (var i = 0, len = this.nodes.length; i < len; i++) {
+      currentNode = this.nodes[i];
+      if (i > 0) {
+        var prevNode = this.nodes[i - 1];
+        currentNode.vx += (prevNode.x - currentNode.x) * springForce;
+        currentNode.vy += (prevNode.y - currentNode.y) * springForce;
+        currentNode.vx += prevNode.vx * E.dampening;
+        currentNode.vy += prevNode.vy * E.dampening;
+      }
+      currentNode.vx *= this.friction;
+      currentNode.vy *= this.friction;
+      currentNode.x += currentNode.vx;
+      currentNode.y += currentNode.vy;
+      springForce *= E.tension;
+    }
   },
   draw: function () {
-    var e,
-      t,
-      n = this.nodes[0].x,
-      i = this.nodes[0].y;
+    var currentNode,
+      nextNode,
+      xPos = this.nodes[0].x,
+      yPos = this.nodes[0].y;
     ctx.beginPath();
-    ctx.moveTo(n, i);
-    for (var a = 1, o = this.nodes.length - 2; a < o; a++) {
-      e = this.nodes[a];
-      t = this.nodes[a + 1];
-      n = 0.5 * (e.x + t.x);
-      i = 0.5 * (e.y + t.y);
-      ctx.quadraticCurveTo(e.x, e.y, n, i);
+    ctx.moveTo(xPos, yPos);
+    for (var i = 1, max = this.nodes.length - 2; i < max; i++) {
+      currentNode = this.nodes[i];
+      nextNode = this.nodes[i + 1];
+      xPos = 0.5 * (currentNode.x + nextNode.x);
+      yPos = 0.5 * (currentNode.y + nextNode.y);
+      ctx.quadraticCurveTo(currentNode.x, currentNode.y, xPos, yPos);
     }
-    e = this.nodes[a];
-    t = this.nodes[a + 1];
-    ctx.quadraticCurveTo(e.x, e.y, t.x, t.y);
+    currentNode = this.nodes[i];
+    nextNode = this.nodes[i + 1];
+    ctx.quadraticCurveTo(currentNode.x, currentNode.y, nextNode.x, nextNode.y);
     ctx.stroke();
     ctx.closePath();
   },
 };
 
-function onMousemove(e) {
-  function o() {
+function onMousemove(event) {
+  function initLines() {
     lines = [];
-    for (var e = 0; e < E.trails; e++)
-      lines.push(new Line({ spring: 0.45 + (e / E.trails) * 0.025 }));
+    for (var i = 0; i < E.trails; i++)
+      lines.push(new Line({ spring: 0.45 + (i / E.trails) * 0.025 }));
   }
-  function c(e) {
-    e.touches
-      ? ((pos.x = e.touches[0].pageX), (pos.y = e.touches[0].pageY))
-      : ((pos.x = e.clientX), (pos.y = e.clientY)),
-      e.preventDefault();
+
+  function handleMouseOrTouch(event) {
+    if (event.touches) {
+      pos.x = event.touches[0].pageX;
+      pos.y = event.touches[0].pageY;
+    } else {
+      pos.x = event.clientX;
+      pos.y = event.clientY;
+    }
+    event.preventDefault();
   }
-  function l(e) {
-    1 == e.touches.length && ((pos.x = e.touches[0].pageX), (pos.y = e.touches[0].pageY));
+
+  function handleTouchStart(event) {
+    if (event.touches.length === 1) {
+      pos.x = event.touches[0].pageX;
+      pos.y = event.touches[0].pageY;
+    }
   }
-  document.removeEventListener('mousemove', onMousemove),
-    document.removeEventListener('touchstart', onMousemove),
-    document.addEventListener('mousemove', c),
-    document.addEventListener('touchmove', c),
-    document.addEventListener('touchstart', l),
-    c(e),
-    o(),
-    render();
+
+  document.removeEventListener('mousemove', onMousemove);
+  document.removeEventListener('touchstart', onMousemove);
+  document.addEventListener('mousemove', handleMouseOrTouch);
+  document.addEventListener('touchmove', handleMouseOrTouch);
+  document.addEventListener('touchstart', handleTouchStart);
+  
+  handleMouseOrTouch(event);
+  initLines();
+  render();
 }
 
 function render() {
@@ -105,12 +117,15 @@ function render() {
     ctx.globalCompositeOperation = 'source-over';
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.globalCompositeOperation = 'lighter';
-    ctx.strokeStyle = 'hsla(' + Math.round(f.update()) + ',90%,50%,0.25)';
+    ctx.strokeStyle = 'hsla(' + Math.round(wave.update()) + ',90%,50%,0.25)';
     ctx.lineWidth = 1;
-    for (var e, t = 0; t < E.trails; t++) {
-      (e = lines[t]).update();
-      e.draw();
+    
+    for (var i = 0; i < E.trails; i++) {
+      var line = lines[i];
+      line.update();
+      line.draw();
     }
+    
     ctx.frame++;
     window.requestAnimationFrame(render);
   }
@@ -121,19 +136,15 @@ function resizeCanvas() {
   ctx.canvas.height = window.innerHeight;
 }
 
-var ctx,
-  f,
-  e = 0,
-  pos = {},
-  lines = [],
-  E = {
-    debug: true,
-    friction: 0.5,
-    trails: 20,
-    size: 50,
-    dampening: 0.25,
-    tension: 0.98,
-  };
+const config = {
+  debug: true,
+  friction: 0.5,
+  trails: 20,
+  size: 50,
+  dampening: 0.25,
+  tension: 0.98,
+};
+
 function Node() {
   this.x = 0;
   this.y = 0;
@@ -141,28 +152,39 @@ function Node() {
   this.vx = 0;
 }
 
+let ctx;
+let wave;
+let pos = {};
+let lines = [];
+const E = config;
+
 export const renderCanvas = function () {
   ctx = document.getElementById('canvas').getContext('2d');
   ctx.running = true;
   ctx.frame = 1;
-  f = new WaveAnimation({
+  
+  wave = new WaveAnimation({
     phase: Math.random() * 2 * Math.PI,
     amplitude: 85,
     frequency: 0.0015,
     offset: 285,
   });
+  
   document.addEventListener('mousemove', onMousemove);
   document.addEventListener('touchstart', onMousemove);
   document.body.addEventListener('orientationchange', resizeCanvas);
   window.addEventListener('resize', resizeCanvas);
+  
   window.addEventListener('focus', () => {
     if (!ctx.running) {
       ctx.running = true;
       render();
     }
   });
+  
   window.addEventListener('blur', () => {
     ctx.running = true;
   });
+  
   resizeCanvas();
 };
