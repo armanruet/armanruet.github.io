@@ -100,17 +100,17 @@ export function BlogPosts({ posts }: BlogPostsProps) {
           </Link>
 
           <div className="flex flex-col space-y-3 p-6 pt-2">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-primary-500 transition-colors duration-200">
+            <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-primary-500 transition-colors duration-200">
               <Link href={`/blog/${post.slug}`}>
                 {post.frontmatter.title || 'Untitled Post'}
               </Link>
             </h2>
 
-            <p className="text-gray-600 dark:text-gray-400 line-clamp-3 text-base">
+            <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 line-clamp-3">
               {post.frontmatter.description}
             </p>
 
-            <div className="flex items-center justify-between pt-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="flex items-center justify-between pt-2 text-xs md:text-sm text-gray-500 dark:text-gray-400">
               <div className="flex items-center space-x-4">
                 <time dateTime={post.frontmatter.date}>
                   {format(new Date(post.frontmatter.date), 'MMMM d, yyyy')}

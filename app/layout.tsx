@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className="text-[18px]" suppressHydrationWarning>
+    <html lang="en" className="text-[16px] md:text-[18px]" suppressHydrationWarning>
       <head>
         <link rel="icon" type="image/x-icon" href="/static/favicons/favicon.ico" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <style>{`
           html {
-            font-size: 18px !important;
+            font-size: 16px !important;
           }
           @media (min-width: 768px) {
             html {
