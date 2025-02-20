@@ -10,7 +10,7 @@ export const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'hi@armanhossen.com',
+  email: 'armanruet@gmail.com',
   github: 'https://github.com/armanruet',
   twitter: 'https://x.com/arman_5227',
   facebook: 'https://facebook.com/dlarroder',
