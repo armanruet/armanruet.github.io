@@ -1,7 +1,7 @@
-function n(e) {
+function WaveAnimation(e) {
   this.init(e || {});
 }
-n.prototype = {
+WaveAnimation.prototype = {
   init: function (e) {
     this.phase = e.phase || 0;
     this.offset = e.offset || 0;
@@ -145,7 +145,7 @@ export const renderCanvas = function () {
   ctx = document.getElementById('canvas').getContext('2d');
   ctx.running = true;
   ctx.frame = 1;
-  f = new n({
+  f = new WaveAnimation({
     phase: Math.random() * 2 * Math.PI,
     amplitude: 85,
     frequency: 0.0015,
