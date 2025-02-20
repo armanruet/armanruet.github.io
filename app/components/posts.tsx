@@ -64,25 +64,6 @@ export function BlogPosts({ posts }: BlogPostsProps) {
           key={post.slug}
           className="group relative flex flex-col space-y-4 bg-white dark:bg-gray-900 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl dark:hover:shadow-2xl dark:hover:shadow-primary-500/10"
         >
-          {/* Mobile Tags - Horizontal Scrollable */}
-          <div className="md:hidden relative">
-            <div className="absolute left-0 right-0 bottom-0 h-12 bg-gradient-to-t from-black/60 to-transparent z-10" />
-            <div className="overflow-x-auto scrollbar-hide px-4 py-2 flex gap-2 absolute bottom-0 left-0 right-0 z-20">
-              {post.frontmatter.tags?.map((tag) => (
-                <span
-                  key={tag}
-                  className="flex-none px-3 py-1 text-sm font-medium rounded-full 
-                    bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm
-                    text-gray-800 dark:text-gray-200
-                    border border-gray-200/50 dark:border-gray-700/50
-                    shadow-sm"
-                >
-                  {tag.charAt(0).toUpperCase() + tag.slice(1)}
-                </span>
-              ))}
-            </div>
-          </div>
-
           <Link 
             href={`/blog/${post.slug}`} 
             className="block aspect-[16/9] relative overflow-hidden bg-gray-100 dark:bg-gray-800"

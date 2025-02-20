@@ -1,128 +1,108 @@
 export default function Skills() {
   const skills = [
-    // First Column - Expert Level
+    // First Column
     {
       name: 'Python',
       level: 90,
       column: 1,
-      status: 'Current'
     },
     {
       name: 'R',
       level: 75,
       column: 1,
-      status: '2023'
     },
     {
       name: 'TypeScript',
       level: 85,
       column: 1,
-      status: 'Current'
     },
     {
       name: 'Kubernetes',
       level: 85,
       column: 1,
-      status: '2023'
     },
     {
       name: 'Machine Learning',
       level: 80,
       column: 1,
-      status: '2022'
     },
     // Second Column
     {
       name: 'Java',
       level: 85,
       column: 2,
-      status: '2023'
     },
     {
       name: 'HTML',
       level: 90,
       column: 2,
-      status: 'Current'
     },
     {
       name: 'Linux',
       level: 85,
       column: 2,
-      status: 'Current'
     },
     {
       name: 'bash',
       level: 90,
       column: 2,
-      status: 'Current'
     },
     {
       name: 'Microservices',
       level: 70,
       column: 2,
-      status: '2023'
     },
     // Third Column
     {
       name: 'MATLAB',
       level: 90,
       column: 3,
-      status: '2022'
     },
     {
       name: 'CSS',
       level: 85,
       column: 3,
-      status: 'Current'
     },
     {
       name: 'Git & Gitlab',
       level: 90,
       column: 3,
-      status: 'Current'
     },
     {
       name: 'Node.js',
       level: 75,
       column: 3,
-      status: '2023'
     },
     {
       name: 'AWS',
       level: 70,
       column: 3,
-      status: '2023'
     },
     // Fourth Column
     {
       name: 'SQL',
       level: 85,
       column: 4,
-      status: 'Current'
     },
     {
       name: 'JavaScript(React)',
       level: 90,
       column: 4,
-      status: 'Current'
     },
     {
       name: 'Docker',
       level: 85,
       column: 4,
-      status: 'Current'
     },
     {
       name: 'Django',
       level: 75,
       column: 4,
-      status: '2023'
     },
     {
       name: 'Azure',
       level: 70,
       column: 4,
-      status: '2023'
     },
   ];
 
@@ -147,19 +127,15 @@ export default function Skills() {
       <div className="md:hidden space-y-6">
         {Object.entries(groupedSkills).map(([level, levelSkills]) => (
           <div key={level} className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-            <h3 className="text-lg font-semibold mb-4 text-purple-600 dark:text-purple-400">{level}</h3>
-            <div className="space-y-3">
+            <h3 className="text-lg font-semibold mb-3 text-purple-600 dark:text-purple-400">{level}</h3>
+            <div className="flex flex-wrap gap-2">
               {levelSkills.map((skill) => (
-                <div key={skill.name} className="flex items-center justify-between">
-                  <span className="text-gray-800 dark:text-gray-200">{skill.name}</span>
-                  <span className={`text-sm px-2 py-0.5 rounded ${
-                    skill.status === 'Current'
-                      ? 'bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300'
-                  }`}>
-                    {skill.status}
-                  </span>
-                </div>
+                <span
+                  key={skill.name}
+                  className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm text-gray-800 dark:text-gray-200"
+                >
+                  {skill.name}
+                </span>
               ))}
             </div>
           </div>
