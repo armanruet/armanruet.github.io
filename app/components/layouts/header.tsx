@@ -60,28 +60,28 @@ export default function Header() {
           <ThemeSwitch />
           <button
             onClick={toggleMenu}
-            className="text-2xl text-gray-700 dark:text-gray-300"
+            className="text-2xl text-gray-900 dark:text-gray-100"
             aria-label="Toggle menu"
           >
-            {isMenuOpen ? <IoClose /> : <HiMenuAlt4 />}
+            {isMenuOpen ? <IoClose className="text-3xl" /> : <HiMenuAlt4 className="text-3xl" />}
           </button>
         </div>
 
         {/* Mobile Menu Overlay */}
         {isMenuOpen && (
-          <div className="fixed inset-0 bg-white dark:bg-black z-40 flex flex-col px-8 py-24">
+          <div className="fixed inset-0 bg-white z-40 flex flex-col px-8 pt-32">
             <div className="space-y-8">
               <Link 
                 href="/"
                 onClick={toggleMenu}
-                className="block text-2xl font-medium text-gray-900 dark:text-gray-100"
+                className="block text-[2rem] font-mono text-gray-900"
               >
                 Home
               </Link>
               <Link 
                 href="/blog"
                 onClick={toggleMenu}
-                className="block text-2xl font-medium text-gray-900 dark:text-gray-100"
+                className="block text-[2rem] font-mono text-gray-900"
               >
                 Blog
               </Link>
@@ -90,17 +90,17 @@ export default function Header() {
                 onClick={toggleMenu}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-2xl font-medium text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-lg"
+                className="block text-[2rem] font-mono text-gray-900"
               >
                 Luxembourgish
               </a>
               <Link 
                 href="/about"
                 onClick={toggleMenu}
-                className="block text-2xl font-medium text-gray-900 dark:text-gray-100 relative"
+                className="block text-[2rem] font-mono text-gray-900 relative w-fit"
               >
                 About
-                <span className="absolute -bottom-1 left-0 w-12 h-0.5 bg-primary-500"></span>
+                <span className="absolute -bottom-1 left-0 w-full h-1 bg-primary-500"></span>
               </Link>
             </div>
           </div>
