@@ -1,0 +1,1783 @@
+1:HL["/_next/static/css/35a6bceae40f4f29.css","style",{"crossOrigin":""}]
+0:["XUlCZtyyUFRPmvD5WbmRk",[[["",{"children":["blog",{"children":[["slug","10x-your-git-game","d"],{"children":["__PAGE__?{\"slug\":\"10x-your-git-game\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/35a6bceae40f4f29.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:HL["/_next/static/css/67b6cb81896cb14c.css","style",{"crossOrigin":""}]
+5:I[4504,["706","static/chunks/9c4e2130-8a922bc1f90f1650.js","422","static/chunks/66ec4792-1a2fa7d41ea9a145.js","779","static/chunks/0e762574-ada009a30e142e51.js","792","static/chunks/d320e741-96a90c74a8b40801.js","326","static/chunks/326-18d065f4d22c966e.js","750","static/chunks/750-65b981a2bb3ba5be.js","710","static/chunks/710-3e1fea2f304d5cf7.js","185","static/chunks/app/layout-37a958cf8734861a.js"],""]
+6:I[9769,["706","static/chunks/9c4e2130-8a922bc1f90f1650.js","422","static/chunks/66ec4792-1a2fa7d41ea9a145.js","779","static/chunks/0e762574-ada009a30e142e51.js","792","static/chunks/d320e741-96a90c74a8b40801.js","326","static/chunks/326-18d065f4d22c966e.js","750","static/chunks/750-65b981a2bb3ba5be.js","710","static/chunks/710-3e1fea2f304d5cf7.js","185","static/chunks/app/layout-37a958cf8734861a.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+9:I[8326,["706","static/chunks/9c4e2130-8a922bc1f90f1650.js","422","static/chunks/66ec4792-1a2fa7d41ea9a145.js","779","static/chunks/0e762574-ada009a30e142e51.js","792","static/chunks/d320e741-96a90c74a8b40801.js","326","static/chunks/326-18d065f4d22c966e.js","750","static/chunks/750-65b981a2bb3ba5be.js","710","static/chunks/710-3e1fea2f304d5cf7.js","185","static/chunks/app/layout-37a958cf8734861a.js"],""]
+a:I[4955,["750","static/chunks/750-65b981a2bb3ba5be.js","206","static/chunks/app/blog/%5Bslug%5D/layout-db2cc87206fcc634.js"],""]
+b:I[498,["750","static/chunks/750-65b981a2bb3ba5be.js","206","static/chunks/app/blog/%5Bslug%5D/layout-db2cc87206fcc634.js"],""]
+f:I[2050,["706","static/chunks/9c4e2130-8a922bc1f90f1650.js","422","static/chunks/66ec4792-1a2fa7d41ea9a145.js","779","static/chunks/0e762574-ada009a30e142e51.js","792","static/chunks/d320e741-96a90c74a8b40801.js","326","static/chunks/326-18d065f4d22c966e.js","750","static/chunks/750-65b981a2bb3ba5be.js","710","static/chunks/710-3e1fea2f304d5cf7.js","185","static/chunks/app/layout-37a958cf8734861a.js"],""]
+e:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z2:[null,["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/static/favicons/favicon.ico"}],["$","meta",null,{"name":"theme-color","content":"#000000"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"className":"min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white text-[1rem] text-base md:text-lg","suppressHydrationWarning":true,"children":["$","$L5",null,{"attribute":"class","defaultTheme":"dark","enableSystem":false,"themes":["dark","light"],"children":[["$","div",null,{"className":"flex min-h-screen flex-col","children":[["$","$L6",null,{}],["$","main",null,{"className":"flex-1 px-4 py-8 sm:px-6 lg:px-8","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"flex min-h-screen flex-col items-center justify-center","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"404 - Page Not Found"}],["$","p",null,{"className":"mt-4 text-lg text-gray-600 dark:text-gray-400","children":"The page you're looking for doesn't exist."}],["$","$L9",null,{"href":"/","className":"mt-6 rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-600","children":"Go Home"}]]}],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":[null,[["$","$La",null,{}],["$","$Lb",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children",["slug","10x-your-git-game","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$Lc","$Ld",null],"childPropSegment":"__PAGE__?{\"slug\":\"10x-your-git-game\"}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/67b6cb81896cb14c.css","precedence":"next","crossOrigin":""}]]}]}]],null],"childPropSegment":["slug","10x-your-git-game","d"],"styles":null}],"childPropSegment":"blog","styles":null}]}],["$","footer",null,{"className":"w-full border-t border-gray-200 dark:border-gray-800","children":["$","div",null,{"className":"mx-auto max-w-4xl px-4 py-8","children":["$","div",null,{"className":"flex items-center justify-between text-gray-500 dark:text-gray-400","children":[["$","div",null,{"className":"flex items-center space-x-2 text-sm","children":[["$","span",null,{"children":"© 2025"}],["$","span",null,{"children":"•"}],["$","span",null,{"children":"Arman Hossen"}]]}],["$","div",null,{"className":"flex items-center space-x-5","children":[["$","$L9",null,{"href":"https://linkedin.com/in/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 1024 1024","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"LinkedIn"}]]}],["$","$L9",null,{"href":"https://github.com/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"$e","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"GitHub"}]]}],["$","$L9",null,{"href":"https://twitter.com/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"Twitter"}]]}]]}]]}]}]}]]}],["$","$Lf",null,{}]]}]}]]}],null]
+10:I[8825,["326","static/chunks/326-18d065f4d22c966e.js","413","static/chunks/413-c57d1146be5fe876.js","308","static/chunks/app/blog/%5Bslug%5D/page-30e3fe7cd5619c62.js"],"MDXClient"]
+11:Tdd40,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    p: "p",
+    h2: "h2",
+    h3: "h3",
+    figure: "figure",
+    pre: "pre",
+    code: "code",
+    span: "span",
+    ul: "ul",
+    li: "li",
+    hr: "hr",
+    ol: "ol"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.p, {
+      children: "Ever wondered how top tech companies manage their massive codebases with hundreds of developers working simultaneously? The secret lies in their Git workflows. In this guide, I'll reveal the battle-tested strategies that senior developers actually use in production environments."
+    }), "\n", _jsx(_components.h2, {
+      children: "The Evolution of Git Workflows"
+    }), "\n", _jsx(_components.p, {
+      children: "The Git landscape has dramatically shifted in recent years. While many tutorials still teach the traditional GitFlow model, modern development teams are increasingly adopting streamlined approaches. Let's dive into what really works in production."
+    }), "\n", _jsx(_components.h3, {
+      children: "From GitFlow to Trunk-Based Development"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Traditional GitFlow Approach"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -b"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " feature/new-feature"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " develop"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " commit"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -m"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " \"feat: implement new feature\""
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " develop"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " merge"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " --no-ff"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " feature/new-feature"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Modern Trunk-Based Approach (requires strong testing infrastructure)"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " main"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " pull"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -b"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " quick-feature"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "  # Should live < 24 hours"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Make changes"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " commit"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -m"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " \"feat: add quick feature\""
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " push"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " origin"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " quick-feature"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Create PR and merge quickly (within 1-2 days)"
+            })
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "The key difference? Modern workflows emphasize:"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Smaller, more frequent commits"
+      }), "\n", _jsx(_components.li, {
+        children: "Shorter-lived feature branches"
+      }), "\n", _jsx(_components.li, {
+        children: "Direct integration with the main branch"
+      }), "\n", _jsx(_components.li, {
+        children: "Heavy reliance on automated testing"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "Pro Tip #1: Smart Commit Management"
+    }), "\n", _jsx(_components.p, {
+      children: "Senior developers use strategic commit patterns to maintain clean history:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Squash multiple commits into one clean commit"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " rebase"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -i"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " HEAD~3"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "  # Interactive rebase last 3 commits"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Create meaningful commit messages"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " commit"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -m"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " \"feat(auth): implement OAuth2 refresh token"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: ">"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "> - Add token refresh mechanism"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "> - Implement auto-retry on 401"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "> - Add unit tests for token rotation\""
+            })
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Pro Tip #2: Feature Flags Over Long-Living Branches"
+    }), "\n", _jsx(_components.p, {
+      children: "Instead of maintaining long feature branches, use feature flags with proper feature flag management systems (like LaunchDarkly, Split.io, or custom solutions). This approach requires proper infrastructure:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Bad: Long-living feature branch"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -b"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " feature/massive-redesign"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Work for weeks..."
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Good: Small changes behind feature flags"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " main"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " commit"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -m"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " \"feat: add redesign components (hidden behind flag)\""
+            })]
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "Example feature flag in code:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "javascript",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "javascript",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "if"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " (featureFlags."
+            }), _jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "isEnabled"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "("
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "'new-redesign'"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: ")) {"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "  return"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " <"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "NewDesignComponent"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " />;"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "} "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "else"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " {"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "  return"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " <"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "CurrentDesign"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " />;"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "}"
+            })
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Pro Tip #3: Git Hooks for Team Consistency"
+    }), "\n", _jsx(_components.p, {
+      children: "Create and distribute powerful pre-commit hooks across your team to enforce standards. Consider using tools like Husky or pre-commit framework to manage hooks consistently:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "#!/bin/sh"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# .git/hooks/pre-commit"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Run linting"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "npm"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " run"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " lint"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Run type checking"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "npm"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " run"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " type-check"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Run tests"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "npm"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " run"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " test"
+            })]
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "Make it executable:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsx(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "chmod"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " +x"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " .git/hooks/pre-commit"
+            })]
+          })
+        })
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Pro Tip #4: Advanced Git Aliases"
+    }), "\n", _jsx(_components.p, {
+      children: "Professional developers use aliases to speed up common workflows:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Add to your .gitconfig"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "[alias]"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "    # Quick status check"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "    s"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " ="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " status"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -s"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "    # Beautiful log"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "    lg"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " ="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " log"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " --color"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " --graph"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " --pretty=format:"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " --abbrev-commit"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "    # Safe force push"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "    fp"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " ="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " push"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " --force-with-lease"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "    # Clean up local branches"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "    cleanup"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " ="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " \"!git branch --merged | grep -v '"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "\\\\"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "*"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "\\\\"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "|master"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "\\\\"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "|main"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "\\\\"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "|develop' | xargs -n 1 git branch -d\""
+            })]
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Pro Tip #5: Rebase vs Merge"
+    }), "\n", _jsx(_components.p, {
+      children: "Understanding when to use each is crucial based on your team context:"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Use rebase for smaller teams (< 10 developers) working closely together"
+      }), "\n", _jsx(_components.li, {
+        children: "Prefer merge for larger teams or when maintaining clear feature history is important"
+      }), "\n", _jsx(_components.li, {
+        children: "Consider team Git expertise level when choosing between them"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "Here's how to use each approach:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# When pulling from main, use rebase to keep history clean"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " pull"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " --rebase"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " origin"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " main"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# For feature integration, use merge with no-ff"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " merge"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " --no-ff"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " feature/quick-fix"
+            })]
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Real-World Workflow Example"
+    }), "\n", _jsx(_components.p, {
+      children: "Here's a complete workflow used by professional teams:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Start new work"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " main"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " pull"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " --rebase"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -b"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " feature/auth-improvement"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Make changes and commit"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " add"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " ."
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " commit"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -m"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " \"feat(auth): improve token handling\""
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Stay up to date with main"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " fetch"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " origin"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " rebase"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " origin/main"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Push and create PR"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " push"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " origin"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " feature/auth-improvement"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# After PR approval, squash and merge via GitHub/GitLab UI"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Then clean up"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " main"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " pull"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " branch"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -d"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " feature/auth-improvement"
+            })]
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Advanced Concepts Senior Developers Actually Use"
+    }), "\n", _jsx(_components.h3, {
+      children: "1. Bisect for Bug Hunting"
+    }), "\n", _jsx(_components.p, {
+      children: "When tracking down bugs, use git bisect:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " bisect"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " start"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " bisect"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " bad"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "  # Current commit has the bug"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " bisect"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " good"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " v1.0.0"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "  # Last known good version"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Git will check out commits for you to test"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# After testing each commit:"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " bisect"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " good"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "  # or"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " bisect"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " bad"
+            })]
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: "2. Reflog for Recovery"
+    }), "\n", _jsx(_components.p, {
+      children: "Never lose work with git reflog:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# View recent HEAD positions"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " reflog"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Recover deleted branch"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " checkout"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -b"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " recovered-branch"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " HEAD@{"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "2"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "}"
+            })]
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: "3. Selective Staging"
+    }), "\n", _jsx(_components.p, {
+      children: "Use patch mode for precise commits:"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsx(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "git"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " add"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " -p"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "  # Review changes chunk by chunk"
+            })]
+          })
+        })
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Conclusion"
+    }), "\n", _jsx(_components.p, {
+      children: "Modern Git workflows emphasize simplicity, automation, and rapid integration. The key is not just knowing the commands but understanding the principles behind each choice:"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Keep branches short-lived"
+      }), "\n", _jsx(_components.li, {
+        children: "Commit often and keep changes small"
+      }), "\n", _jsx(_components.li, {
+        children: "Automate everything possible"
+      }), "\n", _jsx(_components.li, {
+        children: "Use feature flags for long-term changes"
+      }), "\n", _jsx(_components.li, {
+        children: "Maintain a clean, linear history"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "Remember: The best Git workflow is one that your team can consistently follow and that supports your deployment strategy. Start implementing these practices gradually, and you'll see a significant improvement in your team's development efficiency."
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: "Want to level up your Git game even further? Try these challenges:"
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Set up a pre-commit hook that runs tests and linting"
+      }), "\n", _jsx(_components.li, {
+        children: "Configure useful Git aliases for your workflow"
+      }), "\n", _jsx(_components.li, {
+        children: "Practice interactive rebasing on a sample repository"
+      }), "\n", _jsx(_components.li, {
+        children: "Implement a feature flag system in your project"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "The more you practice these techniques, the more natural they'll become. Happy coding! 🚀"
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+d:["$","article",null,{"className":"mx-auto max-w-[900px] px-4 py-12","children":[["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"blog-post_title__ew4vR text-gray-900 dark:text-white","children":"10X Your Git Game: Hidden Pro Tips That Senior Developers Actually Use in 2025"}],["$","p",null,{"className":"text-gray-600 dark:text-gray-300 mt-2 text-lg","children":"$undefined"}]]}],["$","div",null,{"className":"blog-post_content__Ydq91 bg-white dark:bg-black","children":["$","$L10",null,{"content":{"compiledSource":"$11","frontmatter":{},"scope":{}}}]}]]}]
+3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=5"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"10X Your Git Game: Hidden Pro Tips That Senior Developers Actually Use in 2025 | Arman Hossen"}],["$","meta","3",{"property":"og:title","content":"10X Your Git Game: Hidden Pro Tips That Senior Developers Actually Use in 2025 | Arman Hossen"}],["$","meta","4",{"property":"og:image:type","content":"image/png"}],["$","meta","5",{"property":"og:image:width","content":"1106"}],["$","meta","6",{"property":"og:image:height","content":"483"}],["$","meta","7",{"property":"og:image","content":"https://armanruet.github.io/opengraph-image.png?fdbfcb345ced5315"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"10X Your Git Game: Hidden Pro Tips That Senior Developers Actually Use in 2025 | Arman Hossen"}],["$","meta","10",{"name":"twitter:image:type","content":"image/png"}],["$","meta","11",{"name":"twitter:image:width","content":"1106"}],["$","meta","12",{"name":"twitter:image:height","content":"483"}],["$","meta","13",{"name":"twitter:image","content":"https://armanruet.github.io/opengraph-image.png?fdbfcb345ced5315"}]]
+c:null
