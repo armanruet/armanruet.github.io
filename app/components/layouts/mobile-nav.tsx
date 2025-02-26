@@ -16,6 +16,11 @@ export default function MobileNav() {
     enter: { opacity: 1, x: 0 },
     exit: { opacity: 0, x: '100vw' },
   };
+  
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setNavShow(false);
+  }, [pathName]);
 
   useEffect(() => {
     if (navShow) {
@@ -34,27 +39,28 @@ export default function MobileNav() {
       <AnimatePresence>
         <motion.div
           key="MobileNav"
-          transition={{ duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] }}
+          transition={{ duration: 0.4, ease: [0.43, 0.13, 0.23, 0.96] }}
           animate={navShow ? 'enter' : 'exit'}
           initial="exit"
           exit="exit"
           variants={variants}
           className={classNames(
-            'fixed inset-0 z-20 h-full w-full bg-white opacity-95 dark:bg-black'
+            'fixed inset-0 z-50 h-full w-full bg-white/95 backdrop-blur-sm dark:bg-black/95 shadow-xl'
           )}
         >
-          <header className="flex justify-end py-5 px-4">
+          <header className="flex justify-between items-center py-5 px-6 border-b border-gray-100 dark:border-gray-800">
+            <div className="text-xl font-bold text-gray-900 dark:text-white">Menu</div>
             <button
               type="button"
-              aria-label="toggle modal"
-              className="h-8 w-8 rounded"
-              onClick={() => setNavShow(!navShow)}
+              aria-label="Close menu"
+              className="h-10 w-10 rounded-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200"
+              onClick={() => setNavShow(false)}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="text-gray-900 dark:text-gray-100"
+                className="w-5 h-5"
               >
                 <path
                   fillRule="evenodd"
@@ -64,38 +70,42 @@ export default function MobileNav() {
               </svg>
             </button>
           </header>
-          <nav className="fixed mt-8 h-full">
-            <div key="Home" className="px-12 py-4">
+          <nav className="pt-6 pb-16 px-6 h-full overflow-y-auto">
+            <div className="space-y-2">
               <Link
                 href="/"
-                onClick={() => setNavShow(!navShow)}
+                onClick={() => setNavShow(false)}
                 className={classNames(
-                  'horizontal-underline font-bold tracking-widest text-gray-900 backdrop:text-2xl dark:text-gray-100',
-                  { 'horizontal-underline-active': pathName === '/' }
+                  'flex w-full items-center px-4 py-3 rounded-lg font-medium text-lg',
+                  pathName === '/' 
+                    ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400' 
+                    : 'text-gray-800 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800'
                 )}
               >
                 Home
               </Link>
-            </div>
-            {navigationLinks.map(({ title, href }) => {
-              const active = pathName?.includes(href);
+            
+              {navigationLinks.map(({ title, href }) => {
+                const active = pathName?.includes(href);
 
-              return (
-                <div key={title} className="px-12 py-4">
+                return (
                   <Link
+                    key={title}
                     href={href}
-                    onClick={() => setNavShow(!navShow)}
+                    onClick={() => setNavShow(false)}
                     className={classNames(
-                      'horizontal-underline font-bold tracking-widest text-gray-900 backdrop:text-2xl dark:text-gray-100',
-                      { 'horizontal-underline-active': active }
+                      'flex w-full items-center px-4 py-3 rounded-lg font-medium text-lg',
+                      active
+                        ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400' 
+                        : 'text-gray-800 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800'
                     )}
                     aria-label={title}
                   >
                     {title}
                   </Link>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </nav>
         </motion.div>
       </AnimatePresence>

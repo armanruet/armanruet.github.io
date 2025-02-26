@@ -29,7 +29,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/static/favicons/favicon.ico" />
         <meta name="theme-color" content="#000000" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       </head>
       <body
         className="min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white text-[1rem] text-base md:text-lg"
@@ -43,7 +45,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         >
           <div className="flex min-h-screen flex-col">
             <Header />
-            <main className="flex-1 px-4 py-8 sm:px-6 lg:px-8">
+            <main className="flex-1 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
               {children}
             </main>
             <Footer />
