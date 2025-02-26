@@ -93,29 +93,38 @@ interface ShareButtonProps {
 }
 
 function ShareButton({ platform, title }: ShareButtonProps) {
-  const currentUrl = typeof window !== 'undefined' ? window.location.href : '';
+  // Use a useEffect hook to manage URL access
+  const [url, setUrl] = useState('');
+  
+  // Only access window object in useEffect to avoid SSR issues
+  useEffect(() => {
+    setUrl(window.location.href);
+  }, []);
   
   const getShareUrl = () => {
+    if (!url) return '#'; // Fallback if URL isn't available yet
+    
     switch (platform) {
       case 'twitter':
-        return `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(currentUrl)}`;
+        return `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`;
       case 'linkedin':
-        return `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`;
+        return `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
       case 'facebook':
-        return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+        return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
       default:
         return '#';
     }
   };
   
+  // Define platform colors with standard Tailwind classes to avoid custom class issues
   const getPlatformColor = () => {
     switch (platform) {
       case 'twitter':
-        return 'bg-[#1DA1F2] hover:bg-[#1a94df]';
+        return 'bg-blue-400 hover:bg-blue-500';
       case 'linkedin':
-        return 'bg-[#0077B5] hover:bg-[#006699]';
+        return 'bg-blue-700 hover:bg-blue-800';
       case 'facebook':
-        return 'bg-[#1877F2] hover:bg-[#166fe5]';
+        return 'bg-blue-600 hover:bg-blue-700';
       default:
         return 'bg-gray-500 hover:bg-gray-600';
     }
