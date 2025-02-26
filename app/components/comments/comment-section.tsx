@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Giscus from './giscus';
 import { BiCommentDetail, BiLike } from 'react-icons/bi';
 
 export interface CommentSectionProps {
@@ -76,30 +75,12 @@ export default function CommentSection({ title, slug }: CommentSectionProps) {
       <div id="comments">
         <div className="rounded-lg border border-gray-200 dark:border-gray-800 p-6 bg-white dark:bg-gray-900">
           <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Comments</h3>
-          <p className="mb-6 text-gray-700 dark:text-gray-300">
-            To enable comments on this blog, you need to set up Giscus on your GitHub repository.
+          <p className="mb-4 text-gray-700 dark:text-gray-300">
+            Comments are coming soon! Check back later for updates.
           </p>
-          <ol className="list-decimal list-inside space-y-2 text-gray-700 dark:text-gray-300 mb-6">
-            <li>Go to <a href="https://github.com/apps/giscus" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">giscus GitHub App</a> and install it on your repository</li>
-            <li>Enable Discussions in your repository settings</li>
-            <li>Visit <a href="https://giscus.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">giscus.app</a> to generate your configuration</li>
-            <li>Replace the Giscus component props in the CommentSection component</li>
-          </ol>
-          <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md">
-            <pre className="text-xs overflow-auto">
-              {`<Giscus
-  repo="YOUR_USERNAME/YOUR_REPO"
-  repoId="YOUR_REPO_ID"
-  category="Announcements"
-  categoryId="YOUR_CATEGORY_ID"
-  mapping="pathname"
-  reactionsEnabled={true}
-  emitMetadata={false}
-  inputPosition="top"
-  lang="en"
-/>`}
-            </pre>
-          </div>
+          <p className="text-gray-700 dark:text-gray-300">
+            In the meantime, feel free to share this article using the social buttons above.
+          </p>
         </div>
       </div>
     </div>
