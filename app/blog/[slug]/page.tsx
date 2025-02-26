@@ -72,7 +72,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
         <MDXWrapper content={content} />
       </div>
       
-      <CommentSection title={metadata.title} slug={params.slug} />
+      <CommentSection title={metadata.title || 'Blog Post'} slug={params.slug} />
     </article>
   );
 }
