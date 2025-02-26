@@ -90,13 +90,14 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
     });
 }
 
-export async function getPostFromSlug(slug: string): Promise<PostData> {
+export async function getPostFromSlug(slug: string): Promise<PostData & { rawContent: string }> {
   const filePath = path.join(process.cwd(), 'app/blog/posts', `${slug}.mdx`);
   if (!fs.existsSync(filePath)) {
     throw new Error(`Post not found: ${slug}`);
   }
   
   const source = fs.readFileSync(filePath, 'utf-8');
+  const { data, content: rawContent } = matter(source);
   const { content, frontmatter } = await getMDXContent(source);
 
   // Ensure date is valid
@@ -107,6 +108,7 @@ export async function getPostFromSlug(slug: string): Promise<PostData> {
     metadata: {
       ...frontmatter,
       date
-    }
+    },
+    rawContent
   };
 }
