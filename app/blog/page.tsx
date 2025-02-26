@@ -16,5 +16,5 @@ export default async function BlogPage() {
 
 export const metadata = {
   title: 'Blog',
-  description: 'Technical articles and insights',
+  description: 'Technical articles on software development, AI, and professional growth',
 };

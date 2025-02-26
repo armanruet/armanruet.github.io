@@ -25,11 +25,11 @@ export default async function BlogPost({ params }: { params: { slug: string } })
   return (
     <article className="mx-auto max-w-[900px] px-4 py-12">
       <header className="mb-8">
-        <h1 className={styles.title}>{metadata.title}</h1>
-        <p className="text-gray-500 dark:text-gray-400 mt-2">{metadata.description}</p>
+        <h1 className={`${styles.title} text-gray-900 dark:text-white`}>{metadata.title}</h1>
+        <p className="text-gray-600 dark:text-gray-300 mt-2 text-lg">{metadata.description}</p>
       </header>
 
-      <div className={styles.content}>
+      <div className={`${styles.content} bg-white dark:bg-black`}>
         <MDXWrapper content={content} />
       </div>
     </article>

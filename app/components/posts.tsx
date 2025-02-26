@@ -58,75 +58,99 @@ function calculateReadingTime(post: BlogPost): number {
 
 export function BlogPosts({ posts }: BlogPostsProps) {
   return (
-    <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-      {posts.map((post) => (
-        <article
-          key={post.slug}
-          className="group relative flex flex-col space-y-4 bg-white dark:bg-gray-900 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl dark:hover:shadow-2xl dark:hover:shadow-primary-500/10"
-        >
-          <Link 
-            href={`/blog/${post.slug}`} 
-            className="block aspect-[16/9] relative overflow-hidden bg-gray-100 dark:bg-gray-800"
-          >
-            {post.frontmatter.image ? (
-              <div className="relative w-full h-full">
-                <Image
-                  src={imagePath(post.frontmatter.image)}
-                  alt={post.frontmatter.title || 'Blog post image'}
-                  fill
-                  className="object-cover transition-all duration-500 group-hover:scale-105 group-hover:filter group-hover:brightness-110"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  priority={posts.indexOf(post) < 6}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </div>
-            ) : (
-              <div className="flex items-center justify-center w-full h-full">
-                <svg 
-                  className="w-12 h-12 text-gray-300 dark:text-gray-600" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24"
-                >
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth={2} 
-                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" 
-                  />
-                </svg>
-              </div>
-            )}
-          </Link>
-
-          <div className="flex flex-col space-y-3 p-6 pt-2">
-            <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-primary-500 transition-colors duration-200">
-              <Link href={`/blog/${post.slug}`}>
-                {post.frontmatter.title || 'Untitled Post'}
+    <>
+      {posts.length === 0 ? (
+        <div className="text-center py-10">
+          <h3 className="text-xl font-medium text-gray-900 dark:text-gray-100">No blog posts found</h3>
+          <p className="mt-2 text-gray-600 dark:text-gray-400">
+            No posts available yet
+          </p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {posts.map((post) => (
+            <article
+              key={post.slug}
+              className="group relative flex flex-col space-y-4 bg-white dark:bg-gray-900 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl dark:hover:shadow-2xl dark:hover:shadow-primary-500/10 border border-gray-100 dark:border-gray-800"
+            >
+              <Link 
+                href={`/blog/${post.slug}`} 
+                className="block aspect-[16/9] relative overflow-hidden bg-gray-100 dark:bg-gray-800"
+              >
+                {post.frontmatter.image ? (
+                  <div className="relative w-full h-full">
+                    <Image
+                      src={imagePath(post.frontmatter.image)}
+                      alt={post.frontmatter.title || 'Blog post image'}
+                      fill
+                      className="object-cover transition-all duration-500 group-hover:scale-105 group-hover:filter group-hover:brightness-110"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority={posts.indexOf(post) < 6}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  </div>
+                ) : (
+                  <div className="flex items-center justify-center w-full h-full">
+                    <svg 
+                      className="w-12 h-12 text-gray-300 dark:text-gray-600" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24"
+                    >
+                      <path 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        strokeWidth={2} 
+                        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" 
+                      />
+                    </svg>
+                  </div>
+                )}
               </Link>
-            </h2>
 
-            <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 line-clamp-3">
-              {post.frontmatter.description}
-            </p>
+              <div className="flex flex-col space-y-3 p-6 pt-2 flex-grow">
+                {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    {post.frontmatter.tags.slice(0, 3).map(tag => (
+                      <span 
+                        key={tag} 
+                        className={`text-xs px-2 py-1 rounded-full bg-gradient-to-r ${getTagColor(tag)}`}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+                
+                <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-primary-500 transition-colors duration-200">
+                  <Link href={`/blog/${post.slug}`}>
+                    {post.frontmatter.title || 'Untitled Post'}
+                  </Link>
+                </h2>
 
-            <div className="flex items-center justify-between pt-2 text-xs md:text-sm text-gray-500 dark:text-gray-400">
-              <div className="flex items-center space-x-4">
-                <time dateTime={post.frontmatter.date}>
-                  {format(new Date(post.frontmatter.date), 'MMMM d, yyyy')}
-                </time>
-                <span className="flex items-center">
-                  <BiTime className="inline-block mr-1" />
-                  {calculateReadingTime(post)} min read
-                </span>
+                <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 line-clamp-3">
+                  {post.frontmatter.description}
+                </p>
+
+                <div className="flex items-center justify-between pt-2 mt-auto text-xs md:text-sm text-gray-500 dark:text-gray-400">
+                  <div className="flex items-center space-x-4">
+                    <time dateTime={post.frontmatter.date}>
+                      {format(new Date(post.frontmatter.date), 'MMMM d, yyyy')}
+                    </time>
+                    <span className="flex items-center">
+                      <BiTime className="inline-block mr-1" />
+                      {calculateReadingTime(post)} min read
+                    </span>
+                  </div>
+                  <span className="text-primary-500 font-medium group-hover:text-primary-600 transition-colors duration-200">
+                    Read more →
+                  </span>
+                </div>
               </div>
-              <span className="text-primary-500 font-medium group-hover:text-primary-600 transition-colors duration-200">
-                Read more →
-              </span>
-            </div>
-          </div>
-        </article>
-      ))}
-    </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </>
   );
 }

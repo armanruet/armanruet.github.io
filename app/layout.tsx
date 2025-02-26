@@ -8,6 +8,12 @@ import ThemeProvider from 'app/components/providers/ThemeProvider';
 import { Metadata } from 'next';
 import { ReactNode } from 'react';
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata: Metadata = {
   title: {
     template: '%s | Arman Hossen',
@@ -15,33 +21,18 @@ export const metadata: Metadata = {
   },
   description: 'I transform complex problems into elegant solutions',
   metadataBase: new URL('https://armanruet.github.io'),
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className="text-[16px] md:text-[18px]" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" type="image/x-icon" href="/static/favicons/favicon.ico" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <style>{`
-          html {
-            font-size: 16px !important;
-          }
-          @media (min-width: 768px) {
-            html {
-              font-size: 18px !important;
-            }
-          }
-        `}</style>
       </head>
       <body
-        className="min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white text-[1rem]"
+        className="min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white text-[1rem] text-base md:text-lg"
         suppressHydrationWarning
       >
         <ThemeProvider

@@ -12,22 +12,40 @@ interface TagsListProps {
 }
 
 export default function TagsList({ tags, selectedTag, onTagSelect }: TagsListProps) {
+  // Sort tags by count (most popular first)
+  const sortedTags = [...tags].sort((a, b) => b.count - a.count);
+  
   return (
-    <div className="flex flex-wrap gap-2 mb-8">
-      {tags.map(({ name, count }) => (
+    <div className="mb-8">
+      <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Filter by Topic</h2>
+      <div className="flex flex-wrap gap-2">
         <button
-          key={name}
-          onClick={() => onTagSelect(name === selectedTag ? null : name)}
+          onClick={() => onTagSelect(null)}
           className={`px-3 py-1 text-sm rounded-full transition-colors duration-200
             ${
-              name === selectedTag
-                ? 'bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-200'
+              selectedTag === null
+                ? 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 font-medium'
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'
             }`}
         >
-          {name} ({count})
+          All
         </button>
-      ))}
+        
+        {sortedTags.map(({ name, count }) => (
+          <button
+            key={name}
+            onClick={() => onTagSelect(name === selectedTag ? null : name)}
+            className={`px-3 py-1 text-sm rounded-full transition-colors duration-200
+              ${
+                name === selectedTag
+                  ? 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 font-medium'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'
+              }`}
+          >
+            {name} ({count})
+          </button>
+        ))}
+      </div>
     </div>
   );
 }

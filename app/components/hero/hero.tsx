@@ -1,9 +1,7 @@
 'use client';
 
-import { useScroll } from 'framer-motion';
 import Link from 'next/link';
-import { useContext, useEffect, useRef } from 'react';
-import { ScrollContext } from '../providers/ScrollProvider';
+import { useEffect, useRef } from 'react';
 import { renderCanvas } from './renderCanvas';
 
 export default function Hero() {
@@ -18,9 +16,7 @@ export default function Hero() {
 
   return (
     <div className="relative min-h-screen">
-      <h1 className="sr-only">
-        Hello I&apos;m Arman Hossen, I&apos;m a software developer, and I love building things for the web.
-      </h1>
+     
       <div className="relative z-10 flex min-h-screen items-center">
         <div className="mx-auto w-full max-w-4xl px-4 sm:px-9 xl:max-w-6xl xl:px-0">
           <div className="-mt-36">
