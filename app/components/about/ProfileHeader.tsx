@@ -63,11 +63,43 @@ export default function ProfileHeader() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="flex items-center justify-center gap-8 text-3xl text-gray-600 dark:text-gray-400"
         >
-          <IoLocationSharp />
-          <SiGmail />
-          <FaGithub />
-          <FaLinkedin />
-          <FaGlobe />
+          <div className="flex items-center">
+            <IoLocationSharp title="Location: Differdange, LUX" />
+          </div>
+          <a
+            href="mailto:armanruet@gmail.com"
+            className="hover:text-gray-900 dark:hover:text-gray-200"
+            aria-label="Email"
+          >
+            <SiGmail />
+          </a>
+          <a
+            href="https://github.com/armanruet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-900 dark:hover:text-gray-200"
+            aria-label="GitHub"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/armanruet/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-900 dark:hover:text-gray-200"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://armanruet.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-900 dark:hover:text-gray-200"
+            aria-label="Website"
+          >
+            <FaGlobe />
+          </a>
         </motion.div>
       </div>
 
