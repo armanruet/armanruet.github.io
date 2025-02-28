@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { BiCommentDetail, BiLike } from 'react-icons/bi';
 import Giscus from './giscus';
+import { usePostLikes } from '../../hooks/use-post-likes';
 
 export interface CommentSectionProps {
   title: string;
@@ -10,51 +11,40 @@ export interface CommentSectionProps {
 }
 
 export default function CommentSection({ title, slug }: CommentSectionProps) {
-  const [likes, setLikes] = useState(0);
-  const [hasLiked, setHasLiked] = useState(false);
+  const { likes, hasLiked, isLoading, handleLike, error } = usePostLikes(slug);
+  const [mounted, setMounted] = useState(false);
   
-  // Handle like button click
-  const handleLike = () => {
-    if (!hasLiked) {
-      // Increment likes and set hasLiked to true
-      // In a real implementation, this would call an API to store the like
-      setLikes(likes + 1);
-      setHasLiked(true);
-      
-      // Store in localStorage to remember this user has liked this post
-      localStorage.setItem(`liked-${slug}`, 'true');
-      
-      // You could also send an API request here to store the like in a database
-    }
-  };
-  
-  // Check if user has already liked this post (on client side)
+  // Set mounted state to true when component mounts
   useEffect(() => {
-    const hasAlreadyLiked = localStorage.getItem(`liked-${slug}`);
-    if (hasAlreadyLiked) {
-      setHasLiked(true);
-    }
-    
-    // For demo purposes only - simulate some random likes
-    // In a real implementation, you would fetch this from an API
-    setLikes(Math.floor(Math.random() * 50));
-  }, [slug]);
-
+    setMounted(true);
+  }, []);
+  
   return (
     <div className="mt-16">
       <div className="mb-10 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <button 
             onClick={handleLike}
-            disabled={hasLiked}
+            disabled={!mounted || isLoading || hasLiked}
             className={`flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-colors
-              ${hasLiked 
+              ${mounted && hasLiked 
                 ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400' 
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'
               }`}
           >
-            <BiLike size={18} className={hasLiked ? 'text-blue-600 dark:text-blue-400' : ''} />
-            <span>{likes} {likes === 1 ? 'Like' : 'Likes'}</span>
+            <BiLike size={18} className={mounted && hasLiked ? 'text-blue-600 dark:text-blue-400' : ''} />
+            {/* Use static text for server rendering, then replace with dynamic content on client */}
+            {!mounted ? (
+              <span>Like post</span>
+            ) : (
+              <span>
+                {isLoading ? (
+                  <span className="inline-block h-4 w-4 animate-pulse">...</span>
+                ) : (
+                  <>{likes} {likes === 1 ? 'Like' : 'Likes'}</>
+                )}
+              </span>
+            )}
           </button>
           
           <a 
@@ -72,6 +62,12 @@ export default function CommentSection({ title, slug }: CommentSectionProps) {
           <ShareButton platform="facebook" title={title} />
         </div>
       </div>
+      
+      {mounted && error && (
+        <div className="mb-4 rounded-md bg-red-50 p-4 dark:bg-red-900/20">
+          <p className="text-sm text-red-700 dark:text-red-400">{error}</p>
+        </div>
+      )}
       
       <div id="comments">
         <div className="rounded-lg border border-gray-200 dark:border-gray-800 p-6 bg-white dark:bg-gray-900">
