@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { BiCommentDetail, BiLike } from 'react-icons/bi';
+import Giscus from './giscus';
 
 export interface CommentSectionProps {
   title: string;
@@ -75,12 +76,25 @@ export default function CommentSection({ title, slug }: CommentSectionProps) {
       <div id="comments">
         <div className="rounded-lg border border-gray-200 dark:border-gray-800 p-6 bg-white dark:bg-gray-900">
           <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Comments</h3>
-          <p className="mb-4 text-gray-700 dark:text-gray-300">
-            Comments are coming soon! Check back later for updates.
-          </p>
-          <p className="text-gray-700 dark:text-gray-300">
-            In the meantime, feel free to share this article using the social buttons above.
-          </p>
+          
+          {/* Giscus Component */}
+          {/* 
+            Configuration values from your Giscus setup:
+            https://giscus.app/
+          */}
+          <Giscus
+            repo="armanruet/armanruet.github.io"
+            repoId="MDEwOlJlcG9zaXRvcnkyMzIwNTQxMDQ="
+            category="Announcements"
+            categoryId="DIC_kwDODdTdWM4CnbQn"
+            mapping="pathname"
+            strict="0"
+            reactionsEnabled={true}
+            emitMetadata={false}
+            inputPosition="bottom"
+            theme="preferred_color_scheme"
+            lang="en"
+          />
         </div>
       </div>
     </div>

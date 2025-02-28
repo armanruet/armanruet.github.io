@@ -203,3 +203,37 @@ pre::-webkit-scrollbar-thumb:hover {
 .underline-link.active::after {
   @apply w-full;
 }
+
+/* Giscus styling */
+.giscus-frame {
+  @apply w-full border-0 my-4;
+}
+
+.giscus-wrapper {
+  @apply transition-all duration-300;
+}
+
+/* Hide giscus attribution - Optional: only use if you want a cleaner look */
+.giscus .gsc-header {
+  @apply border-b border-gray-200 dark:border-gray-700 pb-4;
+}
+
+.giscus .gsc-comments {
+  @apply mt-4;
+}
+
+.giscus .gsc-comment {
+  @apply border border-gray-100 dark:border-gray-800 rounded-lg my-4 p-4;
+}
+
+.giscus .gsc-comment-box {
+  @apply border border-gray-200 dark:border-gray-700 rounded-lg p-2;
+}
+
+.giscus .gsc-comment-box-textarea {
+  @apply focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400;
+}
+
+.giscus .gsc-comment-box-buttons {
+  @apply flex justify-end gap-2;
+}

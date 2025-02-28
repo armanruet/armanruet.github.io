@@ -1,7 +1,7 @@
 'use client';
 
 import { useTheme } from 'next-themes';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export interface GiscusProps {
   repo: string;
@@ -14,6 +14,8 @@ export interface GiscusProps {
   inputPosition?: 'top' | 'bottom';
   lang?: string;
   loading?: 'lazy' | 'eager';
+  strict?: string;
+  theme?: string;
 }
 
 export default function Giscus({
@@ -27,16 +29,24 @@ export default function Giscus({
   inputPosition = 'top',
   lang = 'en',
   loading = 'lazy',
+  strict = '0',
+  theme,
 }: GiscusProps) {
   const { resolvedTheme } = useTheme();
   const commentsRef = useRef<HTMLDivElement>(null);
-  const giscusTheme = resolvedTheme === 'dark' ? 'dark' : 'light';
+  const [isLoaded, setIsLoaded] = useState(false);
+  
+  // Use the provided theme if available, otherwise fall back to the resolvedTheme
+  const giscusTheme = theme === 'preferred_color_scheme' 
+    ? (resolvedTheme === 'dark' ? 'dark' : 'light')
+    : theme || (resolvedTheme === 'dark' ? 'dark' : 'light');
 
   useEffect(() => {
     // Remove existing script to avoid duplicates
     const existingScript = document.getElementById('giscus-script');
     if (existingScript) {
       existingScript.remove();
+      setIsLoaded(false);
     }
 
     // Add the Giscus script
@@ -51,6 +61,7 @@ export default function Giscus({
     script.setAttribute('data-category', category);
     script.setAttribute('data-category-id', categoryId);
     script.setAttribute('data-mapping', mapping);
+    script.setAttribute('data-strict', strict);
     script.setAttribute('data-reactions-enabled', reactionsEnabled.toString());
     script.setAttribute('data-emit-metadata', emitMetadata.toString());
     script.setAttribute('data-input-position', inputPosition);
@@ -58,6 +69,11 @@ export default function Giscus({
     script.setAttribute('data-loading', loading);
     script.setAttribute('data-theme', giscusTheme);
     script.setAttribute('crossorigin', 'anonymous');
+    
+    // Handle script load event
+    script.onload = () => {
+      setIsLoaded(true);
+    };
 
     // Add script to the document
     commentsRef.current?.appendChild(script);
@@ -68,23 +84,39 @@ export default function Giscus({
       if (script) {
         script.remove();
       }
+      setIsLoaded(false);
     };
-  }, [repo, repoId, category, categoryId, mapping, reactionsEnabled, emitMetadata, inputPosition, lang, loading, giscusTheme]);
+  }, [repo, repoId, category, categoryId, mapping, reactionsEnabled, emitMetadata, inputPosition, lang, loading, giscusTheme, strict, theme]);
 
   // Update theme when it changes
   useEffect(() => {
-    const iframe = document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
-    if (iframe) {
-      iframe.contentWindow?.postMessage(
-        { giscus: { setConfig: { theme: giscusTheme } } },
-        'https://giscus.app'
-      );
+    // Only send theme updates when using preferred_color_scheme or when no theme is specified
+    if (theme === 'preferred_color_scheme' || !theme) {
+      const iframe = document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
+      if (iframe) {
+        iframe.contentWindow?.postMessage(
+          { giscus: { setConfig: { theme: giscusTheme } } },
+          'https://giscus.app'
+        );
+      }
     }
-  }, [giscusTheme]);
+  }, [giscusTheme, theme]);
 
   return (
-    <section className="mt-10 pt-10">
-      <div ref={commentsRef} className="giscus"></div>
+    <section className="mt-10 pt-5">
+      <div className="giscus-wrapper relative min-h-[150px]">
+        <div ref={commentsRef} className="giscus w-full"></div>
+        
+        {/* Loading indicator - will be hidden once Giscus loads */}
+        {!isLoaded && (
+          <div className="giscus-loading absolute inset-0 flex items-center justify-center">
+            <div className="text-center text-gray-500 dark:text-gray-400">
+              <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite] mb-4"></div>
+              <p>Loading comments...</p>
+            </div>
+          </div>
+        )}
+      </div>
     </section>
   );
 }
