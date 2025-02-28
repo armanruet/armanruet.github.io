@@ -1,73 +1,49 @@
-import { cookies } from 'next/headers';
 import { v4 as uuidv4 } from 'uuid';
 
-const USER_ID_COOKIE = 'blog-user-id';
+// Define constants
+export const USER_ID_COOKIE = 'blog-user-id';
 
 /**
- * Gets the user ID from cookies or generates a new one
- * Client-side version that uses localStorage
+ * Gets the user ID from localStorage, creating one if needed
+ * This is the client-side implementation
  */
 export function getUserId(): string {
-  // Check if we're in the browser
+  // Check if we're in a browser environment
   if (typeof window === 'undefined') {
-    // Return an empty string or generate a temporary ID if on server
     return '';
   }
 
   try {
-    // Try to get the user ID from localStorage
+    // Check if a user ID already exists in localStorage
     let userId = localStorage.getItem(USER_ID_COOKIE);
     
-    // If no user ID exists, generate a new one
+    // If no user ID exists, create one and store it
     if (!userId) {
       userId = uuidv4();
       localStorage.setItem(USER_ID_COOKIE, userId);
       
-      // Also set as a cookie for server-side access
-      document.cookie = `${USER_ID_COOKIE}=${userId}; path=/; max-age=31536000; SameSite=Lax`;
+      // Also set a cookie for potential server-side access
+      document.cookie = `${USER_ID_COOKIE}=${userId}; path=/; max-age=${60 * 60 * 24 * 365}`; // 1 year
     }
     
     return userId;
   } catch (error) {
-    // In case of any errors (e.g., localStorage blocked), return empty string
     console.error('Error accessing localStorage:', error);
     return '';
   }
 }
 
 /**
- * Server-side function to get or create a user ID
- * This uses the cookies() function from next/headers
- */
-export function getUserIdServer(): string {
-  try {
-    const cookieStore = cookies();
-    const userId = cookieStore.get(USER_ID_COOKIE)?.value;
-    
-    // For server-side, we can only read the cookie, not set it
-    return userId || '';
-  } catch (error) {
-    // In case of any errors with the cookies API
-    console.error('Error accessing cookies:', error);
-    return '';
-  }
-}
-
-/**
- * Sets the user ID cookie on the client side
- * Useful when we need to ensure the cookie is set after a server action
+ * Sets the user ID cookie (client-side only)
  */
 export function setUserIdCookie(userId: string): void {
   if (typeof window === 'undefined') {
     return;
   }
-  
+
   try {
-    // Store in localStorage for persistence
     localStorage.setItem(USER_ID_COOKIE, userId);
-    
-    // Also set as a cookie for server-side access
-    document.cookie = `${USER_ID_COOKIE}=${userId}; path=/; max-age=31536000; SameSite=Lax`;
+    document.cookie = `${USER_ID_COOKIE}=${userId}; path=/; max-age=${60 * 60 * 24 * 365}`; // 1 year
   } catch (error) {
     console.error('Error setting user ID cookie:', error);
   }
