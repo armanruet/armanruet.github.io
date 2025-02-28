@@ -39,23 +39,6 @@ function getTagColor(tag: string): string {
   return tagColorMap[tag] || 'from-gray-500/20 to-gray-600/20 text-gray-700 dark:from-gray-500/10 dark:to-gray-400/10 dark:text-gray-400';
 }
 
-function calculateReadingTime(post: BlogPost): number {
-  // Standard average reading speed (words per minute)
-  const wordsPerMinute = 238;
-  
-  // Get text from description
-  const text = post.frontmatter.description || '';
-  
-  // Count words (split by whitespace and filter out empty strings)
-  const words = text.trim().split(/\s+/).filter(Boolean).length;
-  
-  // Calculate reading time and round to nearest minute
-  const minutes = Math.round(words / wordsPerMinute);
-  
-  // Return at least 1 minute
-  return Math.max(1, minutes);
-}
-
 export function BlogPosts({ posts }: BlogPostsProps) {
   return (
     <>
@@ -139,7 +122,7 @@ export function BlogPosts({ posts }: BlogPostsProps) {
                     </time>
                     <span className="flex items-center">
                       <BiTime className="inline-block mr-1" />
-                      {calculateReadingTime(post)} min read
+                      {post.readingTime} min read
                     </span>
                   </div>
                   <span className="text-primary-500 font-medium group-hover:text-primary-600 transition-colors duration-200">

@@ -25,6 +25,7 @@ interface Frontmatter {
 export interface BlogPost {
   slug: string;
   frontmatter: Frontmatter;
+  readingTime: number;
 }
 
 interface PostData {
@@ -50,6 +51,14 @@ export async function getMDXContent(source: string) {
   return { content: mdxSource, frontmatter };
 }
 
+// Add this function to calculate reading time
+function calculateReadingTime(content: string): number {
+  const wordsPerMinute = 238;
+  const wordCount = content.trim().split(/\s+/).length;
+  const readingTime = Math.ceil(wordCount / wordsPerMinute);
+  return Math.max(1, readingTime);
+}
+
 export async function getBlogPosts(): Promise<BlogPost[]> {
   const postsDirectory = path.join(process.cwd(), 'app/blog/posts');
   if (!fs.existsSync(postsDirectory)) {
@@ -62,7 +71,11 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
   const posts = files.map(fileName => {
     const slug = fileName.replace('.mdx', '');
     const filePath = path.join(postsDirectory, fileName);
-    const { data } = matter(fs.readFileSync(filePath, 'utf-8'));
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    const { data, content } = matter(fileContent);
+    
+    // Calculate reading time based on the full content
+    const readingTime = calculateReadingTime(content);
     
     const tags = Array.isArray(data.tags)
       ? data.tags
@@ -73,6 +86,7 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
     
     return {
       slug,
+      readingTime, // Add reading time to post data
       frontmatter: {
         ...data,
         date,
@@ -90,7 +104,7 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
     });
 }
 
-export async function getPostFromSlug(slug: string): Promise<PostData & { rawContent: string }> {
+export async function getPostFromSlug(slug: string): Promise<PostData & { rawContent: string, readingTime: number }> {
   const filePath = path.join(process.cwd(), 'app/blog/posts', `${slug}.mdx`);
   if (!fs.existsSync(filePath)) {
     throw new Error(`Post not found: ${slug}`);
@@ -99,6 +113,9 @@ export async function getPostFromSlug(slug: string): Promise<PostData & { rawCon
   const source = fs.readFileSync(filePath, 'utf-8');
   const { data, content: rawContent } = matter(source);
   const { content, frontmatter } = await getMDXContent(source);
+
+  // Calculate reading time based on the full content
+  const readingTime = calculateReadingTime(rawContent);
 
   // Ensure date is valid
   const date = isValidDate(frontmatter.date) ? frontmatter.date : new Date().toISOString();
@@ -109,6 +126,7 @@ export async function getPostFromSlug(slug: string): Promise<PostData & { rawCon
       ...frontmatter,
       date
     },
-    rawContent
+    rawContent,
+    readingTime
   };
 }

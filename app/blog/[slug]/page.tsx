@@ -22,17 +22,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-// Estimate reading time - can be moved to a utility function
-function calculateReadingTime(content: string): number {
-  const wordsPerMinute = 238;
-  const wordCount = content.trim().split(/\s+/).length;
-  const readingTime = Math.ceil(wordCount / wordsPerMinute);
-  return Math.max(1, readingTime);
-}
-
 export default async function BlogPost({ params }: { params: { slug: string } }) {
-  const { content, metadata, rawContent } = await getPostFromSlug(params.slug);
-  const readingTime = calculateReadingTime(rawContent);
+  // Get post data including the pre-calculated reading time
+  const postData = await getPostFromSlug(params.slug);
+  const { content, metadata, readingTime } = postData;
 
   return (
     <article className="mx-auto max-w-[900px] px-4 py-12">
