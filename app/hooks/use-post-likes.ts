@@ -9,11 +9,46 @@ interface UseLikesResult {
   error: string | null;
 }
 
+// Storage key for likes in localStorage
+const LIKES_STORAGE_KEY = 'blog-likes';
+
+// Define a likes data structure
+interface LikesData {
+  [slug: string]: {
+    count: number;
+    users: string[];
+  };
+}
+
+// Helper to read likes from localStorage
+function getLikesFromStorage(): LikesData {
+  if (typeof window === 'undefined') return {};
+  
+  try {
+    const likesData = localStorage.getItem(LIKES_STORAGE_KEY);
+    return likesData ? JSON.parse(likesData) : {};
+  } catch (error) {
+    console.error('Error reading likes from localStorage:', error);
+    return {};
+  }
+}
+
+// Helper to save likes to localStorage
+function saveLikesToStorage(likes: LikesData): void {
+  if (typeof window === 'undefined') return;
+  
+  try {
+    localStorage.setItem(LIKES_STORAGE_KEY, JSON.stringify(likes));
+  } catch (error) {
+    console.error('Error saving likes to localStorage:', error);
+  }
+}
+
 export function usePostLikes(slug: string): UseLikesResult {
   // Start with default values that match server-side rendering
   const [likes, setLikes] = useState(0);
   const [hasLiked, setHasLiked] = useState(false);
-  const [isLoading, setIsLoading] = useState(false); // Changed to false initially to avoid hydration mismatch
+  const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [userId, setUserId] = useState<string>('');
   const [isMounted, setIsMounted] = useState(false);
@@ -46,29 +81,16 @@ export function usePostLikes(slug: string): UseLikesResult {
     initializeUser();
   }, [slug, isMounted]);
   
-  // Fetch likes data from the API
+  // Fetch likes data from localStorage
   const fetchLikes = async (id: string) => {
     try {
-      // Fetch like count for this post
-      const response = await fetch(`/api/likes?slug=${slug}`);
+      if (typeof window === 'undefined') return;
       
-      if (!response.ok) {
-        throw new Error('Failed to fetch likes');
-      }
+      const allLikes = getLikesFromStorage();
+      const postLikes = allLikes[slug] || { count: 0, users: [] };
       
-      const data = await response.json();
-      setLikes(data.likes);
-      
-      // Check if this user has liked the post
-      if (id) {
-        const likesResponse = await fetch(`/api/likes?slug=${slug}&userId=${id}`);
-        
-        if (likesResponse.ok) {
-          const userData = await likesResponse.json();
-          setHasLiked(userData.hasLiked || false);
-        }
-      }
-      
+      setLikes(postLikes.count);
+      setHasLiked(id ? postLikes.users.includes(id) : false);
       setError(null);
     } catch (error) {
       console.error('Error fetching likes:', error);
@@ -80,43 +102,34 @@ export function usePostLikes(slug: string): UseLikesResult {
   
   // Handle like button click
   const handleLike = async () => {
-    if (isLoading || !userId) return;
+    if (isLoading || !userId || typeof window === 'undefined') return;
     
     setIsLoading(true);
     
     try {
+      const allLikes = getLikesFromStorage();
+      
+      // Initialize post data if it doesn't exist
+      if (!allLikes[slug]) {
+        allLikes[slug] = { count: 0, users: [] };
+      }
+      
       // If user has already liked, remove the like
       if (hasLiked) {
-        const response = await fetch(`/api/likes?slug=${slug}&userId=${userId}`, {
-          method: 'DELETE',
-        });
-        
-        if (!response.ok) {
-          throw new Error('Failed to remove like');
-        }
-        
-        const data = await response.json();
-        setLikes(data.likes);
+        allLikes[slug].count = Math.max(0, allLikes[slug].count - 1);
+        allLikes[slug].users = allLikes[slug].users.filter(id => id !== userId);
+        setLikes(allLikes[slug].count);
         setHasLiked(false);
       } else {
         // Otherwise, add a like
-        const response = await fetch('/api/likes', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ slug, userId }),
-        });
-        
-        if (!response.ok) {
-          throw new Error('Failed to add like');
-        }
-        
-        const data = await response.json();
-        setLikes(data.likes);
+        allLikes[slug].count += 1;
+        allLikes[slug].users.push(userId);
+        setLikes(allLikes[slug].count);
         setHasLiked(true);
       }
       
+      // Save updated likes to localStorage
+      saveLikesToStorage(allLikes);
       setError(null);
     } catch (error) {
       console.error('Error handling like:', error);
