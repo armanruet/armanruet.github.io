@@ -27,7 +27,7 @@
     "classnames": "2.3.2",
     "cmdk": "0.2.0",
     "contributions": "^0.8.0",
-    "eslint": "8.56.0",
+    "eslint": "9.26.0",
     "eslint-config-next": "15.0.3",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-jsx-a11y": "6.8.0",
