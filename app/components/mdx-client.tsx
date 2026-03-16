@@ -1,6 +1,4 @@
-'use client';
-
-import { MDXRemote, type MDXRemoteSerializeResult } from 'next-mdx-remote';
+import { MDXRemote } from 'next-mdx-remote/rsc';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ComponentPropsWithoutRef } from 'react';
@@ -94,13 +92,13 @@ const components = {
 };
 
 interface MDXClientProps {
-  content: MDXRemoteSerializeResult;
+  source: string;
 }
 
-export function MDXClient({ content }: MDXClientProps) {
+export function MDXClient({ source }: MDXClientProps) {
   return (
     <div className="mdx-content">
-      <MDXRemote {...content} components={components} />
+      <MDXRemote source={source} components={components} />
     </div>
   );
 }

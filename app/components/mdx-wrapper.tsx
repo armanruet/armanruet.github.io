@@ -1,10 +1,9 @@
-import { MDXRemoteSerializeResult } from 'next-mdx-remote/rsc';
 import { MDXClient } from './mdx-client';
 
 interface MDXWrapperProps {
-  content: MDXRemoteSerializeResult;
+  content: string;
 }
 
 export function MDXWrapper({ content }: MDXWrapperProps) {
-  return <MDXClient content={content} />;
+  return <MDXClient source={content} />;
 }

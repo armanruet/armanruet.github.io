@@ -29,7 +29,7 @@ export interface BlogPost {
 }
 
 interface PostData {
-  content: MDXRemoteSerializeResult;
+  content: string;
   metadata: Frontmatter;
 }
 
@@ -40,15 +40,7 @@ function isValidDate(date: string) {
 
 export async function getMDXContent(source: string) {
   const { data: frontmatter, content } = matter(source);
-  const mdxSource = await serialize(content, {
-    mdxOptions: {
-      // @ts-expect-error - rehype-pretty-code has incompatible vfile versions
-      rehypePlugins: [[rehypePrettyCode, prettyCodeOptions]],
-    },
-    parseFrontmatter: true,
-  });
-
-  return { content: mdxSource, frontmatter };
+  return { content: content, frontmatter };
 }
 
 // Add this function to calculate reading time
