@@ -367,79 +367,11 @@ html.dark .out { color: #8b949e; }
     <div class="hero">
       <div class="hero-tag">Holberton · DLH · Machine Learning</div>
       <h1>Linear Algebra for Machine Learning</h1>
-      <p class="hero-desc">A complete reference covering every learning objective — vectors, matrices, NumPy, and pure-Python implementations. Built to be explained to anyone without Google.</p>
-      <div class="pill-row">
-        <span class="pill">vectors</span><span class="pill">matrices</span><span class="pill">transpose</span>
-        <span class="pill">shape &amp; axes</span><span class="pill">slicing</span><span class="pill">element-wise</span>
-        <span class="pill">dot product</span><span class="pill">matmul</span><span class="pill">numpy</span>
-        <span class="pill">broadcasting</span><span class="pill">pure python</span>
-        <span class="pill">determinants</span><span class="pill">inverse</span><span class="pill">decompositions</span>
-        <span class="pill">gram-schmidt</span><span class="pill">linear systems</span>
-      </div>
-      <div style="display:flex;gap:16px;margin-top:1.25rem;flex-wrap:wrap;">
-        <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--accent);"><span style="width:10px;height:10px;border-radius:50%;background:var(--accent);display:inline-block;"></span>Blue panels — NumPy code</div>
-        <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--green);"><span style="width:10px;height:10px;border-radius:50%;background:var(--green);display:inline-block;"></span>Green panels — Pure Python (no NumPy)</div>
-      </div>
+      <img src="/blog/linear-algebra-hero.png" alt="Linear Algebra Feature" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem; margin-top: 1rem;" />
+      <p style="font-size: 1.1rem; color: var(--text2); line-height: 1.6; max-width: 800px; margin-bottom: 2rem;">
+        Welcome to the ultimate interactive reference guide for Linear Algebra in Machine Learning. Dive into vectors, matrices, dimensionality reduction, and pure Python implementations. This guide bridges the gap between complex mathematical theory and practical, runnable code.
+      </p>
     </div>
-
-    <!-- ===== TABLE OF CONTENTS ===== -->
-    <a class="section-anchor" id="toc"></a>
-    <div class="section">
-      <div class="chapter-header">
-        <span class="chapter-num">00</span>
-        <h2 class="chapter-title">Table of Contents</h2>
-      </div>
-      <table class="toc-table">
-        <thead><tr><th>Ref</th><th>Topic</th><th>Part</th><th>Status</th></tr></thead>
-        <tbody>
-          <tr><td>01</td><td><a href="#vectors">Vectors</a></td><td>I — Foundations</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>02</td><td><a href="#matrices">Matrices</a></td><td>I — Foundations</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>03</td><td><a href="#transpose">Transpose</a></td><td>I — Foundations</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>04</td><td><a href="#shape-axes">Shape &amp; Axes</a></td><td>I — Foundations</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>05</td><td><a href="#element-wise">Element-wise Operations</a></td><td>I — Foundations</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>06</td><td><a href="#concatenation">Concatenation</a></td><td>I — Foundations</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>07</td><td><a href="#dot-product">Dot Product</a></td><td>I — Foundations</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>08</td><td><a href="#matmul">Matrix Multiplication</a></td><td>I — Foundations</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>09</td><td><a href="#numpy">NumPy</a></td><td>II — NumPy</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>10</td><td><a href="#parallelization">Parallelization</a></td><td>II — NumPy</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>11</td><td><a href="#broadcasting">Broadcasting</a></td><td>II — NumPy</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>12</td><td><a href="#numpy-slicing">NumPy Slicing</a></td><td>II — NumPy</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>13</td><td><a href="#slicing-exercises">5 Slicing Exercises</a></td><td>II — NumPy</td><td><span class="status-done">✓ drilled</span></td></tr>
-          <tr><td>14</td><td><a href="#py-representation">Representation</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>15</td><td><a href="#py-shape">Shape (no NumPy)</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>16</td><td><a href="#py-transpose">Transpose (no NumPy)</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>17</td><td><a href="#py-add">Add / Subtract</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>18</td><td><a href="#py-scalar">Scalar Multiply</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>19</td><td><a href="#py-dot">Dot Product (no NumPy)</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>20</td><td><a href="#py-matmul">Matrix Multiply (no NumPy)</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>21</td><td><a href="#py-concat">Concatenation (no NumPy)</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>22</td><td><a href="#py-slice2d">2D &amp; 3D Slicing</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>23</td><td><a href="#py-zip">Zip &amp; Unpacking</a></td><td>III — Pure Python</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>24</td><td><a href="#norms">Norms (L1, L2, Frobenius)</a></td><td>IV — Deep Dive</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>25</td><td><a href="#eigen">Eigenvalues &amp; Eigenvectors</a></td><td>IV — Deep Dive</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>26</td><td><a href="#svd-pca">SVD &amp; PCA</a></td><td>IV — Deep Dive</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>27</td><td><a href="#determinants">Determinants</a></td><td>V — Advanced Ops</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>28</td><td><a href="#minors-cofactors">Minors &amp; Cofactors</a></td><td>V — Advanced Ops</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>29</td><td><a href="#adjugate-inverse">Adjugate &amp; Inverse</a></td><td>V — Advanced Ops</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>30</td><td><a href="#matrix-power">Matrix Power</a></td><td>V — Advanced Ops</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>31</td><td><a href="#qr-cholesky">QR &amp; Cholesky Decompositions</a></td><td>V — Advanced Ops</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>32</td><td><a href="#gram-schmidt">Gram-Schmidt Orthogonalization</a></td><td>V — Advanced Ops</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>33</td><td><a href="#linear-systems">Solving Linear Systems</a></td><td>V — Advanced Ops</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>34</td><td><a href="#trace">Trace</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>35</td><td><a href="#rank">Rank &amp; Linear Independence</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>36</td><td><a href="#pos-def">Positive Definite Matrices</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>37</td><td><a href="#covariance">Covariance Matrix</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>38</td><td><a href="#special-matrices">Special Matrices</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>39</td><td><a href="#projection">Projection Matrices</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>40</td><td><a href="#matrix-calculus">Matrix Calculus</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>41</td><td><a href="#einsum">Einstein Summation</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>42</td><td><a href="#null-col-space">Null &amp; Column Space</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-          <tr><td>43</td><td><a href="#condition-number">Condition Number</a></td><td>VI — ML Essentials</td><td><span class="status-done">✓ covered</span></td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="divider"></div>
 
     <!-- ===================================================
          PART I — FOUNDATIONS
