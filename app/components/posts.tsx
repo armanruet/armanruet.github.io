@@ -12,6 +12,7 @@ interface BlogPostsProps {
 
 function imagePath(path: string) {
   if (path.startsWith('http')) return path;
+  if (path.startsWith('/blog/')) return path;
   // Remove leading slash if exists and prepend /static/blog/
   return `/static/blog/${path.replace(/^\//, '')}`;
 }
