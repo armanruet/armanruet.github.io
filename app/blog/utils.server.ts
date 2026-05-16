@@ -58,10 +58,10 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
     return [];
   }
 
-  const files = fs.readdirSync(postsDirectory).filter(file => file.endsWith('.mdx'));
+  const files = fs.readdirSync(postsDirectory).filter(file => file.endsWith('.mdx') || file.endsWith('.html'));
   
   const posts = files.map(fileName => {
-    const slug = fileName.replace('.mdx', '');
+    const slug = fileName.replace(/\.(mdx|html)$/, '');
     const filePath = path.join(postsDirectory, fileName);
     const fileContent = fs.readFileSync(filePath, 'utf-8');
     const { data, content } = matter(fileContent);
@@ -96,8 +96,15 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
     });
 }
 
-export async function getPostFromSlug(slug: string): Promise<PostData & { rawContent: string, readingTime: number }> {
-  const filePath = path.join(process.cwd(), 'app/blog/posts', `${slug}.mdx`);
+export async function getPostFromSlug(slug: string): Promise<PostData & { rawContent: string, readingTime: number, extension: string }> {
+  let filePath = path.join(process.cwd(), 'app/blog/posts', `${slug}.mdx`);
+  let extension = '.mdx';
+  
+  if (!fs.existsSync(filePath)) {
+    filePath = path.join(process.cwd(), 'app/blog/posts', `${slug}.html`);
+    extension = '.html';
+  }
+
   if (!fs.existsSync(filePath)) {
     throw new Error(`Post not found: ${slug}`);
   }
@@ -119,6 +126,7 @@ export async function getPostFromSlug(slug: string): Promise<PostData & { rawCon
       date
     },
     rawContent,
-    readingTime
+    readingTime,
+    extension
   };
 }

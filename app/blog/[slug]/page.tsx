@@ -25,47 +25,55 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function BlogPost({ params }: { params: { slug: string } }) {
   // Get post data including the pre-calculated reading time
   const postData = await getPostFromSlug(params.slug);
-  const { content, metadata, readingTime } = postData;
+  const { content, metadata, readingTime, extension } = postData;
 
   return (
-    <article className="mx-auto max-w-[900px] px-4 py-12">
-      <header className="mb-8">
-        <h1 className={`${styles.title} text-gray-900 dark:text-white`}>{metadata.title}</h1>
-        <p className="text-gray-600 dark:text-gray-300 mt-2 text-lg">{metadata.description}</p>
-        
-        <div className="mt-4 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
-          <div className="flex items-center gap-1">
-            <BiCalendar size={16} />
-            <time dateTime={metadata.date}>
-              {format(new Date(metadata.date), 'MMMM d, yyyy')}
-            </time>
+    <article className={extension === '.html' ? '-mx-4 sm:-mx-6 lg:-mx-8 -my-6 sm:-my-8' : 'mx-auto px-4 py-12 max-w-[900px]'}>
+      {extension !== '.html' && (
+        <header className="mb-8">
+          <h1 className={`${styles.title} text-gray-900 dark:text-white`}>{metadata.title}</h1>
+          <p className="text-gray-600 dark:text-gray-300 mt-2 text-lg">{metadata.description}</p>
+          
+          <div className="mt-4 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+            <div className="flex items-center gap-1">
+              <BiCalendar size={16} />
+              <time dateTime={metadata.date}>
+                {format(new Date(metadata.date), 'MMMM d, yyyy')}
+              </time>
+            </div>
+            
+            <div className="flex items-center gap-1">
+              <BiTimeFive size={16} />
+              <span>{readingTime} min read</span>
+            </div>
           </div>
           
-          <div className="flex items-center gap-1">
-            <BiTimeFive size={16} />
-            <span>{readingTime} min read</span>
-          </div>
-        </div>
-        
-        {metadata.tags && metadata.tags.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-2">
-            {metadata.tags.map(tag => (
-              <span 
-                key={tag}
-                className="inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-300"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
-      </header>
+          {metadata.tags && metadata.tags.length > 0 && (
+            <div className="mt-4 flex flex-wrap gap-2">
+              {metadata.tags.map(tag => (
+                <span 
+                  key={tag}
+                  className="inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-300"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </header>
+      )}
 
-      <div className={`${styles.content} bg-white dark:bg-black`}>
-        <MDXWrapper content={content} />
+      <div className={extension === '.html' ? '' : `${styles.content} bg-white dark:bg-black`}>
+        {extension === '.html' ? (
+          <div dangerouslySetInnerHTML={{ __html: content }} />
+        ) : (
+          <MDXWrapper content={content} />
+        )}
       </div>
       
-      <CommentSection title={metadata.title || 'Blog Post'} slug={params.slug} />
+      <div className={extension === '.html' ? 'mx-auto max-w-[900px]' : ''}>
+        <CommentSection title={metadata.title || 'Blog Post'} slug={params.slug} />
+      </div>
     </article>
   );
 }
