@@ -51,15 +51,15 @@ export function BlogPosts({ posts }: BlogPostsProps) {
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {posts.map((post) => (
             <article
               key={post.slug}
-              className="group relative flex flex-col space-y-4 bg-white dark:bg-gray-900 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl dark:hover:shadow-2xl dark:hover:shadow-primary-500/10 border border-gray-100 dark:border-gray-800"
+              className="group relative flex flex-col bg-white dark:bg-gray-900 rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl dark:hover:shadow-2xl dark:hover:shadow-primary-500/10 border border-gray-100 dark:border-gray-800"
             >
               <Link 
                 href={`/blog/${post.slug}`} 
-                className="block aspect-[16/9] relative overflow-hidden bg-gray-100 dark:bg-gray-800"
+                className="block aspect-[2/1] relative overflow-hidden bg-gray-100 dark:bg-gray-800"
               >
                 {post.frontmatter.image ? (
                   <div className="relative w-full h-full">
@@ -92,13 +92,13 @@ export function BlogPosts({ posts }: BlogPostsProps) {
                 )}
               </Link>
 
-              <div className="flex flex-col space-y-3 p-6 pt-2 flex-grow">
+              <div className="flex flex-col p-4 flex-grow">
                 {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-2 mt-2">
+                  <div className="flex flex-wrap gap-1.5 mb-2">
                     {post.frontmatter.tags.slice(0, 3).map(tag => (
                       <span 
                         key={tag} 
-                        className={`text-xs px-2 py-1 rounded-full bg-gradient-to-r ${getTagColor(tag)}`}
+                        className={`text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-md bg-gradient-to-r ${getTagColor(tag)}`}
                       >
                         {tag}
                       </span>
@@ -106,24 +106,24 @@ export function BlogPosts({ posts }: BlogPostsProps) {
                   </div>
                 )}
                 
-                <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-primary-500 transition-colors duration-200">
+                <h2 className="text-lg md:text-xl font-bold leading-tight tracking-tight text-gray-900 dark:text-gray-100 line-clamp-2 group-hover:text-primary-500 transition-colors duration-200">
                   <Link href={`/blog/${post.slug}`}>
                     {post.frontmatter.title || 'Untitled Post'}
                   </Link>
                 </h2>
 
-                <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 line-clamp-3">
+                <p className="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mt-2 mb-4">
                   {post.frontmatter.description}
                 </p>
 
-                <div className="flex items-center justify-between pt-2 mt-auto text-xs md:text-sm text-gray-500 dark:text-gray-400">
-                  <div className="flex items-center space-x-4">
+                <div className="flex items-center justify-between mt-auto pt-2 border-t border-gray-100 dark:border-gray-800 text-xs text-gray-500 dark:text-gray-400">
+                  <div className="flex items-center space-x-3">
                     <time dateTime={post.frontmatter.date}>
-                      {format(new Date(post.frontmatter.date), 'MMMM d, yyyy')}
+                      {format(new Date(post.frontmatter.date), 'MMM d, yyyy')}
                     </time>
                     <span className="flex items-center">
                       <BiTime className="inline-block mr-1" />
-                      {post.readingTime} min read
+                      {post.readingTime} min
                     </span>
                   </div>
                   <span className="text-primary-500 font-medium group-hover:text-primary-600 transition-colors duration-200">

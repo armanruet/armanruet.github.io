@@ -28,14 +28,23 @@ export default function BlogContent({ posts, tagCounts }: BlogContentProps) {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl lg:max-w-none">
-        <TagsList 
-          tags={formattedTags} 
-          selectedTag={selectedTag} 
-          onTagSelect={handleTagSelect}
-        />
-        <BlogPosts posts={filteredPosts} />
+    <div className="mx-auto max-w-7xl">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
+        {/* Main Content (Blog Posts) */}
+        <div className="flex-1 lg:w-3/4">
+          <BlogPosts posts={filteredPosts} />
+        </div>
+
+        {/* Sidebar (Filters) */}
+        <div className="w-full lg:w-1/4 lg:shrink-0">
+          <div className="sticky top-24">
+            <TagsList 
+              tags={formattedTags} 
+              selectedTag={selectedTag} 
+              onTagSelect={handleTagSelect}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

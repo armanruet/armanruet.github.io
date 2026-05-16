@@ -16,8 +16,8 @@ export default function TagsList({ tags, selectedTag, onTagSelect }: TagsListPro
   const sortedTags = [...tags].sort((a, b) => b.count - a.count);
   
   return (
-    <div className="mb-8">
-      <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Filter by Topic</h2>
+    <div className="bg-gray-50 dark:bg-gray-900/50 p-6 rounded-2xl border border-gray-100 dark:border-gray-800">
+      <h2 className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Filter by Topic</h2>
       <div className="flex flex-wrap gap-2">
         <button
           onClick={() => onTagSelect(null)}
