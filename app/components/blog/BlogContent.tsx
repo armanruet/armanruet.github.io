@@ -31,12 +31,12 @@ export default function BlogContent({ posts, tagCounts }: BlogContentProps) {
     <div className="mx-auto max-w-7xl">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         {/* Main Content (Blog Posts) */}
-        <div className="flex-1 lg:w-3/4">
+        <div className="flex-1 lg:w-4/5">
           <BlogPosts posts={filteredPosts} />
         </div>
 
         {/* Sidebar (Filters) */}
-        <div className="w-full lg:w-1/4 lg:shrink-0">
+        <div className="w-full lg:w-1/5 lg:shrink-0">
           <div className="sticky top-24">
             <TagsList 
               tags={formattedTags} 
