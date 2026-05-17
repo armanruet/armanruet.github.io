@@ -170,13 +170,21 @@ html.dark .page-wrap {
   --teal-bg:   #0B3029;
 }
 .page-wrap {
-  min-width: fit-content;
   background: var(--bg);
   color: var(--text);
   font-family: var(--sans);
   font-size: 15.5px;
   line-height: 1.7;
 }
+
+@media(max-width:600px){
+  h1{font-size:32px;}
+  h2{font-size:24px;}
+  .main{padding:1.5rem 1rem 3rem;}
+  .hero{padding:2rem 0 3rem; margin-bottom:2rem;}
+  table {display: block; overflow-x: auto; white-space: nowrap;}
+}
+
 html.dark pre { color: #e5e5e5; }
 html.dark .cm { color: #8b949e; }
 html.dark .kw { color: #ff7b72; }
