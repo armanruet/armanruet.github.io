@@ -2,6 +2,7 @@ import { getPostFromSlug, getBlogPosts } from '../utils.server';
 import { MDXWrapper } from '../../components/mdx-wrapper';
 import styles from './blog-post.module.css';
 import CommentSection from '../../components/comments/comment-section';
+import HtmlRenderer from '../../components/blog/HtmlRenderer';
 import { format } from 'date-fns';
 import { BiCalendar, BiTimeFive } from 'react-icons/bi';
 
@@ -65,7 +66,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
 
       <div className={extension === '.html' ? '' : `${styles.content} bg-white dark:bg-black`}>
         {extension === '.html' ? (
-          <div dangerouslySetInnerHTML={{ __html: content }} />
+          <HtmlRenderer content={content} />
         ) : (
           <MDXWrapper content={content} />
         )}

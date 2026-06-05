@@ -17,7 +17,7 @@ export default function Page() {
       <ProfileHeader />
       <div className="prose dark:prose-invert max-w-none mb-12">
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-        I architect intelligent systems that bridge research and industry. I'm a software engineer specializing in machine learning and cloud solutions, crafting robust applications that solve complex challenges. Currently, I'm focused on building intelligent workflow management systems at Dropslab Technologies that enhance human efficiency.
+          I architect intelligent systems that bridge research and industry. I'm a software engineer specializing in machine learning and cloud solutions, crafting robust applications that solve complex challenges. Currently, I'm focused on building intelligent workflow management systems at Dropslab Technologies that enhance human efficiency.
         </p>
       </div>
       <div className="space-y-16">
