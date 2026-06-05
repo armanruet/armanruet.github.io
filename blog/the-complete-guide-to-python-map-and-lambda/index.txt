@@ -7,207 +7,612 @@
 a:I[2972,["614","static/chunks/3d47b92a-eb03b6538a2f8c33.js","972","static/chunks/972-0a933c5020b4b923.js","878","static/chunks/878-1de01645bcc134db.js","308","static/chunks/app/blog/%5Bslug%5D/page-e12f68992ef2de99.js"],""]
 c:I[5494,["706","static/chunks/9c4e2130-8d567844d32db152.js","422","static/chunks/66ec4792-90b09d8fd453ca3b.js","779","static/chunks/0e762574-5de182cd9b40fe1f.js","792","static/chunks/d320e741-bd7836a43b61704c.js","972","static/chunks/972-0a933c5020b4b923.js","474","static/chunks/474-0bf99b252f885131.js","247","static/chunks/247-ff5adfdd9a106148.js","185","static/chunks/app/layout-1f227351b195b1b9.js"],"default"]
 6:["slug","the-complete-guide-to-python-map-and-lambda","d"]
-b:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z0:["EFKQm6GqzpWqAG_XeC6cE",[[["",{"children":["blog",{"children":[["slug","the-complete-guide-to-python-map-and-lambda","d"],{"children":["__PAGE__?{\"slug\":\"the-complete-guide-to-python-map-and-lambda\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["slug","the-complete-guide-to-python-map-and-lambda","d"],{"children":["__PAGE__",{},[["$L1","$L2",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/67b6cb81896cb14c.css","precedence":"next","crossOrigin":"$undefined"}]]],null],null]},[[null,[["$","$L3",null,{}],["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$6","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]}]]],null],null]},[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/717b835bc752b526.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/static/favicons/favicon.ico"}],["$","meta",null,{"name":"theme-color","content":"#000000"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover"}],["$","meta",null,{"name":"apple-mobile-web-app-capable","content":"yes"}],["$","meta",null,{"name":"apple-mobile-web-app-status-bar-style","content":"default"}]]}],["$","body",null,{"className":"min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white text-[1rem] text-base md:text-lg","suppressHydrationWarning":true,"children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":false,"themes":["dark","light"],"children":[["$","div",null,{"className":"flex min-h-screen flex-col","children":[["$","$L9",null,{}],["$","main",null,{"className":"flex-1 px-4 py-6 sm:px-6 sm:py-8 lg:px-8","children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"flex min-h-screen flex-col items-center justify-center","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"404 - Page Not Found"}],["$","p",null,{"className":"mt-4 text-lg text-gray-600 dark:text-gray-400","children":"The page you're looking for doesn't exist."}],["$","$La",null,{"href":"/","className":"mt-6 rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-600","children":"Go Home"}]]}],"notFoundStyles":[]}]}],["$","footer",null,{"className":"w-full border-t border-gray-200 dark:border-gray-800","children":["$","div",null,{"className":"mx-auto max-w-4xl px-4 py-8","children":["$","div",null,{"className":"flex items-center justify-between text-gray-500 dark:text-gray-400","children":[["$","div",null,{"className":"flex items-center space-x-2 text-sm","children":[["$","span",null,{"children":"© 2025"}],["$","span",null,{"children":"•"}],["$","span",null,{"children":"Arman Hossen"}]]}],["$","div",null,{"className":"flex items-center space-x-5","children":[["$","$La",null,{"href":"https://linkedin.com/in/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 1024 1024","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"LinkedIn"}]]}],["$","$La",null,{"href":"https://github.com/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"$b","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"GitHub"}]]}],["$","$La",null,{"href":"https://twitter.com/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"Twitter"}]]}]]}]]}]}]}]]}],["$","$Lc",null,{}]]}]}]]}]],null],null],["$Ld",null]]]]
+b:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z0:["JxqOfvuJQbzecGMJqe2dR",[[["",{"children":["blog",{"children":[["slug","the-complete-guide-to-python-map-and-lambda","d"],{"children":["__PAGE__?{\"slug\":\"the-complete-guide-to-python-map-and-lambda\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["slug","the-complete-guide-to-python-map-and-lambda","d"],{"children":["__PAGE__",{},[["$L1","$L2",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/67b6cb81896cb14c.css","precedence":"next","crossOrigin":"$undefined"}]]],null],null]},[[null,[["$","$L3",null,{}],["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$6","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]}]]],null],null]},[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/717b835bc752b526.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/static/favicons/favicon.ico"}],["$","meta",null,{"name":"theme-color","content":"#000000"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover"}],["$","meta",null,{"name":"apple-mobile-web-app-capable","content":"yes"}],["$","meta",null,{"name":"apple-mobile-web-app-status-bar-style","content":"default"}]]}],["$","body",null,{"className":"min-h-screen bg-white text-black antialiased dark:bg-black dark:text-white text-[1rem] text-base md:text-lg","suppressHydrationWarning":true,"children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":false,"themes":["dark","light"],"children":[["$","div",null,{"className":"flex min-h-screen flex-col","children":[["$","$L9",null,{}],["$","main",null,{"className":"flex-1 px-4 py-6 sm:px-6 sm:py-8 lg:px-8","children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"flex min-h-screen flex-col items-center justify-center","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"404 - Page Not Found"}],["$","p",null,{"className":"mt-4 text-lg text-gray-600 dark:text-gray-400","children":"The page you're looking for doesn't exist."}],["$","$La",null,{"href":"/","className":"mt-6 rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-600","children":"Go Home"}]]}],"notFoundStyles":[]}]}],["$","footer",null,{"className":"w-full border-t border-gray-200 dark:border-gray-800","children":["$","div",null,{"className":"mx-auto max-w-4xl px-4 py-8","children":["$","div",null,{"className":"flex items-center justify-between text-gray-500 dark:text-gray-400","children":[["$","div",null,{"className":"flex items-center space-x-2 text-sm","children":[["$","span",null,{"children":"© 2025"}],["$","span",null,{"children":"•"}],["$","span",null,{"children":"Arman Hossen"}]]}],["$","div",null,{"className":"flex items-center space-x-5","children":[["$","$La",null,{"href":"https://linkedin.com/in/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 1024 1024","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"LinkedIn"}]]}],["$","$La",null,{"href":"https://github.com/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"$b","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"GitHub"}]]}],["$","$La",null,{"href":"https://twitter.com/armanruet","target":"_blank","rel":"noopener noreferrer","className":"hover:text-gray-700 dark:hover:text-gray-200","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","className":"h-5 w-5","children":["$undefined",[["$","path","0",{"d":"M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","span",null,{"className":"sr-only","children":"Twitter"}]]}]]}]]}]}]}]]}],["$","$Lc",null,{}]]}]}]]}]],null],null],["$Ld",null]]]]
 e:I[2208,["614","static/chunks/3d47b92a-eb03b6538a2f8c33.js","972","static/chunks/972-0a933c5020b4b923.js","878","static/chunks/878-1de01645bcc134db.js","308","static/chunks/app/blog/%5Bslug%5D/page-e12f68992ef2de99.js"],"default"]
 10:I[9502,["614","static/chunks/3d47b92a-eb03b6538a2f8c33.js","972","static/chunks/972-0a933c5020b4b923.js","878","static/chunks/878-1de01645bcc134db.js","308","static/chunks/app/blog/%5Bslug%5D/page-e12f68992ef2de99.js"],"default"]
-f:T22dff,
+f:T24b6e,
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap"
+  rel="stylesheet">
 <style>
-/* ============================================================
+  /* ============================================================
    TOKENS & RESET
    ============================================================ */
-.page-wrap {
-  --bg:        #F7F5F0;
-  --bg2:       #EDEAE3;
-  --bg3:       #E4E0D8;
-  --surface:   #FFFFFF;
-  --border:    #D8D4CC;
-  --text:      #1A1814;
-  --text2:     #4A4640;
-  --text3:     #7A756E;
-  --accent:    #1B4F72;
-  --accent2:   #2980B9;
-  --accent-bg: #EAF2FB;
-  --green:     #1A6B45;
-  --green-bg:  #E4F4EC;
-  --amber:     #7D4E0A;
-  --amber-bg:  #FDF3E3;
-  --red:       #8B2A1A;
-  --red-bg:    #FAEAE6;
-  --purple:    #4A3B9C;
-  --purple-bg: #EEEAFC;
-  --teal:      #0D5E50;
-  --teal-bg:   #E2F4F1;
-  --mono:      'JetBrains Mono', monospace;
-  --sans:      'DM Sans', sans-serif;
-  --serif:     'Playfair Display', serif;
-  --radius:    8px;
-  --radius-lg: 14px;
-}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-html{scroll-behavior:smooth;}
+  .page-wrap {
+    --bg: #F7F5F0;
+    --bg2: #EDEAE3;
+    --bg3: #E4E0D8;
+    --surface: #FFFFFF;
+    --border: #D8D4CC;
+    --text: #1A1814;
+    --text2: #4A4640;
+    --text3: #7A756E;
+    --accent: #1B4F72;
+    --accent2: #2980B9;
+    --accent-bg: #EAF2FB;
+    --green: #1A6B45;
+    --green-bg: #E4F4EC;
+    --amber: #7D4E0A;
+    --amber-bg: #FDF3E3;
+    --red: #8B2A1A;
+    --red-bg: #FAEAE6;
+    --purple: #4A3B9C;
+    --purple-bg: #EEEAFC;
+    --teal: #0D5E50;
+    --teal-bg: #E2F4F1;
+    --mono: 'JetBrains Mono', monospace;
+    --sans: 'DM Sans', sans-serif;
+    --serif: 'Playfair Display', serif;
+    --radius: 8px;
+    --radius-lg: 14px;
+  }
 
-/* ============================================================
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* ============================================================
    LAYOUT
    ============================================================ */
-.page-wrap{display:grid;grid-template-columns:260px 1fr;min-height:100vh;}
-.sidebar{position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--surface);border-right:1px solid var(--border);padding:2rem 0;}
-.main{padding:3rem 4rem 6rem;}
-@media(max-width:900px){
-  .page-wrap{grid-template-columns:1fr;}
-  .sidebar{display:none;}
-  .main{padding:2rem 1.25rem 4rem;}
-}
+  .page-wrap {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    min-height: 100vh;
+  }
 
-/* ============================================================
+  .sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 2rem 0;
+  }
+
+  .main {
+    padding: 3rem 4rem 6rem;
+  }
+
+  @media(max-width:900px) {
+    .page-wrap {
+      grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+      display: none;
+    }
+
+    .main {
+      padding: 2rem 1.25rem 4rem;
+    }
+  }
+
+  /* ============================================================
    SIDEBAR
    ============================================================ */
-.sidebar-logo{padding:0 1.5rem 1.5rem;border-bottom:1px solid var(--border);margin-bottom:1rem;}
-.sidebar-logo-title{font-family:var(--serif);font-size:15px;color:var(--text);line-height:1.4;}
-.sidebar-logo-sub{font-size:11px;color:var(--text3);margin-top:2px;}
-.sidebar-section{padding:0.25rem 0 0.75rem;}
-.sidebar-section-label{font-size:10px;font-weight:500;letter-spacing:0.1em;color:var(--text3);text-transform:uppercase;padding:0 1.5rem 0.4rem;}
-.sidebar-link{display:block;padding:0.35rem 1.5rem;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.15s;border-left:2px solid transparent;}
-.sidebar-link:hover{color:var(--accent);background:var(--accent-bg);border-left-color:var(--accent2);}
-.sidebar-link.active{color:var(--accent);background:var(--accent-bg);border-left-color:var(--accent);}
+  .sidebar-logo {
+    padding: 0 1.5rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1rem;
+  }
 
-/* ============================================================
+  .sidebar-logo-title {
+    font-family: var(--serif);
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.4;
+  }
+
+  .sidebar-logo-sub {
+    font-size: 11px;
+    color: var(--text3);
+    margin-top: 2px;
+  }
+
+  .sidebar-section {
+    padding: 0.25rem 0 0.75rem;
+  }
+
+  .sidebar-section-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--text3);
+    text-transform: uppercase;
+    padding: 0 1.5rem 0.4rem;
+  }
+
+  .sidebar-link {
+    display: block;
+    padding: 0.35rem 1.5rem;
+    font-size: 13px;
+    color: var(--text2);
+    text-decoration: none;
+    transition: all 0.15s;
+    border-left: 2px solid transparent;
+  }
+
+  .sidebar-link:hover {
+    color: var(--accent);
+    background: var(--accent-bg);
+    border-left-color: var(--accent2);
+  }
+
+  .sidebar-link.active {
+    color: var(--accent);
+    background: var(--accent-bg);
+    border-left-color: var(--accent);
+  }
+
+  /* ============================================================
    TYPOGRAPHY
    ============================================================ */
-h1{font-family:var(--serif);font-size:42px;font-weight:600;line-height:1.2;color:var(--text);}
-h2{font-family:var(--serif);font-size:28px;font-weight:500;color:var(--text);margin-bottom:0.6rem;}
-h3{font-family:var(--sans);font-size:18px;font-weight:600;color:var(--text);margin-bottom:0.6rem;margin-top:2rem;}
-p{color:var(--text2);line-height:1.75;margin-bottom:1rem;}
-strong{font-weight:500;color:var(--text);}
-code{font-family:var(--mono);font-size:0.88em;background:var(--bg2);padding:2px 6px;border-radius:4px;color:var(--accent);}
-ul{margin-left: 2rem; color:var(--text2); line-height: 1.7; margin-bottom: 1.5rem;}
-li{margin-bottom: 0.5rem;}
-table {width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 14px;}
-th, td {border: 1px solid var(--border); padding: 0.75rem; text-align: left;}
-th {background: var(--bg2); font-weight: 500;}
+  h1 {
+    font-family: var(--serif);
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--text);
+  }
 
-/* ============================================================
+  h2 {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 0.6rem;
+  }
+
+  h3 {
+    font-family: var(--sans);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.6rem;
+    margin-top: 2rem;
+  }
+
+  p {
+    color: var(--text2);
+    line-height: 1.75;
+    margin-bottom: 1rem;
+  }
+
+  strong {
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  code {
+    font-family: var(--mono);
+    font-size: 0.88em;
+    background: var(--bg2);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: var(--accent);
+  }
+
+  ul {
+    margin-left: 2rem;
+    color: var(--text2);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    border: 1px solid var(--border);
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  th {
+    background: var(--bg2);
+    font-weight: 500;
+  }
+
+  /* ============================================================
    HERO
    ============================================================ */
-.hero{padding:3rem 0 4rem;border-bottom:1px solid var(--border);margin-bottom:4rem;}
-.hero-tag{display:inline-block;font-size:11px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--accent);background:var(--accent-bg);padding:4px 12px;border-radius:999px;margin-bottom:1.25rem;}
-.hero h1{margin-bottom:1rem;max-width:640px;}
-.hero-desc{font-size:16px;color:var(--text2);max-width:560px;line-height:1.7;}
-.pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:1.5rem;}
-.pill{font-size:12px;padding:4px 12px;border-radius:999px;background:var(--bg2);border:1px solid var(--border);color:var(--text3);}
+  .hero {
+    padding: 3rem 0 4rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 4rem;
+  }
 
-/* ============================================================
+  .hero-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-bg);
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: 1.25rem;
+  }
+
+  .hero h1 {
+    margin-bottom: 1rem;
+    max-width: 640px;
+  }
+
+  .hero-desc {
+    font-size: 16px;
+    color: var(--text2);
+    max-width: 560px;
+    line-height: 1.7;
+  }
+
+  .pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 1.5rem;
+  }
+
+  .pill {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    color: var(--text3);
+  }
+
+  /* ============================================================
    CHAPTER HEADERS
    ============================================================ */
-.chapter-header{display:flex;align-items:baseline;gap:1rem;margin-bottom:2.5rem;padding-bottom:1rem;border-bottom:1px solid var(--border);}
-.chapter-num{font-family:var(--mono);font-size:12px;color:var(--text3);}
-.chapter-title{font-family:var(--serif);font-size:32px;font-weight:500;}
+  .chapter-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
 
-/* ============================================================
+  .chapter-num {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--text3);
+  }
+
+  .chapter-title {
+    font-family: var(--serif);
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  /* ============================================================
    SECTION BLOCKS
    ============================================================ */
-.section{margin-bottom:3.5rem;}
-.section + .section{border-top:1px solid var(--border);padding-top:3rem;}
+  .section {
+    margin-bottom: 3.5rem;
+  }
 
-/* ============================================================
+  .section+.section {
+    border-top: 1px solid var(--border);
+    padding-top: 3rem;
+  }
+
+  /* ============================================================
    CARDS & CALLOUTS
    ============================================================ */
-.badge{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px;}
-.badge-blue{background:var(--accent-bg);color:var(--accent);}
-.badge-green{background:var(--green-bg);color:var(--green);}
-.badge-amber{background:var(--amber-bg);color:var(--amber);}
-.badge-red{background:var(--red-bg);color:var(--red);}
-.badge-purple{background:var(--purple-bg);color:var(--purple);}
-.badge-teal{background:var(--teal-bg);color:var(--teal);}
+  .badge {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 999px;
+  }
 
-.callout{border-radius:var(--radius);padding:1.1rem 1.25rem;font-size:14px;line-height:1.65;margin:1.5rem 0;}
-.callout p:last-child{margin-bottom:0;}
-.callout-blue{background:var(--accent-bg);border-left:4px solid var(--accent2);color:var(--accent);}
-.callout-amber{background:var(--amber-bg);border-left:4px solid #D4860F;color:var(--amber);}
-.callout-green{background:var(--green-bg);border-left:4px solid #2ECC71;color:var(--green);}
-.callout-purple{background:var(--purple-bg);border-left:4px solid var(--purple);color:var(--purple);}
+  .badge-blue {
+    background: var(--accent-bg);
+    color: var(--accent);
+  }
 
-/* ============================================================
+  .badge-green {
+    background: var(--green-bg);
+    color: var(--green);
+  }
+
+  .badge-amber {
+    background: var(--amber-bg);
+    color: var(--amber);
+  }
+
+  .badge-red {
+    background: var(--red-bg);
+    color: var(--red);
+  }
+
+  .badge-purple {
+    background: var(--purple-bg);
+    color: var(--purple);
+  }
+
+  .badge-teal {
+    background: var(--teal-bg);
+    color: var(--teal);
+  }
+
+  .callout {
+    border-radius: var(--radius);
+    padding: 1.1rem 1.25rem;
+    font-size: 14px;
+    line-height: 1.65;
+    margin: 1.5rem 0;
+  }
+
+  .callout p:last-child {
+    margin-bottom: 0;
+  }
+
+  .callout-blue {
+    background: var(--accent-bg);
+    border-left: 4px solid var(--accent2);
+    color: var(--accent);
+  }
+
+  .callout-amber {
+    background: var(--amber-bg);
+    border-left: 4px solid #D4860F;
+    color: var(--amber);
+  }
+
+  .callout-green {
+    background: var(--green-bg);
+    border-left: 4px solid #2ECC71;
+    color: var(--green);
+  }
+
+  .callout-purple {
+    background: var(--purple-bg);
+    border-left: 4px solid var(--purple);
+    color: var(--purple);
+  }
+
+  /* ============================================================
    CODE BLOCKS
    ============================================================ */
-pre{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.5rem;font-family:var(--mono);font-size:13.5px;line-height:1.8;overflow-x:auto;margin:1.5rem 0;}
-.cm{color:var(--text3);}
-.kw{color:var(--accent);}
-.nm{color:var(--red);}
-.st{color:var(--teal);}
-.out{color:var(--text3);font-style:italic;}
+  pre {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 1.8;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
 
-/* ============================================================
+  .cm {
+    color: var(--text3);
+  }
+
+  .kw {
+    color: var(--accent);
+  }
+
+  .nm {
+    color: var(--red);
+  }
+
+  .st {
+    color: var(--teal);
+  }
+
+  .out {
+    color: var(--text3);
+    font-style: italic;
+  }
+
+  /* ============================================================
    GRID LAYOUTS
    ============================================================ */
-.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;}
-.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
-@media(max-width:700px){.grid-2,.grid-3{grid-template-columns:1fr;}}
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
 
-/* ============================================================
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media(max-width:700px) {
+
+    .grid-2,
+    .grid-3 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* ============================================================
    MISC
    ============================================================ */
-.section-anchor{display:block;position:relative;top:-80px;visibility:hidden;}
-.formula{display:block;text-align:center;font-family:var(--serif);font-size:22px;margin:1.5rem 0;color:var(--text);}
-.sym { color: var(--accent2); font-weight: 500;}
-.eq  { color: var(--text); }
-.idx { color: var(--text3); font-size: 0.6em; vertical-align: sub; }
-.op { color: var(--text3); }
+  .section-anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+  }
 
-/* matrix styles from original */
-.matrix-vis { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 14px; margin: 16px 0; }
-.mat-bracket { font-size: 48px; color: var(--accent); font-weight: 300; line-height: 1; }
-.mat-grid { display: grid; gap: 4px 16px; }
-.mat-cell { color: var(--text); text-align: center; min-width: 28px; }
-.mat-cell.hl-cell { color: var(--amber); font-weight: bold;}
-.mat-label { font-family: var(--sans); font-size: 12px; color: var(--text3); margin-left: 8px; align-self: flex-end; padding-bottom: 8px; }
+  .formula {
+    display: block;
+    text-align: center;
+    font-family: var(--serif);
+    font-size: 22px;
+    margin: 1.5rem 0;
+    color: var(--text);
+  }
 
-html.dark .page-wrap {
-  --bg:        #0A0A0A;
-  --bg2:       #171717;
-  --bg3:       #262626;
-  --surface:   #121212;
-  --border:    #333333;
-  --text:      #F5F5F5;
-  --text2:     #A3A3A3;
-  --text3:     #737373;
-  --accent:    #4FA3D1;
-  --accent2:   #3498DB;
-  --accent-bg: #1A2E3B;
-  --green:     #4ADE80;
-  --green-bg:  #062B16;
-  --amber:     #FBBF24;
-  --amber-bg:  #42290B;
-  --red:       #F87171;
-  --red-bg:    #3F1111;
-  --purple:    #A78BFA;
-  --purple-bg: #2B1D4F;
-  --teal:      #2DD4BF;
-  --teal-bg:   #0B3029;
-}
-.page-wrap {
-  background: var(--bg);
-  color: var(--text);
-  font-family: var(--sans);
-  font-size: 15.5px;
-  line-height: 1.7;
-}
+  .sym {
+    color: var(--accent2);
+    font-weight: 500;
+  }
 
-@media(max-width:600px){
-  h1{font-size:32px;}
-  h2{font-size:24px;}
-  .main{padding:1.5rem 1rem 3rem;}
-  .hero{padding:2rem 0 3rem; margin-bottom:2rem;}
-  table {display: block; overflow-x: auto; white-space: nowrap;}
-}
+  .eq {
+    color: var(--text);
+  }
 
-html.dark pre { color: #e5e5e5; }
-html.dark .cm { color: #8b949e; }
-html.dark .kw { color: #ff7b72; }
-html.dark .nm { color: #79c0ff; }
-html.dark .st { color: #a5d6ff; }
-html.dark .out { color: #8b949e; }
+  .idx {
+    color: var(--text3);
+    font-size: 0.6em;
+    vertical-align: sub;
+  }
+
+  .op {
+    color: var(--text3);
+  }
+
+  /* matrix styles from original */
+  .matrix-vis {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--mono);
+    font-size: 14px;
+    margin: 16px 0;
+  }
+
+  .mat-bracket {
+    font-size: 48px;
+    color: var(--accent);
+    font-weight: 300;
+    line-height: 1;
+  }
+
+  .mat-grid {
+    display: grid;
+    gap: 4px 16px;
+  }
+
+  .mat-cell {
+    color: var(--text);
+    text-align: center;
+    min-width: 28px;
+  }
+
+  .mat-cell.hl-cell {
+    color: var(--amber);
+    font-weight: bold;
+  }
+
+  .mat-label {
+    font-family: var(--sans);
+    font-size: 12px;
+    color: var(--text3);
+    margin-left: 8px;
+    align-self: flex-end;
+    padding-bottom: 8px;
+  }
+
+  html.dark .page-wrap {
+    --bg: #0A0A0A;
+    --bg2: #171717;
+    --bg3: #262626;
+    --surface: #121212;
+    --border: #333333;
+    --text: #F5F5F5;
+    --text2: #A3A3A3;
+    --text3: #737373;
+    --accent: #4FA3D1;
+    --accent2: #3498DB;
+    --accent-bg: #1A2E3B;
+    --green: #4ADE80;
+    --green-bg: #062B16;
+    --amber: #FBBF24;
+    --amber-bg: #42290B;
+    --red: #F87171;
+    --red-bg: #3F1111;
+    --purple: #A78BFA;
+    --purple-bg: #2B1D4F;
+    --teal: #2DD4BF;
+    --teal-bg: #0B3029;
+  }
+
+  .page-wrap {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 15.5px;
+    line-height: 1.7;
+  }
+
+  @media(max-width:600px) {
+    h1 {
+      font-size: 32px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    .main {
+      padding: 1.5rem 1rem 3rem;
+    }
+
+    .hero {
+      padding: 2rem 0 3rem;
+      margin-bottom: 2rem;
+    }
+
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+
+  html.dark pre {
+    color: #e5e5e5;
+  }
+
+  html.dark .cm {
+    color: #8b949e;
+  }
+
+  html.dark .kw {
+    color: #ff7b72;
+  }
+
+  html.dark .nm {
+    color: #79c0ff;
+  }
+
+  html.dark .st {
+    color: #a5d6ff;
+  }
+
+  html.dark .out {
+    color: #8b949e;
+  }
 </style>
 
 
@@ -237,29 +642,42 @@ html.dark .out { color: #8b949e; }
     <div class="hero">
       <div class="hero-tag">Python · Functional Programming · ML</div>
       <h1>The Complete Guide to Python's map() & lambda</h1>
-      <img src="/blog/map-lambda-hero.png" alt="Python map and lambda" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem; margin-top: 1rem;" />
+      <img src="/blog/map-lambda-hero.png" alt="Python map and lambda"
+        style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem; margin-top: 1rem;" />
       <p style="font-size: 1.15rem; color: var(--text2); line-height: 1.6; max-width: 800px; margin-bottom: 2rem;">
-        From anonymous functions and functional patterns to 2D matrices, 3D tensors, ML operations and beyond — one unified technical reference for applying mathematics in pure Python.
+        From anonymous functions and functional patterns to 2D matrices, 3D tensors, ML operations and beyond — one
+        unified technical reference for applying mathematics in pure Python.
       </p>
     </div>
 
-    
+
     <a class="section-anchor" id="section-1"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-green">01</span><h2 style="margin:0;font-size:24px;">Lambda Functions — Complete Reference</h2>
+        <span class="badge badge-green">01</span>
+        <h2 style="margin:0;font-size:24px;">Lambda Functions — Complete Reference</h2>
       </div>
-      
-            <div class="callout callout-purple">
-                <p><strong>Functional Purity & Mathematics:</strong> The concept of lambda originates from <em>Lambda Calculus</em>, developed by Alonzo Church. In functional programming, lambdas are preferred because they discourage state mutations and side effects, making algorithms completely deterministic and mathematically provable.</p>
-            </div>
-            <p>A <strong>lambda</strong> is Python's syntax for an <em>anonymous function</em> — a function object created inline without a <code>def</code> statement. It originates from the mathematical concept of <em>lambda calculus</em> introduced by Alonzo Church in the 1930s, the same theoretical foundation underlying all of functional programming.</p>
-<h3>Core Syntax</h3>
-<div class="formula">
-<span class="sym">lambda</span> <span class="eq">arg₁, arg₂, ..., argₙ</span> <span class="sym">:</span> <span class="eq">expression</span>
-</div>
-<p>The body is limited to a <strong>single expression</strong> — no statements, no loops, no assignments. It returns the result of that expression implicitly.</p>
-<div><p><strong>File: lambda_anatomy.py</strong></p><pre><span class="cm"># ─── Anatomy of a lambda ───────────────────────────────────────</span>
+
+      <div class="callout callout-purple">
+        <p><strong>Functional Purity & Mathematics:</strong> The concept of lambda originates from <em>Lambda
+            Calculus</em>, developed by Alonzo Church. In functional programming, lambdas are preferred because they
+          discourage state mutations and side effects, making algorithms completely deterministic and mathematically
+          provable.</p>
+      </div>
+      <p>A <strong>lambda</strong> is Python's syntax for an <em>anonymous function</em> — a function object created
+        inline without a <code>def</code> statement. It originates from the mathematical concept of <em>lambda
+          calculus</em> introduced by Alonzo Church in the 1930s, the same theoretical foundation underlying all of
+        functional programming.</p>
+      <h3>Core Syntax</h3>
+      <div class="formula">
+        <span class="sym">lambda</span> <span class="eq">arg₁, arg₂, ..., argₙ</span> <span class="sym">:</span> <span
+          class="eq">expression</span>
+      </div>
+      <p>The body is limited to a <strong>single expression</strong> — no statements, no loops, no assignments. It
+        returns the result of that expression implicitly.</p>
+      <div>
+        <p><strong>File: lambda_anatomy.py</strong></p>
+        <pre><span class="cm"># ─── Anatomy of a lambda ───────────────────────────────────────</span>
 
 <span class="cm"># Zero arguments</span>
 <span class="var">greet</span>   = <span class="kw">lambda</span>: <span class="str">"Moien!"</span>                     <span class="cm"># → "Moien!"</span>
@@ -295,10 +713,14 @@ html.dark .out { color: #8b949e; }
 <span class="var">double</span>      = <span class="var">multiply_by</span>(<span class="num">2</span>)
 <span class="var">triple</span>      = <span class="var">multiply_by</span>(<span class="num">3</span>)
 <span class="builtin">print</span>(<span class="var">double</span>(<span class="num">10</span>))                             <span class="cm"># → 20</span>
-<span class="builtin">print</span>(<span class="var">triple</span>(<span class="num">10</span>))                             <span class="cm"># → 30</span></pre></div>
-<h3>Lambda as a First-Class Object</h3>
-<p>In Python, functions are first-class citizens. A lambda can be stored in a variable, in a list or dictionary, passed as an argument, or returned from another function.</p>
-<div><p><strong>File: lambda_first_class.py</strong></p><pre><span class="cm"># ─── Lambda stored in data structures ──────────────────────────</span>
+<span class="builtin">print</span>(<span class="var">triple</span>(<span class="num">10</span>))                             <span class="cm"># → 30</span></pre>
+      </div>
+      <h3>Lambda as a First-Class Object</h3>
+      <p>In Python, functions are first-class citizens. A lambda can be stored in a variable, in a list or dictionary,
+        passed as an argument, or returned from another function.</p>
+      <div>
+        <p><strong>File: lambda_first_class.py</strong></p>
+        <pre><span class="cm"># ─── Lambda stored in data structures ──────────────────────────</span>
 
 <span class="cm"># Dictionary of operations (dispatch table)</span>
 <span class="var">ops</span> = {
@@ -320,10 +742,14 @@ html.dark .out { color: #8b949e; }
                (<span class="num">2.718</span>**<span class="var">x</span> + <span class="num">2.718</span>**(-<span class="var">x</span>)),     <span class="cm"># tanh ≈</span>
 ]
 <span class="builtin">print</span>(<span class="var">activations</span>[<span class="num">1</span>](-<span class="num">3</span>))                    <span class="cm"># → 0  (relu)</span>
-<span class="builtin">print</span>(<span class="var">activations</span>[<span class="num">1</span>](<span class="num">7</span>))                     <span class="cm"># → 7</span></pre></div>
-<h3>Closures &amp; Scope (LEGB)</h3>
-<p>A lambda <em>closes over</em> variables from its enclosing scope. This is powerful for creating parameterised functions on the fly — critical in linear algebra where you want to generate scaled or shifted transforms.</p>
-<div><p><strong>File: lambda_closure.py</strong></p><pre><span class="cm"># ─── Closure: lambda captures the outer scope ──────────────────</span>
+<span class="builtin">print</span>(<span class="var">activations</span>[<span class="num">1</span>](<span class="num">7</span>))                     <span class="cm"># → 7</span></pre>
+      </div>
+      <h3>Closures &amp; Scope (LEGB)</h3>
+      <p>A lambda <em>closes over</em> variables from its enclosing scope. This is powerful for creating parameterised
+        functions on the fly — critical in linear algebra where you want to generate scaled or shifted transforms.</p>
+      <div>
+        <p><strong>File: lambda_closure.py</strong></p>
+        <pre><span class="cm"># ─── Closure: lambda captures the outer scope ──────────────────</span>
 
 <span class="kw">def</span> <span class="fn">make_scaler</span>(<span class="var">k</span>):
     <span class="cm">"""Returns a function that multiplies a vector by scalar k."""</span>
@@ -339,14 +765,20 @@ html.dark .out { color: #8b949e; }
 <span class="var">bad</span>  = [<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">x</span> * <span class="var">i</span>       <span class="kw">for</span> <span class="var">i</span> <span class="kw">in</span> <span class="builtin">range</span>(<span class="num">3</span>)]
 <span class="var">good</span> = [<span class="kw">lambda</span> <span class="var">x</span>, <span class="var">i</span>=<span class="var">i</span>: <span class="var">x</span> * <span class="var">i</span> <span class="kw">for</span> <span class="var">i</span> <span class="kw">in</span> <span class="builtin">range</span>(<span class="num">3</span>)]  <span class="cm"># fix: capture now</span>
 <span class="builtin">print</span>([<span class="var">f</span>(<span class="num">5</span>) <span class="kw">for</span> <span class="var">f</span> <span class="kw">in</span> <span class="var">bad</span>])               <span class="cm"># → [10, 10, 10]  ← wrong</span>
-<span class="builtin">print</span>([<span class="var">f</span>(<span class="num">5</span>) <span class="kw">for</span> <span class="var">f</span> <span class="kw">in</span> <span class="var">good</span>])              <span class="cm"># → [0,  5, 10]  ← correct</span></pre></div>
-<div class="callout callout-amber">
+<span class="builtin">print</span>([<span class="var">f</span>(<span class="num">5</span>) <span class="kw">for</span> <span class="var">f</span> <span class="kw">in</span> <span class="var">good</span>])              <span class="cm"># → [0,  5, 10]  ← correct</span></pre>
+      </div>
+      <div class="callout callout-amber">
 
-<p><strong>Late Binding Trap:</strong> Lambdas inside loops don't capture the value of the loop variable — they capture the variable itself. Always use a default argument <code>i=i</code> to snapshot the current value.</p>
-</div>
-<h3>Sorting with lambda</h3>
-<p>One of the most practical uses of lambda is as the <code>key</code> argument to <code>sorted()</code>. Return a <strong>tuple</strong> to sort by multiple criteria — Python compares tuples lexicographically, breaking ties on subsequent elements.</p>
-<div><p><strong>File: lambda_sorting.py</strong></p><pre><span class="kw">import</span> <span class="var">math</span>
+        <p><strong>Late Binding Trap:</strong> Lambdas inside loops don't capture the value of the loop variable — they
+          capture the variable itself. Always use a default argument <code>i=i</code> to snapshot the current value.</p>
+      </div>
+      <h3>Sorting with lambda</h3>
+      <p>One of the most practical uses of lambda is as the <code>key</code> argument to <code>sorted()</code>. Return a
+        <strong>tuple</strong> to sort by multiple criteria — Python compares tuples lexicographically, breaking ties on
+        subsequent elements.</p>
+      <div>
+        <p><strong>File: lambda_sorting.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">math</span>
 
 <span class="var">vectors</span> = [[<span class="num">3</span>,<span class="num">4</span>], [<span class="num">1</span>,<span class="num">1</span>], [<span class="num">5</span>,<span class="num">12</span>], [<span class="num">0</span>,<span class="num">7</span>]]
 
@@ -369,28 +801,40 @@ html.dark .out { color: #8b949e; }
 <span class="cm"># Multi-key: length first, then first element</span>
 <span class="var">data</span> = [(<span class="str">"v2"</span>,[<span class="num">1</span>,<span class="num">2</span>]), (<span class="str">"v3"</span>,[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>]), (<span class="str">"v1"</span>,[<span class="num">3</span>])]
 <span class="builtin">sorted</span>(<span class="var">data</span>, <span class="var">key</span>=<span class="kw">lambda</span> <span class="var">t</span>: (<span class="builtin">len</span>(<span class="var">t</span>[<span class="num">1</span>]), <span class="var">t</span>[<span class="num">1</span>][<span class="num">0</span>]))
-<span class="cm"># → [('v1',[3]), ('v2',[1,2]), ('v3',[1,2,3])]</span></pre></div>
+<span class="cm"># → [('v1',[3]), ('v2',[1,2]), ('v3',[1,2,3])]</span></pre>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-2"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-blue">02</span><h2 style="margin:0;font-size:24px;">map() — Complete Reference</h2>
+        <span class="badge badge-blue">02</span>
+        <h2 style="margin:0;font-size:24px;">map() — Complete Reference</h2>
       </div>
-      
-            <div class="callout callout-purple">
-                <p><strong>The Functor Pattern:</strong> In category theory, a <em>functor</em> is a mapping between categories. In Python, <code>map()</code> acts as a functor by safely applying a transformation (your lambda) to every element inside a container without altering the structure of the container itself.</p>
-            </div>
-            <p><code>map(function, iterable, ...)</code> applies <code>function</code> to every element of one or more iterables, returning a <em>lazy iterator</em>. It embodies the <em>functor</em> pattern: a structure-preserving transformation over a container.</p>
-<div class="formula">
-<span class="sym">map</span>(<span class="eq">f</span>, <span class="sym">[</span><span class="eq">x₀, x₁, ..., xₙ</span><span class="sym">]</span>) <span class="op">→</span> <span class="sym">[</span><span class="eq">f(x₀), f(x₁), ..., f(xₙ)</span><span class="sym">]</span>
-</div>
-<div class="callout callout-blue">
 
-<p><strong>Lazy Evaluation:</strong> <code>map()</code> returns a <em>map object</em> (an iterator), not a list. It computes values on demand. Wrap with <code>list()</code>, <code>tuple()</code>, or iterate with a loop to materialise results — memory-efficient for large matrices.</p>
-</div>
-<h3>Basic Usage Patterns</h3>
-<div><p><strong>File: map_basics.py</strong></p><pre><span class="var">v</span> = [<span class="num">1</span>, <span class="num">2</span>, <span class="num">3</span>, <span class="num">4</span>, <span class="num">5</span>]
+      <div class="callout callout-purple">
+        <p><strong>The Functor Pattern:</strong> In category theory, a <em>functor</em> is a mapping between categories.
+          In Python, <code>map()</code> acts as a functor by safely applying a transformation (your lambda) to every
+          element inside a container without altering the structure of the container itself.</p>
+      </div>
+      <p><code>map(function, iterable, ...)</code> applies <code>function</code> to every element of one or more
+        iterables, returning a <em>lazy iterator</em>. It embodies the <em>functor</em> pattern: a structure-preserving
+        transformation over a container.</p>
+      <div class="formula">
+        <span class="sym">map</span>(<span class="eq">f</span>, <span class="sym">[</span><span class="eq">x₀, x₁, ...,
+          xₙ</span><span class="sym">]</span>) <span class="op">→</span> <span class="sym">[</span><span
+          class="eq">f(x₀), f(x₁), ..., f(xₙ)</span><span class="sym">]</span>
+      </div>
+      <div class="callout callout-blue">
+
+        <p><strong>Lazy Evaluation:</strong> <code>map()</code> returns a <em>map object</em> (an iterator), not a list.
+          It computes values on demand. Wrap with <code>list()</code>, <code>tuple()</code>, or iterate with a loop to
+          materialise results — memory-efficient for large matrices.</p>
+      </div>
+      <h3>Basic Usage Patterns</h3>
+      <div>
+        <p><strong>File: map_basics.py</strong></p>
+        <pre><span class="var">v</span> = [<span class="num">1</span>, <span class="num">2</span>, <span class="num">3</span>, <span class="num">4</span>, <span class="num">5</span>]
 
 <span class="cm"># 1. With a named function</span>
 <span class="kw">def</span> <span class="fn">square</span>(<span class="var">x</span>): <span class="kw">return</span> <span class="var">x</span> ** <span class="num">2</span>
@@ -421,10 +865,14 @@ html.dark .out { color: #8b949e; }
 
 <span class="cm"># 7. Stopping at shortest iterable</span>
 <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">a</span>, <span class="var">b</span>: <span class="var">a</span>*<span class="var">b</span>, [<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>], [<span class="num">10</span>,<span class="num">20</span>]))
-<span class="cm"># → [10, 40]  — stops at length of shortest</span></pre></div>
-<h3>String Operations with map()</h3>
-<p>Python's built-in string methods are function objects — they can be passed directly to <code>map()</code> without wrapping in a lambda. This makes data-cleaning pipelines concise and readable.</p>
-<div><p><strong>File: map_strings.py</strong></p><pre><span class="var">words</span> = [<span class="str">'  hello  '</span>, <span class="str">'  world  '</span>, <span class="str">'  python  '</span>]
+<span class="cm"># → [10, 40]  — stops at length of shortest</span></pre>
+      </div>
+      <h3>String Operations with map()</h3>
+      <p>Python's built-in string methods are function objects — they can be passed directly to <code>map()</code>
+        without wrapping in a lambda. This makes data-cleaning pipelines concise and readable.</p>
+      <div>
+        <p><strong>File: map_strings.py</strong></p>
+        <pre><span class="var">words</span> = [<span class="str">'  hello  '</span>, <span class="str">'  world  '</span>, <span class="str">'  python  '</span>]
 
 <span class="cm"># str.strip, str.upper are unbound methods → pass directly</span>
 <span class="var">stripped</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="builtin">str</span>.<span class="fn">strip</span>,  <span class="var">words</span>))   <span class="cm"># → ['hello', 'world', 'python']</span>
@@ -446,29 +894,32 @@ html.dark .out { color: #8b949e; }
     <span class="kw">lambda</span> <span class="var">r</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="builtin">int</span>, <span class="var">r</span>.<span class="fn">strip</span>().<span class="fn">split</span>(<span class="str">','</span>))),
     <span class="var">raw_rows</span>
 ))
-<span class="cm"># → [[1, 2, 3], [4, 5, 6]]  — 2D matrix from CSV strings</span></pre></div>
-<h3>map() vs filter() vs reduce()</h3>
-<div class="grid-2">
-<div class="">
-<h3>map(f, iter)</h3>
-<ul class="">
-<li>Transforms every element</li>
-<li>Output length = Input length</li>
-<li>Returns an iterator</li>
-<li>Example: <code>map(lambda x: x**2, v)</code></li>
-</ul>
-</div>
-<div class="">
-<h3>filter(pred, iter)</h3>
-<ul class="">
-<li>Selects elements where pred is True</li>
-<li>Output length ≤ Input length</li>
-<li>Returns an iterator</li>
-<li>Example: <code>filter(lambda x: x&gt;0, v)</code></li>
-</ul>
-</div>
-</div>
-<div><p><strong>File: map_filter_reduce.py</strong></p><pre><span class="kw">from</span> <span class="var">functools</span> <span class="kw">import</span> <span class="fn">reduce</span>
+<span class="cm"># → [[1, 2, 3], [4, 5, 6]]  — 2D matrix from CSV strings</span></pre>
+      </div>
+      <h3>map() vs filter() vs reduce()</h3>
+      <div class="grid-2">
+        <div class="">
+          <h3>map(f, iter)</h3>
+          <ul class="">
+            <li>Transforms every element</li>
+            <li>Output length = Input length</li>
+            <li>Returns an iterator</li>
+            <li>Example: <code>map(lambda x: x**2, v)</code></li>
+          </ul>
+        </div>
+        <div class="">
+          <h3>filter(pred, iter)</h3>
+          <ul class="">
+            <li>Selects elements where pred is True</li>
+            <li>Output length ≤ Input length</li>
+            <li>Returns an iterator</li>
+            <li>Example: <code>filter(lambda x: x&gt;0, v)</code></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <p><strong>File: map_filter_reduce.py</strong></p>
+        <pre><span class="kw">from</span> <span class="var">functools</span> <span class="kw">import</span> <span class="fn">reduce</span>
 
 <span class="var">v</span> = [-<span class="num">3</span>, -<span class="num">1</span>, <span class="num">0</span>, <span class="num">2</span>, <span class="num">4</span>]
 
@@ -485,30 +936,83 @@ html.dark .out { color: #8b949e; }
 <span class="cm"># Chained pipeline: square positives then sum</span>
 <span class="fn">reduce</span>(<span class="kw">lambda</span> <span class="var">a</span>, <span class="var">b</span>: <span class="var">a</span>+<span class="var">b</span>,
        <span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">x</span>**<span class="num">2</span>,
-           <span class="builtin">filter</span>(<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">x</span> &gt; <span class="num">0</span>, <span class="var">v</span>)))  <span class="cm"># → 20  (4 + 16)</span></pre></div>
+           <span class="builtin">filter</span>(<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">x</span> &gt; <span class="num">0</span>, <span class="var">v</span>)))  <span class="cm"># → 20  (4 + 16)</span></pre>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-3"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-amber">03</span><h2 style="margin:0;font-size:24px;">lambda vs map vs List Comprehension</h2>
+        <span class="badge badge-amber">03</span>
+        <h2 style="margin:0;font-size:24px;">lambda vs map vs List Comprehension</h2>
       </div>
-      <p>These three tools often solve the same problem. Knowing which to choose requires understanding their trade-offs in readability, performance, and expressiveness.</p>
-<table class="compare-table">
-<tr>
-<th>Feature</th><th>lambda</th><th>map()</th><th>List Comprehension</th>
-</tr>
-<tr><td>Returns</td><td>Function object</td><td>Iterator</td><td>List (eager)</td></tr>
-<tr><td>Memory</td><td>O(1)</td><td>O(1) — lazy</td><td>O(n) — eager</td></tr>
-<tr><td>Filtering</td><td class="no">No</td><td class="no">No (use filter)</td><td class="yes">Yes — if clause</td></tr>
-<tr><td>Multiple iterables</td><td class="yes">Yes (args)</td><td class="yes">Yes (zip natively)</td><td class="yes">Yes (zip())</td></tr>
-<tr><td>Nested loops</td><td class="no">Awkward</td><td class="yes">Possible (nested map)</td><td class="yes">Clean</td></tr>
-<tr><td>Reusable</td><td class="yes">Yes (assigned)</td><td class="no">No</td><td class="no">No</td></tr>
-<tr><td>Debuggable</td><td class="no">Hard — no name</td><td class="no">Hard — opaque</td><td class="yes">Easier</td></tr>
-<tr><td>PEP8 preference</td><td>Sparingly</td><td>When functional style</td><td class="yes">Preferred for simple cases</td></tr>
-<tr><td>Performance (CPython)</td><td>—</td><td>~same as LC</td><td>Slightly faster than map+lambda</td></tr>
-</table>
-<div><p><strong>File: equivalence.py</strong></p><pre><span class="var">v</span> = [<span class="num">1</span>, <span class="num">2</span>, <span class="num">3</span>, <span class="num">4</span>]
+      <p>These three tools often solve the same problem. Knowing which to choose requires understanding their trade-offs
+        in readability, performance, and expressiveness.</p>
+      <table class="compare-table">
+        <tr>
+          <th>Feature</th>
+          <th>lambda</th>
+          <th>map()</th>
+          <th>List Comprehension</th>
+        </tr>
+        <tr>
+          <td>Returns</td>
+          <td>Function object</td>
+          <td>Iterator</td>
+          <td>List (eager)</td>
+        </tr>
+        <tr>
+          <td>Memory</td>
+          <td>O(1)</td>
+          <td>O(1) — lazy</td>
+          <td>O(n) — eager</td>
+        </tr>
+        <tr>
+          <td>Filtering</td>
+          <td class="no">No</td>
+          <td class="no">No (use filter)</td>
+          <td class="yes">Yes — if clause</td>
+        </tr>
+        <tr>
+          <td>Multiple iterables</td>
+          <td class="yes">Yes (args)</td>
+          <td class="yes">Yes (zip natively)</td>
+          <td class="yes">Yes (zip())</td>
+        </tr>
+        <tr>
+          <td>Nested loops</td>
+          <td class="no">Awkward</td>
+          <td class="yes">Possible (nested map)</td>
+          <td class="yes">Clean</td>
+        </tr>
+        <tr>
+          <td>Reusable</td>
+          <td class="yes">Yes (assigned)</td>
+          <td class="no">No</td>
+          <td class="no">No</td>
+        </tr>
+        <tr>
+          <td>Debuggable</td>
+          <td class="no">Hard — no name</td>
+          <td class="no">Hard — opaque</td>
+          <td class="yes">Easier</td>
+        </tr>
+        <tr>
+          <td>PEP8 preference</td>
+          <td>Sparingly</td>
+          <td>When functional style</td>
+          <td class="yes">Preferred for simple cases</td>
+        </tr>
+        <tr>
+          <td>Performance (CPython)</td>
+          <td>—</td>
+          <td>~same as LC</td>
+          <td>Slightly faster than map+lambda</td>
+        </tr>
+      </table>
+      <div>
+        <p><strong>File: equivalence.py</strong></p>
+        <pre><span class="var">v</span> = [<span class="num">1</span>, <span class="num">2</span>, <span class="num">3</span>, <span class="num">4</span>]
 
 <span class="cm"># 1. for loop (imperative)</span>
 <span class="var">r1</span> = []
@@ -536,52 +1040,60 @@ html.dark .out { color: #8b949e; }
 <span class="kw">import</span> <span class="var">itertools</span>
 <span class="var">stream</span> = <span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">x</span>**<span class="num">2</span>, <span class="var">itertools</span>.<span class="fn">count</span>(<span class="num">1</span>))
 <span class="builtin">next</span>(<span class="var">stream</span>)  <span class="cm"># → 1</span>
-<span class="builtin">next</span>(<span class="var">stream</span>)  <span class="cm"># → 4  (infinite sequence, zero memory overhead)</span></pre></div>
-<div class="callout callout-green">
+<span class="builtin">next</span>(<span class="var">stream</span>)  <span class="cm"># → 4  (infinite sequence, zero memory overhead)</span></pre>
+      </div>
+      <div class="callout callout-green">
 
-<p><strong>Rule of Thumb:</strong> Use a list comprehension for simple, readable transforms. Use <code>map()</code> when: (1) you already have a named function, (2) piping results into another iterator without materialising, or (3) applying to multiple iterables natively. Use <code>lambda</code> when the function is short and disposable.</p>
-</div>
+        <p><strong>Rule of Thumb:</strong> Use a list comprehension for simple, readable transforms. Use
+          <code>map()</code> when: (1) you already have a named function, (2) piping results into another iterator
+          without materialising, or (3) applying to multiple iterables natively. Use <code>lambda</code> when the
+          function is short and disposable.</p>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-4"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-purple">04</span><h2 style="margin:0;font-size:24px;">Linear Algebra Foundations & Complete Norm Reference</h2>
+        <span class="badge badge-purple">04</span>
+        <h2 style="margin:0;font-size:24px;">Linear Algebra Foundations & Complete Norm Reference</h2>
       </div>
-      <p>Before connecting <code>map</code> and <code>lambda</code> to matrix operations, we need a precise mental model of data structures and the mathematical objects they represent.</p>
-<h3>Hierarchy of Mathematical Objects in Python</h3>
-<div class="grid-2">
-<div class="">
-<h3>Scalars &amp; Vectors</h3>
-<ul class="">
-<li>Scalar: <code>x = 3.14</code> — a single number, rank-0 tensor</li>
-<li>Vector: <code>[1, 2, 3]</code> — 1D list, rank-1 tensor</li>
-<li>Column vs Row: convention — list = row vector</li>
-<li>Dot product: <code>sum(a*b for a,b in zip(u,v))</code></li>
-</ul>
-</div>
-<div class="">
-<h3>Matrices &amp; Tensors</h3>
-<ul class="">
-<li>2D matrix: list of lists <code>[[row0], [row1]]</code></li>
-<li>3D tensor: list of 2D matrices (batch/depth)</li>
-<li>Shape: <code>(rows, cols)</code> or <code>(depth, rows, cols)</code></li>
-<li>Element: <code>M[i][j]</code> for row i, col j</li>
-</ul>
-</div>
-</div>
-<div class="callout callout-purple">
+      <p>Before connecting <code>map</code> and <code>lambda</code> to matrix operations, we need a precise mental model
+        of data structures and the mathematical objects they represent.</p>
+      <h3>Hierarchy of Mathematical Objects in Python</h3>
+      <div class="grid-2">
+        <div class="">
+          <h3>Scalars &amp; Vectors</h3>
+          <ul class="">
+            <li>Scalar: <code>x = 3.14</code> — a single number, rank-0 tensor</li>
+            <li>Vector: <code>[1, 2, 3]</code> — 1D list, rank-1 tensor</li>
+            <li>Column vs Row: convention — list = row vector</li>
+            <li>Dot product: <code>sum(a*b for a,b in zip(u,v))</code></li>
+          </ul>
+        </div>
+        <div class="">
+          <h3>Matrices &amp; Tensors</h3>
+          <ul class="">
+            <li>2D matrix: list of lists <code>[[row0], [row1]]</code></li>
+            <li>3D tensor: list of 2D matrices (batch/depth)</li>
+            <li>Shape: <code>(rows, cols)</code> or <code>(depth, rows, cols)</code></li>
+            <li>Element: <code>M[i][j]</code> for row i, col j</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout callout-purple">
 
-<p>
-<strong>Mathematical Correspondence:</strong><br/>
-        Scalar multiplication: <em>k·v = [k·v₀, k·v₁, ..., k·vₙ]</em> → <code>map(lambda x: k*x, v)</code><br/>
-        Vector addition: <em>u + v = [u₀+v₀, u₁+v₁, ...]</em> → <code>map(lambda a,b: a+b, u, v)</code><br/>
-        Matrix scalar op: <em>k·A</em> → <code>map(lambda row: map(lambda x: k*x, row), A)</code><br/>
-        Function application: <em>f(A)</em> → <code>map(lambda row: map(f, row), A)</code>
-</p>
-</div>
-<h3>Core Building Blocks</h3>
-<div><p><strong>File: la_building_blocks.py</strong></p><pre><span class="cm"># ─── Core vector operations via map + lambda ───────────────────</span>
+        <p>
+          <strong>Mathematical Correspondence:</strong><br />
+          Scalar multiplication: <em>k·v = [k·v₀, k·v₁, ..., k·vₙ]</em> → <code>map(lambda x: k*x, v)</code><br />
+          Vector addition: <em>u + v = [u₀+v₀, u₁+v₁, ...]</em> → <code>map(lambda a,b: a+b, u, v)</code><br />
+          Matrix scalar op: <em>k·A</em> → <code>map(lambda row: map(lambda x: k*x, row), A)</code><br />
+          Function application: <em>f(A)</em> → <code>map(lambda row: map(f, row), A)</code>
+        </p>
+      </div>
+      <h3>Core Building Blocks</h3>
+      <div>
+        <p><strong>File: la_building_blocks.py</strong></p>
+        <pre><span class="cm"># ─── Core vector operations via map + lambda ───────────────────</span>
 
 <span class="var">v_scale</span> = <span class="kw">lambda</span> <span class="var">v</span>, <span class="var">k</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">k</span>*<span class="var">x</span>, <span class="var">v</span>))
 <span class="var">v_add</span>   = <span class="kw">lambda</span> <span class="var">u</span>, <span class="var">v</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">a</span>,<span class="var">b</span>: <span class="var">a</span>+<span class="var">b</span>, <span class="var">u</span>, <span class="var">v</span>))
@@ -596,19 +1108,22 @@ html.dark .out { color: #8b949e; }
 
 <span class="cm"># Utility: materialise a nested map result into a list-of-lists</span>
 <span class="var">mat</span>   = <span class="kw">lambda</span> <span class="var">m</span>: [<span class="builtin">list</span>(<span class="var">row</span>) <span class="kw">for</span> <span class="var">row</span> <span class="kw">in</span> <span class="var">m</span>]
-<span class="var">shape</span> = <span class="kw">lambda</span> <span class="var">m</span>: (<span class="builtin">len</span>(<span class="var">m</span>), <span class="builtin">len</span>(<span class="var">m</span>[<span class="num">0</span>]))</pre></div>
-<h3>Complete Norm Reference (L1, L2, Lp, L∞)</h3>
-<div class="callout callout-purple">
+<span class="var">shape</span> = <span class="kw">lambda</span> <span class="var">m</span>: (<span class="builtin">len</span>(<span class="var">m</span>), <span class="builtin">len</span>(<span class="var">m</span>[<span class="num">0</span>]))</pre>
+      </div>
+      <h3>Complete Norm Reference (L1, L2, Lp, L∞)</h3>
+      <div class="callout callout-purple">
 
-<p>
-<strong>Norm Family:</strong><br/>
-        L1 (Manhattan): <em>‖v‖₁ = Σ|vᵢ|</em><br/>
-        L2 (Euclidean): <em>‖v‖₂ = √(Σvᵢ²)</em><br/>
-        Lp (General):   <em>‖v‖ₚ = (Σ|vᵢ|ᵖ)^(1/p)</em><br/>
-        L∞ (Chebyshev): <em>‖v‖∞ = max(|vᵢ|)</em> — the limiting case of Lp as p→∞
-      </p>
-</div>
-<div><p><strong>File: norms_complete.py</strong></p><pre><span class="kw">import</span> <span class="var">math</span>
+        <p>
+          <strong>Norm Family:</strong><br />
+          L1 (Manhattan): <em>‖v‖₁ = Σ|vᵢ|</em><br />
+          L2 (Euclidean): <em>‖v‖₂ = √(Σvᵢ²)</em><br />
+          Lp (General): <em>‖v‖ₚ = (Σ|vᵢ|ᵖ)^(1/p)</em><br />
+          L∞ (Chebyshev): <em>‖v‖∞ = max(|vᵢ|)</em> — the limiting case of Lp as p→∞
+        </p>
+      </div>
+      <div>
+        <p><strong>File: norms_complete.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">math</span>
 
 <span class="cm"># ─── Complete norm suite ────────────────────────────────────────</span>
 <span class="var">norm_l1</span>   = <span class="kw">lambda</span> <span class="var">v</span>: <span class="builtin">sum</span>(<span class="builtin">map</span>(<span class="builtin">abs</span>, <span class="var">v</span>))
@@ -632,71 +1147,80 @@ html.dark .out { color: #8b949e; }
 
 <span class="builtin">print</span>(<span class="var">f</span><span class="str">f'Angle: {angle_deg([1,2,3],[4,5,6]):.2f}°'</span>)  <span class="cm"># → Angle: 12.93°</span>
 <span class="builtin">print</span>(<span class="var">angle_deg</span>([<span class="num">1</span>,<span class="num">0</span>], [<span class="num">0</span>,<span class="num">1</span>]))                   <span class="cm"># → 90.0°  (perpendicular)</span>
-<span class="builtin">print</span>(<span class="var">angle_deg</span>([<span class="num">1</span>,<span class="num">0</span>], [<span class="num">1</span>,<span class="num">0</span>]))                   <span class="cm"># → 0.0°   (same direction)</span></pre></div>
+<span class="builtin">print</span>(<span class="var">angle_deg</span>([<span class="num">1</span>,<span class="num">0</span>], [<span class="num">1</span>,<span class="num">0</span>]))                   <span class="cm"># → 0.0°   (same direction)</span></pre>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-5"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-teal">05</span><h2 style="margin:0;font-size:24px;">2D Matrix Operations</h2>
+        <span class="badge badge-teal">05</span>
+        <h2 style="margin:0;font-size:24px;">2D Matrix Operations</h2>
       </div>
-      <p>A 2D matrix is a list of lists: <code>M[i][j]</code> is the element at row <em>i</em>, column <em>j</em>. We can express every fundamental matrix operation using nested <code>map</code> and <code>lambda</code>.</p>
-<div class="matrix-vis">
-<div class="mat-bracket">[</div>
-<div class="mat-grid" style="grid-template-columns: repeat(3,auto)">
-<div class="mat-cell">a₀₀</div><div class="mat-cell">a₀₁</div><div class="mat-cell">a₀₂</div>
-<div class="mat-cell">a₁₀</div><div class="mat-cell hl-cell">a₁₁</div><div class="mat-cell">a₁₂</div>
-<div class="mat-cell">a₂₀</div><div class="mat-cell">a₂₁</div><div class="mat-cell hl-cell">a₂₂</div>
-</div>
-<div class="mat-bracket">]</div>
-<div class="mat-label">3×3 matrix · diagonal highlighted</div>
-</div>
-<div class="grid-2">
-<div class="callout callout-blue">
+      <p>A 2D matrix is a list of lists: <code>M[i][j]</code> is the element at row <em>i</em>, column <em>j</em>. We
+        can express every fundamental matrix operation using nested <code>map</code> and <code>lambda</code>.</p>
+      <div class="matrix-vis">
+        <div class="mat-bracket">[</div>
+        <div class="mat-grid" style="grid-template-columns: repeat(3,auto)">
+          <div class="mat-cell">a₀₀</div>
+          <div class="mat-cell">a₀₁</div>
+          <div class="mat-cell">a₀₂</div>
+          <div class="mat-cell">a₁₀</div>
+          <div class="mat-cell hl-cell">a₁₁</div>
+          <div class="mat-cell">a₁₂</div>
+          <div class="mat-cell">a₂₀</div>
+          <div class="mat-cell">a₂₁</div>
+          <div class="mat-cell hl-cell">a₂₂</div>
+        </div>
+        <div class="mat-bracket">]</div>
+        <div class="mat-label">3×3 matrix · diagonal highlighted</div>
+      </div>
+      <div class="grid-2">
+        <div class="callout callout-blue">
 
-<h3 style="margin-top: 0;">Scalar Multiplication  k·A</h3>
-<pre><span class="var">M</span>=[[<span class="num">1</span>,<span class="num">2</span>],[<span class="num">3</span>,<span class="num">4</span>]]; <span class="var">k</span>=<span class="num">3</span>
+          <h3 style="margin-top: 0;">Scalar Multiplication k·A</h3>
+          <pre><span class="var">M</span>=[[<span class="num">1</span>,<span class="num">2</span>],[<span class="num">3</span>,<span class="num">4</span>]]; <span class="var">k</span>=<span class="num">3</span>
 <span class="var">kA</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(
   <span class="kw">lambda</span> <span class="var">row</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(
     <span class="kw">lambda</span> <span class="var">x</span>: <span class="var">k</span>*<span class="var">x</span>, <span class="var">row</span>)), <span class="var">M</span>))
 <span class="cm"># → [[3,6],[9,12]]</span></pre>
-</div>
-<div class="callout callout-blue">
+        </div>
+        <div class="callout callout-blue">
 
-<h3 style="margin-top: 0;">Matrix Addition  A + B</h3>
-<pre><span class="var">A</span>=[[<span class="num">1</span>,<span class="num">2</span>],[<span class="num">3</span>,<span class="num">4</span>]]
+          <h3 style="margin-top: 0;">Matrix Addition A + B</h3>
+          <pre><span class="var">A</span>=[[<span class="num">1</span>,<span class="num">2</span>],[<span class="num">3</span>,<span class="num">4</span>]]
 <span class="var">B</span>=[[<span class="num">5</span>,<span class="num">6</span>],[<span class="num">7</span>,<span class="num">8</span>]]
 <span class="var">C</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(
   <span class="kw">lambda</span> <span class="var">r1</span>,<span class="var">r2</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(
     <span class="kw">lambda</span> <span class="var">a</span>,<span class="var">b</span>: <span class="var">a</span>+<span class="var">b</span>, <span class="var">r1</span>, <span class="var">r2</span>)),
   <span class="var">A</span>, <span class="var">B</span>))
 <span class="cm"># → [[6,8],[10,12]]</span></pre>
-</div>
-<div class="callout callout-blue">
+        </div>
+        <div class="callout callout-blue">
 
-<h3 style="margin-top: 0;">Transpose  Aᵀ</h3>
-<pre><span class="var">A</span>=[[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>],[<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>]]
+          <h3 style="margin-top: 0;">Transpose Aᵀ</h3>
+          <pre><span class="var">A</span>=[[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>],[<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>]]
 <span class="var">T</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(
   <span class="kw">lambda</span> <span class="var">col</span>: <span class="builtin">list</span>(<span class="var">col</span>),
   <span class="builtin">zip</span>(*<span class="var">A</span>)))
 <span class="cm"># → [[1,4],[2,5],[3,6]]</span>
 <span class="cm"># zip(*A) unpacks rows into cols</span></pre>
-</div>
-<div class="callout callout-blue">
+        </div>
+        <div class="callout callout-blue">
 
-<h3 style="margin-top: 0;">Hadamard Product  A⊙B</h3>
-<pre><span class="var">A</span>=[[<span class="num">1</span>,<span class="num">2</span>],[<span class="num">3</span>,<span class="num">4</span>]]
+          <h3 style="margin-top: 0;">Hadamard Product A⊙B</h3>
+          <pre><span class="var">A</span>=[[<span class="num">1</span>,<span class="num">2</span>],[<span class="num">3</span>,<span class="num">4</span>]]
 <span class="var">B</span>=[[<span class="num">2</span>,<span class="num">0</span>],[<span class="num">1</span>,<span class="num">3</span>]]
 <span class="var">H</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(
   <span class="kw">lambda</span> <span class="var">r1</span>,<span class="var">r2</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(
     <span class="kw">lambda</span> <span class="var">a</span>,<span class="var">b</span>: <span class="var">a</span>*<span class="var">b</span>, <span class="var">r1</span>, <span class="var">r2</span>)),
   <span class="var">A</span>, <span class="var">B</span>))
 <span class="cm"># → [[2,0],[3,12]]</span></pre>
-</div>
-<div class="callout callout-blue">
+        </div>
+        <div class="callout callout-blue">
 
-<h3 style="margin-top: 0;">Apply f Element-wise</h3>
-<pre><span class="var">M</span> = [[<span class="num">1</span>,-<span class="num">2</span>],[<span class="num">3</span>,-<span class="num">4</span>]]
+          <h3 style="margin-top: 0;">Apply f Element-wise</h3>
+          <pre><span class="var">M</span> = [[<span class="num">1</span>,-<span class="num">2</span>],[<span class="num">3</span>,-<span class="num">4</span>]]
 <span class="var">apply</span> = <span class="kw">lambda</span> <span class="var">f</span>, <span class="var">M</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(
   <span class="kw">lambda</span> <span class="var">row</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="var">f</span>, <span class="var">row</span>)), <span class="var">M</span>))
 
@@ -704,24 +1228,28 @@ html.dark .out { color: #8b949e; }
 <span class="cm"># → [[1,2],[3,4]]</span>
 <span class="var">apply</span>(<span class="kw">lambda</span> <span class="var">x</span>:-<span class="var">x</span>, <span class="var">M</span>)
 <span class="cm"># → [[-1,2],[-3,4]]</span></pre>
-</div>
-<div class="callout callout-blue">
+        </div>
+        <div class="callout callout-blue">
 
-<h3 style="margin-top: 0;">Row &amp; Column Sums</h3>
-<pre><span class="var">M</span>=[[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>],[<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>]]
+          <h3 style="margin-top: 0;">Row &amp; Column Sums</h3>
+          <pre><span class="var">M</span>=[[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>],[<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>]]
 <span class="var">row_sums</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="builtin">sum</span>, <span class="var">M</span>))
 <span class="cm"># → [6, 15]</span>
 
 <span class="var">col_sums</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(
   <span class="builtin">sum</span>, <span class="builtin">zip</span>(*<span class="var">M</span>)))
 <span class="cm"># → [5, 7, 9]</span></pre>
-</div>
-</div>
-<h3>Matrix–Vector Multiplication</h3>
-<div class="formula">
-<span class="sym">(Av)</span><span class="idx">i</span> <span class="eq">= Σₖ  A</span><span class="idx">ik</span> <span class="eq">· v</span><span class="idx">k</span>    <span class="op">←→</span>    <span class="sym">dot</span>(<span class="eq">row_i</span>, <span class="eq">v</span>)
-    </div>
-<div><p><strong>File: matvec.py</strong></p><pre><span class="var">dot</span>    = <span class="kw">lambda</span> <span class="var">row</span>, <span class="var">v</span>: <span class="builtin">sum</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">a</span>, <span class="var">b</span>: <span class="var">a</span>*<span class="var">b</span>, <span class="var">row</span>, <span class="var">v</span>))
+        </div>
+      </div>
+      <h3>Matrix–Vector Multiplication</h3>
+      <div class="formula">
+        <span class="sym">(Av)</span><span class="idx">i</span> <span class="eq">= Σₖ A</span><span
+          class="idx">ik</span> <span class="eq">· v</span><span class="idx">k</span>    <span
+          class="op">←→</span>    <span class="sym">dot</span>(<span class="eq">row_i</span>, <span class="eq">v</span>)
+      </div>
+      <div>
+        <p><strong>File: matvec.py</strong></p>
+        <pre><span class="var">dot</span>    = <span class="kw">lambda</span> <span class="var">row</span>, <span class="var">v</span>: <span class="builtin">sum</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">a</span>, <span class="var">b</span>: <span class="var">a</span>*<span class="var">b</span>, <span class="var">row</span>, <span class="var">v</span>))
 <span class="var">matvec</span> = <span class="kw">lambda</span> <span class="var">M</span>, <span class="var">v</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">row</span>: <span class="var">dot</span>(<span class="var">row</span>, <span class="var">v</span>), <span class="var">M</span>))
 
 <span class="var">A</span> = [[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>],[<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>],[<span class="num">7</span>,<span class="num">8</span>,<span class="num">9</span>]]
@@ -737,13 +1265,19 @@ html.dark .out { color: #8b949e; }
 <span class="builtin">print</span>(<span class="var">proj</span>([<span class="num">3</span>,<span class="num">4</span>,<span class="num">5</span>], <span class="var">n</span>))           <span class="cm"># → [3, 0, 0]  (x-component only)</span>
 
 <span class="cm"># Batch: apply matvec to multiple vectors</span>
-<span class="var">results</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">v</span>: <span class="var">matvec</span>(<span class="var">A</span>, <span class="var">v</span>), [[<span class="num">1</span>,<span class="num">0</span>,<span class="num">0</span>],[<span class="num">0</span>,<span class="num">1</span>,<span class="num">0</span>],[<span class="num">1</span>,<span class="num">1</span>,<span class="num">1</span>]]))</pre></div>
-<h3>Outer Product  u ⊗ v</h3>
-<div class="formula">
-<span class="sym">(u ⊗ v)</span><span class="idx">ij</span> <span class="eq">= u</span><span class="idx">i</span> <span class="eq">· v</span><span class="idx">j</span>    <span class="op">→</span>     m×n matrix
-    </div>
-<p>The outer product expands two vectors into a matrix — the complement of the dot product. Each row i of the result is <em>u[i] × v</em>.</p>
-<div><p><strong>File: outer_product.py</strong></p><pre><span class="var">outer</span> = <span class="kw">lambda</span> <span class="var">u</span>, <span class="var">v</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(
+<span class="var">results</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">v</span>: <span class="var">matvec</span>(<span class="var">A</span>, <span class="var">v</span>), [[<span class="num">1</span>,<span class="num">0</span>,<span class="num">0</span>],[<span class="num">0</span>,<span class="num">1</span>,<span class="num">0</span>],[<span class="num">1</span>,<span class="num">1</span>,<span class="num">1</span>]]))</pre>
+      </div>
+      <h3>Outer Product u ⊗ v</h3>
+      <div class="formula">
+        <span class="sym">(u ⊗ v)</span><span class="idx">ij</span> <span class="eq">= u</span><span
+          class="idx">i</span> <span class="eq">· v</span><span class="idx">j</span>    <span class="op">→</span>    
+        m×n matrix
+      </div>
+      <p>The outer product expands two vectors into a matrix — the complement of the dot product. Each row i of the
+        result is <em>u[i] × v</em>.</p>
+      <div>
+        <p><strong>File: outer_product.py</strong></p>
+        <pre><span class="var">outer</span> = <span class="kw">lambda</span> <span class="var">u</span>, <span class="var">v</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(
     <span class="kw">lambda</span> <span class="var">x</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">y</span>: <span class="var">x</span> * <span class="var">y</span>, <span class="var">v</span>)), <span class="var">u</span>))
 
 <span class="builtin">print</span>(<span class="var">outer</span>([<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>], [<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>]))
@@ -753,12 +1287,18 @@ html.dark .out { color: #8b949e; }
 
 <span class="cm"># dot(u,v)   → scalar   (m,) × (m,) → 1</span>
 <span class="cm"># outer(u,v) → matrix   (m,) × (n,) → (m,n)</span>
-<span class="cm"># Outer products appear in SVD: A ≈ Σᵢ σᵢ (uᵢ ⊗ vᵢ)</span></pre></div>
-<h3>Matrix Multiplication</h3>
-<div class="formula">
-<span class="sym">C</span><span class="idx">[i][j]</span> <span class="eq">= Σₖ A</span><span class="idx">[i][k]</span> <span class="op">·</span> <span class="eq">B</span><span class="idx">[k][j]</span>    <span class="op">←→</span>    <span class="sym">dot</span>(<span class="eq">row_i</span>, <span class="eq">col_j</span>)
-    </div>
-<div><p><strong>File: matmul.py</strong></p><pre><span class="kw">def</span> <span class="fn">matmul</span>(<span class="var">A</span>, <span class="var">B</span>):
+<span class="cm"># Outer products appear in SVD: A ≈ Σᵢ σᵢ (uᵢ ⊗ vᵢ)</span></pre>
+      </div>
+      <h3>Matrix Multiplication</h3>
+      <div class="formula">
+        <span class="sym">C</span><span class="idx">[i][j]</span> <span class="eq">= Σₖ A</span><span
+          class="idx">[i][k]</span> <span class="op">·</span> <span class="eq">B</span><span
+          class="idx">[k][j]</span>    <span class="op">←→</span>    <span class="sym">dot</span>(<span
+          class="eq">row_i</span>, <span class="eq">col_j</span>)
+      </div>
+      <div>
+        <p><strong>File: matmul.py</strong></p>
+        <pre><span class="kw">def</span> <span class="fn">matmul</span>(<span class="var">A</span>, <span class="var">B</span>):
     <span class="cm">"""C = A @ B — pure map/lambda implementation."""</span>
     <span class="var">Bt</span>  = <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="builtin">list</span>, <span class="builtin">zip</span>(*<span class="var">B</span>)))         <span class="cm"># transpose B for col access</span>
     <span class="var">dot</span> = <span class="kw">lambda</span> <span class="var">r</span>, <span class="var">c</span>: <span class="builtin">sum</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">a</span>,<span class="var">b</span>: <span class="var">a</span>*<span class="var">b</span>, <span class="var">r</span>, <span class="var">c</span>))
@@ -774,9 +1314,12 @@ html.dark .out { color: #8b949e; }
 
 <span class="cm"># Compact one-liner</span>
 <span class="var">matmul2</span> = <span class="kw">lambda</span> <span class="var">A</span>, <span class="var">B</span>: \
-  [[<span class="builtin">sum</span>(<span class="var">a</span>*<span class="var">b</span> <span class="kw">for</span> <span class="var">a</span>,<span class="var">b</span> <span class="kw">in</span> <span class="builtin">zip</span>(<span class="var">row</span>,<span class="var">col</span>)) <span class="kw">for</span> <span class="var">col</span> <span class="kw">in</span> <span class="builtin">zip</span>(*<span class="var">B</span>)] <span class="kw">for</span> <span class="var">row</span> <span class="kw">in</span> <span class="var">A</span>]</pre></div>
-<h3>Determinant, Trace &amp; Frobenius Norm</h3>
-<div><p><strong>File: det_trace.py</strong></p><pre><span class="cm"># ─── Trace: sum of diagonal elements ───────────────────────────</span>
+  [[<span class="builtin">sum</span>(<span class="var">a</span>*<span class="var">b</span> <span class="kw">for</span> <span class="var">a</span>,<span class="var">b</span> <span class="kw">in</span> <span class="builtin">zip</span>(<span class="var">row</span>,<span class="var">col</span>)) <span class="kw">for</span> <span class="var">col</span> <span class="kw">in</span> <span class="builtin">zip</span>(*<span class="var">B</span>)] <span class="kw">for</span> <span class="var">row</span> <span class="kw">in</span> <span class="var">A</span>]</pre>
+      </div>
+      <h3>Determinant, Trace &amp; Frobenius Norm</h3>
+      <div>
+        <p><strong>File: det_trace.py</strong></p>
+        <pre><span class="cm"># ─── Trace: sum of diagonal elements ───────────────────────────</span>
 <span class="var">trace</span> = <span class="kw">lambda</span> <span class="var">M</span>: <span class="builtin">sum</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">i</span>: <span class="var">M</span>[<span class="var">i</span>][<span class="var">i</span>], <span class="builtin">range</span>(<span class="builtin">len</span>(<span class="var">M</span>))))
 <span class="var">diag</span>  = <span class="kw">lambda</span> <span class="var">M</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">i</span>: <span class="var">M</span>[<span class="var">i</span>][<span class="var">i</span>], <span class="builtin">range</span>(<span class="builtin">min</span>(<span class="builtin">len</span>(<span class="var">M</span>), <span class="builtin">len</span>(<span class="var">M</span>[<span class="num">0</span>])))))
 
@@ -806,13 +1349,17 @@ html.dark .out { color: #8b949e; }
 
 <span class="builtin">print</span>(<span class="fn">det</span>([[<span class="num">3</span>,<span class="num">8</span>],[<span class="num">4</span>,<span class="num">6</span>]]))                       <span class="cm"># → -14</span>
 <span class="builtin">print</span>(<span class="fn">det</span>([[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>],[<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>],[<span class="num">7</span>,<span class="num">8</span>,<span class="num">10</span>]]))          <span class="cm"># → -3</span>
-<span class="builtin">print</span>(<span class="fn">det</span>([[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>],[<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>],[<span class="num">7</span>,<span class="num">8</span>,<span class="num">9</span>]]))          <span class="cm"># → 0  (singular)</span></pre></div>
-<div class="callout callout-amber">
+<span class="builtin">print</span>(<span class="fn">det</span>([[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>],[<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>],[<span class="num">7</span>,<span class="num">8</span>,<span class="num">9</span>]]))          <span class="cm"># → 0  (singular)</span></pre>
+      </div>
+      <div class="callout callout-amber">
 
-<p><strong>Complexity:</strong> Laplace expansion is O(n!) — never use it for matrices larger than ~8×8. In production, use <code>numpy.linalg.det()</code> which runs O(n³) via LU decomposition.</p>
-</div>
-<h3>Row Operations (Gaussian Elimination Building Blocks)</h3>
-<div><p><strong>File: row_ops.py</strong></p><pre><span class="cm"># Scale row i by scalar k</span>
+        <p><strong>Complexity:</strong> Laplace expansion is O(n!) — never use it for matrices larger than ~8×8. In
+          production, use <code>numpy.linalg.det()</code> which runs O(n³) via LU decomposition.</p>
+      </div>
+      <h3>Row Operations (Gaussian Elimination Building Blocks)</h3>
+      <div>
+        <p><strong>File: row_ops.py</strong></p>
+        <pre><span class="cm"># Scale row i by scalar k</span>
 <span class="kw">def</span> <span class="fn">scale_row</span>(<span class="var">M</span>, <span class="var">i</span>, <span class="var">k</span>):
     <span class="kw">return</span> <span class="builtin">list</span>(<span class="builtin">map</span>(
         <span class="kw">lambda</span> <span class="var">j_row</span>:
@@ -831,20 +1378,27 @@ html.dark .out { color: #8b949e; }
 
 <span class="var">A</span> = [[<span class="num">2</span>,<span class="num">1</span>,-<span class="num">1</span>],[-<span class="num">3</span>,-<span class="num">1</span>,<span class="num">2</span>],[-<span class="num">2</span>,<span class="num">1</span>,<span class="num">2</span>]]
 <span class="var">A2</span> = <span class="fn">add_scaled_row</span>(<span class="var">A</span>,  <span class="num">1</span>, <span class="num">0</span>,  <span class="num">1.5</span>)   <span class="cm"># row1 += 1.5 × row0</span>
-<span class="var">A3</span> = <span class="fn">add_scaled_row</span>(<span class="var">A2</span>, <span class="num">2</span>, <span class="num">0</span>,  <span class="num">1.0</span>)   <span class="cm"># row2 += 1.0 × row0</span></pre></div>
+<span class="var">A3</span> = <span class="fn">add_scaled_row</span>(<span class="var">A2</span>, <span class="num">2</span>, <span class="num">0</span>,  <span class="num">1.0</span>)   <span class="cm"># row2 += 1.0 × row0</span></pre>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-6"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-red">06</span><h2 style="margin:0;font-size:24px;">3D Tensor Operations</h2>
+        <span class="badge badge-red">06</span>
+        <h2 style="margin:0;font-size:24px;">3D Tensor Operations</h2>
       </div>
-      <p>A 3D tensor is a list of 2D matrices: <code>T[d][i][j]</code> where <em>d</em> is the depth/batch index, <em>i</em> the row, <em>j</em> the column. This is the natural shape for batched ML data (batch_size × rows × cols) or volumetric data (depth × height × width).</p>
-<div class="callout callout-blue">
+      <p>A 3D tensor is a list of 2D matrices: <code>T[d][i][j]</code> where <em>d</em> is the depth/batch index,
+        <em>i</em> the row, <em>j</em> the column. This is the natural shape for batched ML data (batch_size × rows ×
+        cols) or volumetric data (depth × height × width).</p>
+      <div class="callout callout-blue">
 
-<p><strong>Notation:</strong> A 3D tensor of shape (D, R, C) has D slices, each an R×C matrix. Accessing element: <code>T[d][r][c]</code>. In NumPy this is <code>T[d, r, c]</code>.</p>
-</div>
-<div><p><strong>File: tensor_3d.py</strong></p><pre><span class="cm"># Shape (D, R, C) = (3, 2, 4)</span>
+        <p><strong>Notation:</strong> A 3D tensor of shape (D, R, C) has D slices, each an R×C matrix. Accessing
+          element: <code>T[d][r][c]</code>. In NumPy this is <code>T[d, r, c]</code>.</p>
+      </div>
+      <div>
+        <p><strong>File: tensor_3d.py</strong></p>
+        <pre><span class="cm"># Shape (D, R, C) = (3, 2, 4)</span>
 <span class="var">T</span> = [
     [[<span class="num">1</span>, <span class="num">2</span>, <span class="num">3</span>, <span class="num">4</span>],  [<span class="num">5</span>, <span class="num">6</span>, <span class="num">7</span>, <span class="num">8</span>]],    <span class="cm"># slice 0</span>
     [[<span class="num">9</span>,<span class="num">10</span>,<span class="num">11</span>,<span class="num">12</span>],  [<span class="num">13</span>,<span class="num">14</span>,<span class="num">15</span>,<span class="num">16</span>]],   <span class="cm"># slice 1</span>
@@ -876,10 +1430,14 @@ html.dark .out { color: #8b949e; }
 
 <span class="cm"># ─── Get all elements at position [i][j] across depth ──────────</span>
 <span class="var">depth_col</span> = <span class="kw">lambda</span> <span class="var">T</span>, <span class="var">i</span>, <span class="var">j</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">mat</span>: <span class="var">mat</span>[<span class="var">i</span>][<span class="var">j</span>], <span class="var">T</span>))
-<span class="builtin">print</span>(<span class="var">depth_col</span>(<span class="var">T</span>, <span class="num">0</span>, <span class="num">0</span>))                 <span class="cm"># → [1, 9, 17]</span></pre></div>
-<h3>Full Axis-Swap Transpose &amp; Normalisation</h3>
-<p>The full axis-swap changes the tensor's fundamental shape: <em>(D, R, C) → (C, R, D)</em> — analogous to NumPy's <code>np.transpose(T, (2,1,0))</code>. This differs from transposing each 2D slice independently.</p>
-<div><p><strong>File: tensor_axis_and_norm.py</strong></p><pre><span class="cm"># ─── Layer-wise transpose: (D, R, C) → (D, C, R) ───────────────</span>
+<span class="builtin">print</span>(<span class="var">depth_col</span>(<span class="var">T</span>, <span class="num">0</span>, <span class="num">0</span>))                 <span class="cm"># → [1, 9, 17]</span></pre>
+      </div>
+      <h3>Full Axis-Swap Transpose &amp; Normalisation</h3>
+      <p>The full axis-swap changes the tensor's fundamental shape: <em>(D, R, C) → (C, R, D)</em> — analogous to
+        NumPy's <code>np.transpose(T, (2,1,0))</code>. This differs from transposing each 2D slice independently.</p>
+      <div>
+        <p><strong>File: tensor_axis_and_norm.py</strong></p>
+        <pre><span class="cm"># ─── Layer-wise transpose: (D, R, C) → (D, C, R) ───────────────</span>
 <span class="var">transpose3d_layerwise</span> = <span class="kw">lambda</span> <span class="var">T</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(
     <span class="kw">lambda</span> <span class="var">layer</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="builtin">list</span>, <span class="builtin">zip</span>(*<span class="var">layer</span>))), <span class="var">T</span>))
 
@@ -915,9 +1473,12 @@ html.dark .out { color: #8b949e; }
 <span class="var">depth_sum</span> = <span class="kw">lambda</span> <span class="var">T</span>: <span class="fn">reduce</span>(
     <span class="kw">lambda</span> <span class="var">acc</span>, <span class="var">mat</span>:
         <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">r1</span>,<span class="var">r2</span>:
-            <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">a</span>,<span class="var">b</span>: <span class="var">a</span>+<span class="var">b</span>, <span class="var">r1</span>, <span class="var">r2</span>)), <span class="var">acc</span>, <span class="var">mat</span>)), <span class="var">T</span>)</pre></div>
-<h3>Batched Matrix Multiplication</h3>
-<div><p><strong>File: batched_matmul.py</strong></p><pre><span class="cm"># ─── Batched matmul: T(B,M,K) @ W(K,N) → out(B,M,N) ───────────</span>
+            <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">a</span>,<span class="var">b</span>: <span class="var">a</span>+<span class="var">b</span>, <span class="var">r1</span>, <span class="var">r2</span>)), <span class="var">acc</span>, <span class="var">mat</span>)), <span class="var">T</span>)</pre>
+      </div>
+      <h3>Batched Matrix Multiplication</h3>
+      <div>
+        <p><strong>File: batched_matmul.py</strong></p>
+        <pre><span class="cm"># ─── Batched matmul: T(B,M,K) @ W(K,N) → out(B,M,N) ───────────</span>
 <span class="kw">def</span> <span class="fn">batch_matmul</span>(<span class="var">T</span>, <span class="var">W</span>):
     <span class="cm">"""Apply matrix W to each 2D slice in tensor T."""</span>
     <span class="kw">return</span> <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">mat</span>: <span class="fn">matmul</span>(<span class="var">mat</span>, <span class="var">W</span>), <span class="var">T</span>))
@@ -931,16 +1492,21 @@ html.dark .out { color: #8b949e; }
 <span class="var">out</span> = <span class="fn">batch_matmul</span>(<span class="var">T</span>, <span class="var">W</span>)
 <span class="cm"># out[0] = [[1,2],[3,4]]   (identity slice)</span>
 <span class="cm"># out[1] = [[22,28],[49,64]]</span>
-<span class="cm"># out[2] = [[76,100],[9,12]]</span></pre></div>
+<span class="cm"># out[2] = [[76,100],[9,12]]</span></pre>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-7"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-purple">07</span><h2 style="margin:0;font-size:24px;">Advanced: ML Operations, Activations & Attention</h2>
+        <span class="badge badge-purple">07</span>
+        <h2 style="margin:0;font-size:24px;">Advanced: ML Operations, Activations & Attention</h2>
       </div>
-      <p>Modern deep learning is built on element-wise nonlinear functions applied to matrices and tensors. Every activation function is a perfect <code>map + lambda</code> expression.</p>
-<div><p><strong>File: activation_functions.py</strong></p><pre><span class="kw">import</span> <span class="var">math</span>
+      <p>Modern deep learning is built on element-wise nonlinear functions applied to matrices and tensors. Every
+        activation function is a perfect <code>map + lambda</code> expression.</p>
+      <div>
+        <p><strong>File: activation_functions.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">math</span>
 
 <span class="cm"># ─── Scalar activations (lambdas) ───────────────────────────────</span>
 <span class="var">relu</span>    = <span class="kw">lambda</span> <span class="var">x</span>: <span class="var">x</span> <span class="kw">if</span> <span class="var">x</span> &gt; <span class="num">0</span> <span class="kw">else</span> <span class="num">0</span>
@@ -957,12 +1523,16 @@ html.dark .out { color: #8b949e; }
 <span class="var">z</span> = [[-<span class="num">2</span>,-<span class="num">1</span>,<span class="num">0</span>,<span class="num">1</span>,<span class="num">2</span>]]
 <span class="builtin">print</span>(<span class="var">apply_m</span>(<span class="var">relu</span>,    <span class="var">z</span>))   <span class="cm"># → [[0, 0, 0, 1, 2]]</span>
 <span class="builtin">print</span>(<span class="var">apply_m</span>(<span class="var">sigmoid</span>, <span class="var">z</span>))   <span class="cm"># → [[0.12, 0.27, 0.50, 0.73, 0.88]]</span>
-<span class="builtin">print</span>(<span class="var">apply_m</span>(<span class="var">tanh_fn</span>, <span class="var">z</span>))   <span class="cm"># → [[-0.96, -0.76, 0, 0.76, 0.96]]</span></pre></div>
-<h3>Softmax &amp; Layer Normalisation</h3>
-<div class="formula">
-<span class="sym">softmax</span>(<span class="eq">z</span>)<span class="idx">i</span> <span class="eq">= eᶻⁱ / Σⱼ eᶻʲ</span>
-</div>
-<div><p><strong>File: softmax_layernorm.py</strong></p><pre><span class="kw">import</span> <span class="var">math</span>
+<span class="builtin">print</span>(<span class="var">apply_m</span>(<span class="var">tanh_fn</span>, <span class="var">z</span>))   <span class="cm"># → [[-0.96, -0.76, 0, 0.76, 0.96]]</span></pre>
+      </div>
+      <h3>Softmax &amp; Layer Normalisation</h3>
+      <div class="formula">
+        <span class="sym">softmax</span>(<span class="eq">z</span>)<span class="idx">i</span> <span class="eq">= eᶻⁱ /
+          Σⱼ eᶻʲ</span>
+      </div>
+      <div>
+        <p><strong>File: softmax_layernorm.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">math</span>
 
 <span class="cm"># ─── Numerically stable softmax ────────────────────────────────</span>
 <span class="kw">def</span> <span class="fn">softmax</span>(<span class="var">v</span>):
@@ -986,9 +1556,12 @@ html.dark .out { color: #8b949e; }
     <span class="kw">return</span> <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">x</span>: (<span class="var">x</span>-<span class="var">mean</span>)/<span class="var">std</span>, <span class="var">v</span>))
 
 <span class="fn">layer_norm</span>([<span class="num">2</span>,<span class="num">4</span>,<span class="num">4</span>,<span class="num">4</span>,<span class="num">5</span>,<span class="num">5</span>,<span class="num">7</span>,<span class="num">9</span>])
-<span class="cm"># → [-1.5, -0.5, -0.5, -0.5,  0.0,  0.0,  1.0,  2.0]</span></pre></div>
-<h3>Linear Layer Forward Pass  Y = f(XW + b)</h3>
-<div><p><strong>File: linear_layer.py</strong></p><pre><span class="kw">import</span> <span class="var">math</span>
+<span class="cm"># → [-1.5, -0.5, -0.5, -0.5,  0.0,  0.0,  1.0,  2.0]</span></pre>
+      </div>
+      <h3>Linear Layer Forward Pass Y = f(XW + b)</h3>
+      <div>
+        <p><strong>File: linear_layer.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">math</span>
 
 <span class="kw">def</span> <span class="fn">linear</span>(<span class="var">X</span>, <span class="var">W</span>, <span class="var">b</span>, <span class="var">activation</span>=<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">x</span>):
     <span class="cm"># X: (batch, in)  W: (in, out)  b: (out,)</span>
@@ -1009,9 +1582,12 @@ html.dark .out { color: #8b949e; }
 <span class="var">H1</span> = <span class="fn">linear</span>(<span class="var">X</span>, <span class="var">W1</span>, <span class="var">b1</span>, <span class="var">relu</span>)           <span class="cm"># (2, 4)</span>
 <span class="cm"># Layer 2: (4 → 1), Sigmoid (binary classification)</span>
 <span class="var">W2</span> = [[<span class="num">0.6</span>],[-<span class="num">0.3</span>],[<span class="num">0.5</span>],[<span class="num">0.2</span>]]
-<span class="var">Y</span>  = <span class="fn">linear</span>(<span class="var">H1</span>, <span class="var">W2</span>, [<span class="num">0.0</span>], <span class="var">sigmoid</span>)     <span class="cm"># (2, 1)</span></pre></div>
-<h3>Scaled Dot-Product Attention</h3>
-<div><p><strong>File: attention.py</strong></p><pre><span class="kw">import</span> <span class="var">math</span>
+<span class="var">Y</span>  = <span class="fn">linear</span>(<span class="var">H1</span>, <span class="var">W2</span>, [<span class="num">0.0</span>], <span class="var">sigmoid</span>)     <span class="cm"># (2, 1)</span></pre>
+      </div>
+      <h3>Scaled Dot-Product Attention</h3>
+      <div>
+        <p><strong>File: attention.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">math</span>
 
 <span class="kw">def</span> <span class="fn">attention</span>(<span class="var">Q</span>, <span class="var">K</span>, <span class="var">V</span>):
     <span class="cm">"""Scaled dot-product attention. Q, K, V are (seq_len × d_k) matrices."""</span>
@@ -1024,18 +1600,24 @@ html.dark .out { color: #8b949e; }
     )(<span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">math</span>.<span class="fn">exp</span>(<span class="var">x</span>-<span class="builtin">max</span>(<span class="var">v</span>)), <span class="var">v</span>)))
     <span class="var">attn</span>  = <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="var">sm</span>, <span class="var">scores</span>))
     <span class="var">Vt</span>    = <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="builtin">list</span>, <span class="builtin">zip</span>(*<span class="var">V</span>)))
-    <span class="kw">return</span> [[<span class="var">d</span>(<span class="var">a</span>,<span class="var">v</span>) <span class="kw">for</span> <span class="var">v</span> <span class="kw">in</span> <span class="var">Vt</span>] <span class="kw">for</span> <span class="var">a</span> <span class="kw">in</span> <span class="var">attn</span>]</pre></div>
+    <span class="kw">return</span> [[<span class="var">d</span>(<span class="var">a</span>,<span class="var">v</span>) <span class="kw">for</span> <span class="var">v</span> <span class="kw">in</span> <span class="var">Vt</span>] <span class="kw">for</span> <span class="var">a</span> <span class="kw">in</span> <span class="var">attn</span>]</pre>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-8"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-green">08</span><h2 style="margin:0;font-size:24px;">Practical Applications</h2>
+        <span class="badge badge-green">08</span>
+        <h2 style="margin:0;font-size:24px;">Practical Applications</h2>
       </div>
-      <p>Four real-world applications that make <code>map &amp; lambda</code> concrete: image pixel processing, gradient descent, cosine similarity matrices, and composing linear transforms.</p>
-<h3>Image Processing — Pixel Manipulation</h3>
-<p>A colour image is a 3D tensor of shape (H × W × 3). Each pixel is an RGB tuple. <code>map + lambda</code> applies transformations channel-by-channel or pixel-by-pixel across the entire image.</p>
-<div><p><strong>File: image_processing.py</strong></p><pre><span class="cm"># ─── Simulate 2×2 RGB image ─────────────────────────────────────</span>
+      <p>Four real-world applications that make <code>map &amp; lambda</code> concrete: image pixel processing, gradient
+        descent, cosine similarity matrices, and composing linear transforms.</p>
+      <h3>Image Processing — Pixel Manipulation</h3>
+      <p>A colour image is a 3D tensor of shape (H × W × 3). Each pixel is an RGB tuple. <code>map + lambda</code>
+        applies transformations channel-by-channel or pixel-by-pixel across the entire image.</p>
+      <div>
+        <p><strong>File: image_processing.py</strong></p>
+        <pre><span class="cm"># ─── Simulate 2×2 RGB image ─────────────────────────────────────</span>
 <span class="var">image</span> = [
     [(<span class="num">255</span>,<span class="num">128</span>,<span class="num">0</span>), (<span class="num">0</span>,<span class="num">255</span>,<span class="num">128</span>)],
     [(<span class="num">64</span>,<span class="num">64</span>,<span class="num">64</span>), (<span class="num">200</span>,<span class="num">100</span>,<span class="num">50</span>)],
@@ -1057,9 +1639,12 @@ html.dark .out { color: #8b949e; }
 
 <span class="cm"># 4. Channel extraction (R/G/B plane)</span>
 <span class="var">channel</span>    = <span class="kw">lambda</span> <span class="var">img</span>, <span class="var">ch</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">row</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">px</span>: <span class="var">px</span>[<span class="var">ch</span>], <span class="var">row</span>)), <span class="var">img</span>))
-<span class="var">red_plane</span>  = <span class="var">channel</span>(<span class="var">image</span>, <span class="num">0</span>)  <span class="cm"># → [[255, 0], [64, 200]]</span></pre></div>
-<h3>Gradient Descent Step</h3>
-<div><p><strong>File: gradient_descent.py</strong></p><pre><span class="kw">from</span> <span class="var">functools</span> <span class="kw">import</span> <span class="fn">reduce</span>
+<span class="var">red_plane</span>  = <span class="var">channel</span>(<span class="var">image</span>, <span class="num">0</span>)  <span class="cm"># → [[255, 0], [64, 200]]</span></pre>
+      </div>
+      <h3>Gradient Descent Step</h3>
+      <div>
+        <p><strong>File: gradient_descent.py</strong></p>
+        <pre><span class="kw">from</span> <span class="var">functools</span> <span class="kw">import</span> <span class="fn">reduce</span>
 
 <span class="cm"># θ_new = θ - α * ∇L</span>
 <span class="var">grad_step</span> = <span class="kw">lambda</span> <span class="var">θ</span>, <span class="var">g</span>, <span class="var">α</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">p</span>,<span class="var">d</span>: <span class="var">p</span>-<span class="var">α</span>*<span class="var">d</span>, <span class="var">θ</span>, <span class="var">g</span>))
@@ -1078,9 +1663,12 @@ html.dark .out { color: #8b949e; }
     <span class="kw">lambda</span> <span class="var">θ</span>, <span class="var">step</span>: <span class="var">grad_step</span>(<span class="var">θ</span>, <span class="var">step</span>[<span class="num">0</span>], <span class="var">step</span>[<span class="num">1</span>]),
     <span class="var">steps</span>, <span class="var">params</span>)                             <span class="cm"># initial value = params</span>
 <span class="builtin">print</span>([<span class="builtin">round</span>(<span class="var">x</span>,<span class="num">4</span>) <span class="kw">for</span> <span class="var">x</span> <span class="kw">in</span> <span class="var">final</span>])
-<span class="cm"># → [0.4, -0.5, 1.25, 0.65]</span></pre></div>
-<h3>Full Cosine Similarity Matrix (n×n)</h3>
-<div><p><strong>File: cosine_matrix.py</strong></p><pre><span class="kw">import</span> <span class="var">math</span>
+<span class="cm"># → [0.4, -0.5, 1.25, 0.65]</span></pre>
+      </div>
+      <h3>Full Cosine Similarity Matrix (n×n)</h3>
+      <div>
+        <p><strong>File: cosine_matrix.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">math</span>
 
 <span class="var">dot</span>    = <span class="kw">lambda</span> <span class="var">a</span>, <span class="var">b</span>: <span class="builtin">sum</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">x</span>,<span class="var">y</span>: <span class="var">x</span>*<span class="var">y</span>, <span class="var">a</span>, <span class="var">b</span>))
 <span class="var">norm</span>   = <span class="kw">lambda</span> <span class="var">v</span>: <span class="var">math</span>.<span class="fn">sqrt</span>(<span class="builtin">sum</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">x</span>**<span class="num">2</span>, <span class="var">v</span>)))
@@ -1096,10 +1684,15 @@ html.dark .out { color: #8b949e; }
 <span class="cm"># [0.0,    1.0,    0.7071, 0.5774]</span>
 <span class="cm"># [0.7071, 0.7071, 1.0,    0.8165]</span>
 <span class="cm"># [0.5774, 0.5774, 0.8165, 1.0  ]</span>
-<span class="cm"># Diagonal = 1.0 (self-similarity)  Matrix is symmetric</span></pre></div>
-<h3>Linear Transformation Composition</h3>
-<p>Multiple linear transforms can be <em>composed</em> into a single matrix using <code>reduce + matmul</code>. The composed matrix applies all transforms in one shot, eliminating repeated multiplications at inference time.</p>
-<div><p><strong>File: transform_composition.py</strong></p><pre><span class="kw">from</span> <span class="var">functools</span> <span class="kw">import</span> <span class="fn">reduce</span>
+<span class="cm"># Diagonal = 1.0 (self-similarity)  Matrix is symmetric</span></pre>
+      </div>
+      <h3>Linear Transformation Composition</h3>
+      <p>Multiple linear transforms can be <em>composed</em> into a single matrix using <code>reduce + matmul</code>.
+        The composed matrix applies all transforms in one shot, eliminating repeated multiplications at inference time.
+      </p>
+      <div>
+        <p><strong>File: transform_composition.py</strong></p>
+        <pre><span class="kw">from</span> <span class="var">functools</span> <span class="kw">import</span> <span class="fn">reduce</span>
 
 <span class="cm"># 2D linear transforms</span>
 <span class="var">T_scale</span> = [[<span class="num">2</span>,<span class="num">0</span>],[<span class="num">0</span>,<span class="num">2</span>]]    <span class="cm"># scale by 2</span>
@@ -1114,17 +1707,22 @@ html.dark .out { color: #8b949e; }
 <span class="var">matvec</span>    = <span class="kw">lambda</span> <span class="var">M</span>, <span class="var">v</span>: <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">row</span>: <span class="var">dot</span>(<span class="var">row</span>,<span class="var">v</span>), <span class="var">M</span>))
 <span class="var">points</span>    = [[<span class="num">1</span>,<span class="num">0</span>],[<span class="num">0</span>,<span class="num">1</span>],[<span class="num">1</span>,<span class="num">1</span>],[<span class="num">2</span>,<span class="num">3</span>]]
 <span class="var">mapped_pts</span> = <span class="builtin">list</span>(<span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">p</span>: <span class="var">matvec</span>(<span class="var">composed</span>, <span class="var">p</span>), <span class="var">points</span>))
-<span class="cm"># All four points transformed in one map call</span></pre></div>
+<span class="cm"># All four points transformed in one map call</span></pre>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-9"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-blue">09</span><h2 style="margin:0;font-size:24px;">NumPy Integration & Pipelines</h2>
+        <span class="badge badge-blue">09</span>
+        <h2 style="margin:0;font-size:24px;">NumPy Integration & Pipelines</h2>
       </div>
-      <p>Even in NumPy-heavy code, <code>map</code> and <code>lambda</code> serve as the bridge for custom row-wise operations and composable preprocessing pipelines. Below: equivalents table and advanced patterns.</p>
-<h3>NumPy Equivalents Reference</h3>
-<div><p><strong>File: numpy_bridge.py</strong></p><pre><span class="kw">import</span> <span class="var">numpy</span> <span class="kw">as</span> <span class="var">np</span>
+      <p>Even in NumPy-heavy code, <code>map</code> and <code>lambda</code> serve as the bridge for custom row-wise
+        operations and composable preprocessing pipelines. Below: equivalents table and advanced patterns.</p>
+      <h3>NumPy Equivalents Reference</h3>
+      <div>
+        <p><strong>File: numpy_bridge.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">numpy</span> <span class="kw">as</span> <span class="var">np</span>
 <span class="var">A</span>=[[<span class="num">1</span>,<span class="num">2</span>],[<span class="num">3</span>,<span class="num">4</span>]]; <span class="var">An</span>=<span class="var">np</span>.<span class="fn">array</span>(<span class="var">A</span>)
 <span class="var">B</span>=[[<span class="num">5</span>,<span class="num">6</span>],[<span class="num">7</span>,<span class="num">8</span>]]; <span class="var">Bn</span>=<span class="var">np</span>.<span class="fn">array</span>(<span class="var">B</span>)
 
@@ -1154,9 +1752,12 @@ html.dark .out { color: #8b949e; }
 
 <span class="cm"># Frobenius norm</span>
 <span class="var">frob</span>(<span class="var">A</span>)                       <span class="cm"># ← our lambda</span>
-<span class="var">np</span>.<span class="var">linalg</span>.<span class="fn">norm</span>(<span class="var">An</span>, <span class="str">'fro'</span>)    <span class="cm"># ← numpy</span></pre></div>
-<h3>NumPy + map/lambda Patterns</h3>
-<div><p><strong>File: numpy_map_patterns.py</strong></p><pre><span class="kw">import</span> <span class="var">numpy</span> <span class="kw">as</span> <span class="var">np</span>
+<span class="var">np</span>.<span class="var">linalg</span>.<span class="fn">norm</span>(<span class="var">An</span>, <span class="str">'fro'</span>)    <span class="cm"># ← numpy</span></pre>
+      </div>
+      <h3>NumPy + map/lambda Patterns</h3>
+      <div>
+        <p><strong>File: numpy_map_patterns.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">numpy</span> <span class="kw">as</span> <span class="var">np</span>
 <span class="var">A</span> = <span class="var">np</span>.<span class="fn">array</span>([[<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>],[<span class="num">4</span>,<span class="num">5</span>,<span class="num">6</span>],[<span class="num">7</span>,<span class="num">8</span>,<span class="num">9</span>]], <span class="var">dtype</span>=<span class="builtin">float</span>)
 
 <span class="cm"># Row-wise L2 norm</span>
@@ -1173,10 +1774,14 @@ html.dark .out { color: #8b949e; }
 
 <span class="cm"># Batch normalisation row-by-row</span>
 <span class="var">batch_norm</span> = <span class="kw">lambda</span> <span class="var">M</span>: <span class="var">np</span>.<span class="fn">array</span>(<span class="builtin">list</span>(<span class="builtin">map</span>(
-    <span class="kw">lambda</span> <span class="var">row</span>: (<span class="var">row</span>-<span class="var">row</span>.<span class="fn">mean</span>())/(<span class="var">row</span>.<span class="fn">std</span>()+<span class="num">1e-8</span>), <span class="var">M</span>)))</pre></div>
-<h3>Lambda Pipeline with reduce</h3>
-<p>Define a list of lambdas representing processing stages, then fold them sequentially using <code>reduce</code>. This makes it easy to add, remove, or reorder preprocessing steps without rewriting nested calls.</p>
-<div><p><strong>File: numpy_pipeline.py</strong></p><pre><span class="kw">import</span> <span class="var">numpy</span> <span class="kw">as</span> <span class="var">np</span>
+    <span class="kw">lambda</span> <span class="var">row</span>: (<span class="var">row</span>-<span class="var">row</span>.<span class="fn">mean</span>())/(<span class="var">row</span>.<span class="fn">std</span>()+<span class="num">1e-8</span>), <span class="var">M</span>)))</pre>
+      </div>
+      <h3>Lambda Pipeline with reduce</h3>
+      <p>Define a list of lambdas representing processing stages, then fold them sequentially using <code>reduce</code>.
+        This makes it easy to add, remove, or reorder preprocessing steps without rewriting nested calls.</p>
+      <div>
+        <p><strong>File: numpy_pipeline.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">numpy</span> <span class="kw">as</span> <span class="var">np</span>
 <span class="kw">from</span> <span class="var">functools</span> <span class="kw">import</span> <span class="fn">reduce</span>
 
 <span class="cm"># ─── Define pipeline as a list of lambdas ──────────────────────</span>
@@ -1195,29 +1800,58 @@ html.dark .out { color: #8b949e; }
 
 <span class="cm"># Extend at runtime — just append</span>
 <span class="var">pipeline</span>.<span class="fn">append</span>(<span class="kw">lambda</span> <span class="var">M</span>: <span class="var">M</span> * <span class="num">100</span>)            <span class="cm"># 5. scale to percentages</span>
-<span class="var">result2</span> = <span class="var">apply_pipeline</span>(<span class="var">raw</span>, <span class="var">pipeline</span>)</pre></div>
-<div class="callout callout-amber">
+<span class="var">result2</span> = <span class="var">apply_pipeline</span>(<span class="var">raw</span>, <span class="var">pipeline</span>)</pre>
+      </div>
+      <div class="callout callout-amber">
 
-<p><strong>Production Note:</strong> For real matrix operations in data engineering or ML, always use NumPy, PyTorch, or TensorFlow. Pure Python <code>map</code>/<code>lambda</code> is for learning, scripting, and small-scale transforms — NumPy vectorisation is 10–100× faster because it operates on contiguous C arrays.</p>
-</div>
+        <p><strong>Production Note:</strong> For real matrix operations in data engineering or ML, always use NumPy,
+          PyTorch, or TensorFlow. Pure Python <code>map</code>/<code>lambda</code> is for learning, scripting, and
+          small-scale transforms — NumPy vectorisation is 10–100× faster because it operates on contiguous C arrays.</p>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-10"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-red">10</span><h2 style="margin:0;font-size:24px;">Performance, Pitfalls & Best Practices</h2>
+        <span class="badge badge-red">10</span>
+        <h2 style="margin:0;font-size:24px;">Performance, Pitfalls & Best Practices</h2>
       </div>
       <h3>Performance Characteristics &amp; timeit Benchmark</h3>
-<table class="bench-table">
-<tr>
-<th>Approach</th><th>Typical Time (1M elements, 5 runs)</th><th>Relative Speed</th><th>Memory</th>
-</tr>
-<tr><td><code>map + lambda</code></td><td class="slow">~1.20s</td><td class="slow">1× (baseline)</td><td>O(1) lazy</td></tr>
-<tr><td><code>list comprehension</code></td><td class="mid">~0.90s</td><td class="mid">1.3× faster</td><td>O(n) eager</td></tr>
-<tr><td><code>named fn + map</code></td><td class="mid">~0.80s</td><td class="mid">1.5× faster</td><td>O(1) lazy</td></tr>
-<tr><td><code>NumPy arr**2</code></td><td class="fast">~0.02s</td><td class="fast">60× faster</td><td>Contiguous C array</td></tr>
-</table>
-<div><p><strong>File: benchmark.py</strong></p><pre><span class="kw">import</span> <span class="var">timeit</span>; <span class="kw">import</span> <span class="var">numpy</span> <span class="kw">as</span> <span class="var">np</span>
+      <table class="bench-table">
+        <tr>
+          <th>Approach</th>
+          <th>Typical Time (1M elements, 5 runs)</th>
+          <th>Relative Speed</th>
+          <th>Memory</th>
+        </tr>
+        <tr>
+          <td><code>map + lambda</code></td>
+          <td class="slow">~1.20s</td>
+          <td class="slow">1× (baseline)</td>
+          <td>O(1) lazy</td>
+        </tr>
+        <tr>
+          <td><code>list comprehension</code></td>
+          <td class="mid">~0.90s</td>
+          <td class="mid">1.3× faster</td>
+          <td>O(n) eager</td>
+        </tr>
+        <tr>
+          <td><code>named fn + map</code></td>
+          <td class="mid">~0.80s</td>
+          <td class="mid">1.5× faster</td>
+          <td>O(1) lazy</td>
+        </tr>
+        <tr>
+          <td><code>NumPy arr**2</code></td>
+          <td class="fast">~0.02s</td>
+          <td class="fast">60× faster</td>
+          <td>Contiguous C array</td>
+        </tr>
+      </table>
+      <div>
+        <p><strong>File: benchmark.py</strong></p>
+        <pre><span class="kw">import</span> <span class="var">timeit</span>; <span class="kw">import</span> <span class="var">numpy</span> <span class="kw">as</span> <span class="var">np</span>
 
 <span class="var">N</span> = <span class="num">1_000_000</span>; <span class="var">data</span> = <span class="builtin">list</span>(<span class="builtin">range</span>(<span class="var">N</span>)); <span class="var">arr</span> = <span class="var">np</span>.<span class="fn">array</span>(<span class="var">data</span>)
 
@@ -1234,9 +1868,12 @@ html.dark .out { color: #8b949e; }
 <span class="builtin">print</span>(<span class="str">f"NumPy vectorised  : {t4:.4f}s"</span>)
 <span class="cm"># Key insight: lambda adds overhead vs named function.
 # Replacing lambda x: x**2 with def sq(x) gives measurable gain.
-# Neither approaches NumPy for numerical work.</span></pre></div>
-<h3>Key Pitfalls to Avoid</h3>
-<div><p><strong>File: pitfalls.py</strong></p><pre><span class="cm"># ─── Pitfall 1: Consuming an iterator twice ─────────────────────</span>
+# Neither approaches NumPy for numerical work.</span></pre>
+      </div>
+      <h3>Key Pitfalls to Avoid</h3>
+      <div>
+        <p><strong>File: pitfalls.py</strong></p>
+        <pre><span class="cm"># ─── Pitfall 1: Consuming an iterator twice ─────────────────────</span>
 <span class="var">m</span> = <span class="builtin">map</span>(<span class="kw">lambda</span> <span class="var">x</span>: <span class="var">x</span>**<span class="num">2</span>, [<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>])
 <span class="builtin">list</span>(<span class="var">m</span>)  <span class="cm"># → [1, 4, 9]</span>
 <span class="builtin">list</span>(<span class="var">m</span>)  <span class="cm"># → []  ← iterator exhausted! Store result immediately.</span>
@@ -1260,70 +1897,214 @@ html.dark .out { color: #8b949e; }
 <span class="cm"># RIGHT: named function with docstring</span>
 <span class="kw">def</span> <span class="fn">frobenius_norm</span>(<span class="var">M</span>):
     <span class="cm">"""Frobenius (L2) norm of a matrix."""</span>
-    <span class="kw">return</span> <span class="builtin">sum</span>(<span class="var">x</span>**<span class="num">2</span> <span class="kw">for</span> <span class="var">row</span> <span class="kw">in</span> <span class="var">M</span> <span class="kw">for</span> <span class="var">x</span> <span class="kw">in</span> <span class="var">row</span>)**<span class="num">0.5</span></pre></div>
-<div class="callout callout-green">
+    <span class="kw">return</span> <span class="builtin">sum</span>(<span class="var">x</span>**<span class="num">2</span> <span class="kw">for</span> <span class="var">row</span> <span class="kw">in</span> <span class="var">M</span> <span class="kw">for</span> <span class="var">x</span> <span class="kw">in</span> <span class="var">row</span>)**<span class="num">0.5</span></pre>
+      </div>
+      <div class="callout callout-green">
 
-<p>
-<strong>Final Rule Set:</strong><br/>
-        1. Use <code>lambda</code> for short, disposable, single-expression functions.<br/>
-        2. Use <code>map()</code> when applying a function to an iterable — especially lazy or over multiple iterables.<br/>
-        3. Use list comprehensions for readable single-pass transforms.<br/>
-        4. Name your lambdas when used more than once — it makes them debuggable and faster.<br/>
-        5. Graduate to NumPy the moment performance matters for matrix/tensor work.
-      </p>
-</div>
+        <p>
+          <strong>Final Rule Set:</strong><br />
+          1. Use <code>lambda</code> for short, disposable, single-expression functions.<br />
+          2. Use <code>map()</code> when applying a function to an iterable — especially lazy or over multiple
+          iterables.<br />
+          3. Use list comprehensions for readable single-pass transforms.<br />
+          4. Name your lambdas when used more than once — it makes them debuggable and faster.<br />
+          5. Graduate to NumPy the moment performance matters for matrix/tensor work.
+        </p>
+      </div>
     </div>
 
     <a class="section-anchor" id="section-11"></a>
     <div class="section">
       <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1rem;">
-        <span class="badge badge-teal">11</span><h2 style="margin:0;font-size:24px;">Quick Reference Cheat Sheet</h2>
+        <span class="badge badge-teal">11</span>
+        <h2 style="margin:0;font-size:24px;">Quick Reference Cheat Sheet</h2>
       </div>
       <p>All operations from this document in one place — copy-paste ready.</p>
-<table class="cheat-table">
-<tr>
-<th>Operation</th><th>map() + lambda Syntax</th><th>Result Shape</th>
-</tr>
-<tr><td><strong>Scalar × vector</strong></td><td><code>map(lambda x: x*k, v)</code></td><td class="shape">list (n,)</td></tr>
-<tr><td><strong>Vector addition</strong></td><td><code>map(lambda a,b: a+b, u, v)</code></td><td class="shape">list (n,)</td></tr>
-<tr><td><strong>Dot product</strong></td><td><code>sum(map(lambda a,b: a*b, u, v))</code></td><td class="shape">scalar</td></tr>
-<tr><td><strong>L1 norm</strong></td><td><code>sum(map(abs, v))</code></td><td class="shape">scalar</td></tr>
-<tr><td><strong>L2 norm</strong></td><td><code>sum(map(lambda x: x**2, v))**0.5</code></td><td class="shape">scalar</td></tr>
-<tr><td><strong>Lp norm</strong></td><td><code>sum(map(lambda x: abs(x)**p, v))**(1/p)</code></td><td class="shape">scalar</td></tr>
-<tr><td><strong>L∞ norm</strong></td><td><code>max(map(abs, v))</code></td><td class="shape">scalar</td></tr>
-<tr><td><strong>Normalise vector</strong></td><td><code>map(lambda x: x/norm_l2(v), v)</code></td><td class="shape">list (n,)</td></tr>
-<tr><td><strong>Angle between vectors</strong></td><td><code>math.degrees(math.acos(clamp(cos_sim(a,b))))</code></td><td class="shape">float °</td></tr>
-<tr><td><strong>Outer product</strong></td><td><code>map(lambda x: map(lambda y: x*y, v), u)</code></td><td class="shape">list (m,n)</td></tr>
-<tr><td><strong>Matrix scalar ×</strong></td><td><code>map(lambda r: map(lambda x: x*k, r), M)</code></td><td class="shape">list (m,n)</td></tr>
-<tr><td><strong>Matrix addition</strong></td><td><code>map(lambda r1,r2: map(add,r1,r2), A,B)</code></td><td class="shape">list (m,n)</td></tr>
-<tr><td><strong>Transpose 2D</strong></td><td><code>map(list, zip(*M))</code></td><td class="shape">list (n,m)</td></tr>
-<tr><td><strong>Hadamard product A⊙B</strong></td><td><code>map(lambda r1,r2: map(lambda a,b: a*b, r1,r2), A,B)</code></td><td class="shape">list (m,n)</td></tr>
-<tr><td><strong>Matrix–vector multiply</strong></td><td><code>map(lambda row: dot(row,v), M)</code></td><td class="shape">list (m,)</td></tr>
-<tr><td><strong>Matrix–matrix multiply</strong></td><td><code>map(lambda r: map(lambda c: dot(r,c), Bt), A)</code></td><td class="shape">list (m,p)</td></tr>
-<tr><td><strong>Trace</strong></td><td><code>sum(map(lambda i: M[i][i], range(len(M))))</code></td><td class="shape">scalar</td></tr>
-<tr><td><strong>Diagonal</strong></td><td><code>map(lambda i: M[i][i], range(min(m,n)))</code></td><td class="shape">list (k,)</td></tr>
-<tr><td><strong>Row sums</strong></td><td><code>map(sum, M)</code></td><td class="shape">list (m,)</td></tr>
-<tr><td><strong>Column sums</strong></td><td><code>map(sum, zip(*M))</code></td><td class="shape">list (n,)</td></tr>
-<tr><td><strong>Apply f element-wise 2D</strong></td><td><code>map(lambda r: map(f, r), M)</code></td><td class="shape">list (m,n)</td></tr>
-<tr><td><strong>Apply f element-wise 3D</strong></td><td><code>map(lambda l: map(lambda r: map(f,r), l), T)</code></td><td class="shape">list (d,m,n)</td></tr>
-<tr><td><strong>Flatten 3D → 1D</strong></td><td><code>reduce(lambda a,mat: a+reduce(...), T, [])</code></td><td class="shape">list (d×m×n,)</td></tr>
-<tr><td><strong>3D axis-swap (D,R,C)→(C,R,D)</strong></td><td><code>map(c: map(r: map(d: T[d][r][c], …), …), …)</code></td><td class="shape">list (c,r,d)</td></tr>
-<tr><td><strong>Filter rows by condition</strong></td><td><code>filter(lambda r: cond(r), M)</code></td><td class="shape">filtered rows</td></tr>
-<tr><td><strong>Sort rows by norm</strong></td><td><code>sorted(M, key=lambda r: norm_l2(r))</code></td><td class="shape">list (m,n)</td></tr>
-<tr><td><strong>Multi-key sort</strong></td><td><code>sorted(data, key=lambda x: (-x[1], x[0]))</code></td><td class="shape">sorted list</td></tr>
-<tr><td><strong>Gradient descent step</strong></td><td><code>map(lambda p,g: p - α*g, θ, grads)</code></td><td class="shape">list (n,)</td></tr>
-<tr><td><strong>Softmax (vector)</strong></td><td><code>map(lambda e: e/s, map(exp(x-max), v))</code></td><td class="shape">list (n,)</td></tr>
-<tr><td><strong>Cosine similarity matrix</strong></td><td><code>map(lambda u: map(lambda v: cosine(u,v), vecs), vecs)</code></td><td class="shape">list (n,n)</td></tr>
-<tr><td><strong>Compose transforms</strong></td><td><code>reduce(matmul, [T1, T2, T3])</code></td><td class="shape">list (m,m)</td></tr>
-<tr><td><strong>Apply pipeline (NumPy)</strong></td><td><code>reduce(lambda M,f: f(M), steps, data)</code></td><td class="shape">ndarray</td></tr>
-<tr><td><strong>Determinant n×n</strong></td><td><code>sum(map(lambda j: (-1)**j * M[0][j] * det(minor(M,0,j)), range(n)))</code></td><td class="shape">scalar</td></tr>
-<tr><td><strong>String type-cast</strong></td><td><code>map(int, str_list)</code> / <code>map(float, str_list)</code></td><td class="shape">list (n,)</td></tr>
-<tr><td><strong>String clean + parse CSV</strong></td><td><code>map(lambda r: map(int, r.strip().split(',')), rows)</code></td><td class="shape">list (m,n)</td></tr>
-</table>
+      <table class="cheat-table">
+        <tr>
+          <th>Operation</th>
+          <th>map() + lambda Syntax</th>
+          <th>Result Shape</th>
+        </tr>
+        <tr>
+          <td><strong>Scalar × vector</strong></td>
+          <td><code>map(lambda x: x*k, v)</code></td>
+          <td class="shape">list (n,)</td>
+        </tr>
+        <tr>
+          <td><strong>Vector addition</strong></td>
+          <td><code>map(lambda a,b: a+b, u, v)</code></td>
+          <td class="shape">list (n,)</td>
+        </tr>
+        <tr>
+          <td><strong>Dot product</strong></td>
+          <td><code>sum(map(lambda a,b: a*b, u, v))</code></td>
+          <td class="shape">scalar</td>
+        </tr>
+        <tr>
+          <td><strong>L1 norm</strong></td>
+          <td><code>sum(map(abs, v))</code></td>
+          <td class="shape">scalar</td>
+        </tr>
+        <tr>
+          <td><strong>L2 norm</strong></td>
+          <td><code>sum(map(lambda x: x**2, v))**0.5</code></td>
+          <td class="shape">scalar</td>
+        </tr>
+        <tr>
+          <td><strong>Lp norm</strong></td>
+          <td><code>sum(map(lambda x: abs(x)**p, v))**(1/p)</code></td>
+          <td class="shape">scalar</td>
+        </tr>
+        <tr>
+          <td><strong>L∞ norm</strong></td>
+          <td><code>max(map(abs, v))</code></td>
+          <td class="shape">scalar</td>
+        </tr>
+        <tr>
+          <td><strong>Normalise vector</strong></td>
+          <td><code>map(lambda x: x/norm_l2(v), v)</code></td>
+          <td class="shape">list (n,)</td>
+        </tr>
+        <tr>
+          <td><strong>Angle between vectors</strong></td>
+          <td><code>math.degrees(math.acos(clamp(cos_sim(a,b))))</code></td>
+          <td class="shape">float °</td>
+        </tr>
+        <tr>
+          <td><strong>Outer product</strong></td>
+          <td><code>map(lambda x: map(lambda y: x*y, v), u)</code></td>
+          <td class="shape">list (m,n)</td>
+        </tr>
+        <tr>
+          <td><strong>Matrix scalar ×</strong></td>
+          <td><code>map(lambda r: map(lambda x: x*k, r), M)</code></td>
+          <td class="shape">list (m,n)</td>
+        </tr>
+        <tr>
+          <td><strong>Matrix addition</strong></td>
+          <td><code>map(lambda r1,r2: map(add,r1,r2), A,B)</code></td>
+          <td class="shape">list (m,n)</td>
+        </tr>
+        <tr>
+          <td><strong>Transpose 2D</strong></td>
+          <td><code>map(list, zip(*M))</code></td>
+          <td class="shape">list (n,m)</td>
+        </tr>
+        <tr>
+          <td><strong>Hadamard product A⊙B</strong></td>
+          <td><code>map(lambda r1,r2: map(lambda a,b: a*b, r1,r2), A,B)</code></td>
+          <td class="shape">list (m,n)</td>
+        </tr>
+        <tr>
+          <td><strong>Matrix–vector multiply</strong></td>
+          <td><code>map(lambda row: dot(row,v), M)</code></td>
+          <td class="shape">list (m,)</td>
+        </tr>
+        <tr>
+          <td><strong>Matrix–matrix multiply</strong></td>
+          <td><code>map(lambda r: map(lambda c: dot(r,c), Bt), A)</code></td>
+          <td class="shape">list (m,p)</td>
+        </tr>
+        <tr>
+          <td><strong>Trace</strong></td>
+          <td><code>sum(map(lambda i: M[i][i], range(len(M))))</code></td>
+          <td class="shape">scalar</td>
+        </tr>
+        <tr>
+          <td><strong>Diagonal</strong></td>
+          <td><code>map(lambda i: M[i][i], range(min(m,n)))</code></td>
+          <td class="shape">list (k,)</td>
+        </tr>
+        <tr>
+          <td><strong>Row sums</strong></td>
+          <td><code>map(sum, M)</code></td>
+          <td class="shape">list (m,)</td>
+        </tr>
+        <tr>
+          <td><strong>Column sums</strong></td>
+          <td><code>map(sum, zip(*M))</code></td>
+          <td class="shape">list (n,)</td>
+        </tr>
+        <tr>
+          <td><strong>Apply f element-wise 2D</strong></td>
+          <td><code>map(lambda r: map(f, r), M)</code></td>
+          <td class="shape">list (m,n)</td>
+        </tr>
+        <tr>
+          <td><strong>Apply f element-wise 3D</strong></td>
+          <td><code>map(lambda l: map(lambda r: map(f,r), l), T)</code></td>
+          <td class="shape">list (d,m,n)</td>
+        </tr>
+        <tr>
+          <td><strong>Flatten 3D → 1D</strong></td>
+          <td><code>reduce(lambda a,mat: a+reduce(...), T, [])</code></td>
+          <td class="shape">list (d×m×n,)</td>
+        </tr>
+        <tr>
+          <td><strong>3D axis-swap (D,R,C)→(C,R,D)</strong></td>
+          <td><code>map(c: map(r: map(d: T[d][r][c], …), …), …)</code></td>
+          <td class="shape">list (c,r,d)</td>
+        </tr>
+        <tr>
+          <td><strong>Filter rows by condition</strong></td>
+          <td><code>filter(lambda r: cond(r), M)</code></td>
+          <td class="shape">filtered rows</td>
+        </tr>
+        <tr>
+          <td><strong>Sort rows by norm</strong></td>
+          <td><code>sorted(M, key=lambda r: norm_l2(r))</code></td>
+          <td class="shape">list (m,n)</td>
+        </tr>
+        <tr>
+          <td><strong>Multi-key sort</strong></td>
+          <td><code>sorted(data, key=lambda x: (-x[1], x[0]))</code></td>
+          <td class="shape">sorted list</td>
+        </tr>
+        <tr>
+          <td><strong>Gradient descent step</strong></td>
+          <td><code>map(lambda p,g: p - α*g, θ, grads)</code></td>
+          <td class="shape">list (n,)</td>
+        </tr>
+        <tr>
+          <td><strong>Softmax (vector)</strong></td>
+          <td><code>map(lambda e: e/s, map(exp(x-max), v))</code></td>
+          <td class="shape">list (n,)</td>
+        </tr>
+        <tr>
+          <td><strong>Cosine similarity matrix</strong></td>
+          <td><code>map(lambda u: map(lambda v: cosine(u,v), vecs), vecs)</code></td>
+          <td class="shape">list (n,n)</td>
+        </tr>
+        <tr>
+          <td><strong>Compose transforms</strong></td>
+          <td><code>reduce(matmul, [T1, T2, T3])</code></td>
+          <td class="shape">list (m,m)</td>
+        </tr>
+        <tr>
+          <td><strong>Apply pipeline (NumPy)</strong></td>
+          <td><code>reduce(lambda M,f: f(M), steps, data)</code></td>
+          <td class="shape">ndarray</td>
+        </tr>
+        <tr>
+          <td><strong>Determinant n×n</strong></td>
+          <td><code>sum(map(lambda j: (-1)**j * M[0][j] * det(minor(M,0,j)), range(n)))</code></td>
+          <td class="shape">scalar</td>
+        </tr>
+        <tr>
+          <td><strong>String type-cast</strong></td>
+          <td><code>map(int, str_list)</code> / <code>map(float, str_list)</code></td>
+          <td class="shape">list (n,)</td>
+        </tr>
+        <tr>
+          <td><strong>String clean + parse CSV</strong></td>
+          <td><code>map(lambda r: map(int, r.strip().split(',')), rows)</code></td>
+          <td class="shape">list (m,n)</td>
+        </tr>
+      </table>
     </div>
 
   </main>
-</div>
-2:["$","article",null,{"className":"-mx-4 sm:-mx-6 lg:-mx-8 -my-6 sm:-my-8","children":[false,["$","div",null,{"className":"","children":["$","$Le",null,{"content":"$f"}]}],["$","div",null,{"className":"mx-auto max-w-[900px]","children":["$","$L10",null,{"title":"The Complete Guide to Python's map() & lambda","slug":"the-complete-guide-to-python-map-and-lambda"}]}]]}]
+</div>2:["$","article",null,{"className":"-mx-4 sm:-mx-6 lg:-mx-8 -my-6 sm:-my-8","children":[false,["$","div",null,{"className":"","children":["$","$Le",null,{"content":"$f"}]}],["$","div",null,{"className":"mx-auto max-w-[900px]","children":["$","$L10",null,{"title":"The Complete Guide to Python's map() & lambda","slug":"the-complete-guide-to-python-map-and-lambda"}]}]]}]
 d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=5"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"The Complete Guide to Python's map() & lambda | Arman Hossen"}],["$","meta","3",{"name":"description","content":"Master Python’s map() and lambda functions: understand functional purity, closures, matrix manipulation, batched tensor operations, and the NumPy bridge."}],["$","meta","4",{"property":"og:title","content":"The Complete Guide to Python's map() & lambda"}],["$","meta","5",{"property":"og:description","content":"Master Python’s map() and lambda functions: understand functional purity, closures, matrix manipulation, batched tensor operations, and the NumPy bridge."}],["$","meta","6",{"property":"og:url","content":"https://armanruet.github.io/blog/the-complete-guide-to-python-map-and-lambda/"}],["$","meta","7",{"property":"og:image","content":"https://armanruet.github.io/blog/map-lambda-hero.png"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"The Complete Guide to Python's map() & lambda"}],["$","meta","11",{"name":"twitter:description","content":"Master Python’s map() and lambda functions: understand functional purity, closures, matrix manipulation, batched tensor operations, and the NumPy bridge."}],["$","meta","12",{"name":"twitter:image","content":"https://armanruet.github.io/blog/map-lambda-hero.png"}]]
 1:null
