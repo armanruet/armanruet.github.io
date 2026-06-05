@@ -17,9 +17,31 @@ export async function generateStaticParams() {
 // Add metadata generation
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const { metadata } = await getPostFromSlug(params.slug);
+  
+  const ogImage = metadata.image
+    ? `https://armanruet.github.io${metadata.image}`
+    : 'https://armanruet.github.io/opengraph-image.png';
+
   return {
     title: metadata.title,
     description: metadata.description,
+    openGraph: {
+      title: metadata.title,
+      description: metadata.description,
+      type: 'article',
+      url: `https://armanruet.github.io/blog/${params.slug}`,
+      images: [
+        {
+          url: ogImage,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: metadata.title,
+      description: metadata.description,
+      images: [ogImage],
+    },
   };
 }
 
