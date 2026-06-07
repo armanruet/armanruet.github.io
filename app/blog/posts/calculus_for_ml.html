@@ -3063,15 +3063,19 @@ ex = expected_value(vals, probs)
               <li>The total volume under the surface is exactly 1.</li>
             </ul>
             <div class="mermaid" style="margin-top: 1rem;">
-              graph LR
-              START["∬ xy dy dx"] --> INNER["Inner Integral<br>∫₀¹ xy dy"]
-              INNER -->|Treat x as constant| INNER_EVAL["[x · y²/2]₀¹<br>= x/2"]
-              INNER_EVAL --> OUTER["Outer Integral<br>∫₀² (x/2) dx"]
-              OUTER -->|Standard 1D integral| OUTER_EVAL["[x²/4]₀²<br>= 4/4 = 1"]
-              OUTER_EVAL --> VOL["Volume = 1"]
+              graph TD
+              START["∬₀² ∫₀¹ xy dy dx"]
 
-              style START fill:var(--surface),stroke:var(--border),color:var(--text)
-              style VOL fill:var(--purple-bg),stroke:var(--purple),color:var(--purple)
+              START --> INNER["Inner Integral: ∫₀¹ xy dy"]
+              INNER --> INNER_EVAL["Treat x as constant<br />[x·y²/2]₀¹ = x/2"]
+
+              INNER_EVAL --> OUTER["Outer Integral: ∫₀² (x/2) dx"]
+              OUTER --> OUTER_EVAL["[x²/4]₀² = 1"]
+
+              OUTER_EVAL --> VOL["Final Answer<br />Volume = 1"]
+
+              style START fill:#f8f9fa,stroke:#6c757d,color:#212529
+              style VOL fill:#f3e8ff,stroke:#9333ea,color:#6b21a8
             </div>
           </div>
           <div class="callout callout-blue">🎯 <strong>ML Application:</strong> Double integrals (and multiple integrals
