@@ -1,140 +1,73 @@
 export default function Skills() {
-  const skills = [
-    // First Column
+  const skillCategories = [
     {
-      name: 'Python',
-      level: 90,
-      column: 1,
+      category: 'ML & Computer Vision',
+      items: [
+        'PyTorch',
+        'Scikit-learn',
+        'TensorFlow',
+        'YOLOv9',
+        'OpenCV',
+        'Reinforcement Learning',
+      ],
     },
     {
-      name: 'R',
-      level: 75,
-      column: 1,
+      category: 'Generative AI & LLMs',
+      items: ['Hugging Face Transformers', 'RAG', 'LLMs (Gemma)', 'Embeddings'],
     },
     {
-      name: 'TypeScript',
-      level: 85,
-      column: 1,
+      category: 'Programming & APIs',
+      items: ['Python', 'SQL', 'Bash', 'FastAPI', 'Flask', 'REST APIs', 'Git'],
     },
     {
-      name: 'Kubernetes',
-      level: 85,
-      column: 1,
+      category: 'Data Engineering',
+      items: ['pandas', 'Apache Spark', 'dbt', 'BigQuery', 'Kafka', 'ETL pipelines'],
     },
     {
-      name: 'Machine Learning',
-      level: 80,
-      column: 1,
-    },
-    // Second Column
-    {
-      name: 'Java',
-      level: 85,
-      column: 2,
-    },
-    {
-      name: 'HTML',
-      level: 90,
-      column: 2,
+      category: 'Deployment & Cloud',
+      items: [
+        'Docker',
+        'Kubernetes',
+        'GitLab CI/CD',
+        'GitHub Actions',
+        'AWS (EC2, S3, Lambda, DynamoDB)',
+        'Azure',
+        'Terraform',
+      ],
     },
     {
-      name: 'Linux',
-      level: 85,
-      column: 2,
-    },
-    {
-      name: 'bash',
-      level: 90,
-      column: 2,
-    },
-    {
-      name: 'Microservices',
-      level: 70,
-      column: 2,
-    },
-    // Third Column
-    {
-      name: 'MATLAB',
-      level: 90,
-      column: 3,
-    },
-    {
-      name: 'CSS',
-      level: 85,
-      column: 3,
-    },
-    {
-      name: 'Git & Gitlab',
-      level: 90,
-      column: 3,
-    },
-    {
-      name: 'Node.js',
-      level: 75,
-      column: 3,
-    },
-    {
-      name: 'AWS',
-      level: 70,
-      column: 3,
-    },
-    // Fourth Column
-    {
-      name: 'SQL',
-      level: 85,
-      column: 4,
-    },
-    {
-      name: 'JavaScript(React)',
-      level: 90,
-      column: 4,
-    },
-    {
-      name: 'Docker',
-      level: 85,
-      column: 4,
-    },
-    {
-      name: 'Django',
-      level: 75,
-      column: 4,
-    },
-    {
-      name: 'Azure',
-      level: 70,
-      column: 4,
+      category: 'Databases & Observability',
+      items: ['PostgreSQL', 'MySQL', 'Redis', 'Elasticsearch', 'Grafana'],
     },
   ];
 
-  // Group skills by level for mobile view
-  const groupedSkills = skills.reduce((acc, skill) => {
-    const level = skill.level >= 90 ? 'Expert' :
-                 skill.level >= 80 ? 'Advanced' :
-                 skill.level >= 70 ? 'Proficient' : 'Intermediate';
-    
-    if (!acc[level]) {
-      acc[level] = [];
-    }
-    acc[level].push(skill);
-    return acc;
-  }, {} as Record<string, typeof skills>);
+  const languages = [
+    { name: 'English', proficiency: 'Fluent (C1+)' },
+    { name: 'Luxembourgish', proficiency: 'A2' },
+    { name: 'Bengali', proficiency: 'Native' },
+    { name: 'Korean', proficiency: 'Basic' },
+  ];
 
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-bold mb-8">Skills</h2>
-      
-      {/* Mobile View */}
-      <div className="md:hidden space-y-6">
-        {Object.entries(groupedSkills).map(([level, levelSkills]) => (
-          <div key={level} className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-            <h3 className="text-lg font-semibold mb-3 text-purple-600 dark:text-purple-400">{level}</h3>
+      <h2 className="text-2xl font-bold mb-8">Technical Skills</h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+        {skillCategories.map((group) => (
+          <div
+            key={group.category}
+            className="bg-gray-50 dark:bg-gray-800/50 rounded-lg p-5 shadow-sm"
+          >
+            <h3 className="text-lg font-semibold mb-3 text-pink-600 dark:text-pink-400">
+              {group.category}
+            </h3>
             <div className="flex flex-wrap gap-2">
-              {levelSkills.map((skill) => (
+              {group.items.map((skill) => (
                 <span
-                  key={skill.name}
-                  className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm text-gray-800 dark:text-gray-200"
+                  key={skill}
+                  className="px-3 py-1 bg-white dark:bg-gray-700/80 rounded-full text-sm text-gray-800 dark:text-gray-200 shadow-xs"
                 >
-                  {skill.name}
+                  {skill}
                 </span>
               ))}
             </div>
@@ -142,23 +75,15 @@ export default function Skills() {
         ))}
       </div>
 
-      {/* Desktop View */}
-      <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {[1, 2, 3, 4].map((columnNum) => (
-          <div key={columnNum} className="space-y-4">
-            {skills
-              .filter((skill) => skill.column === columnNum)
-              .map((skill) => (
-                <div key={skill.name} className="space-y-4">
-                  <div className="font-medium text-gray-900 dark:text-gray-100">{skill.name}</div>
-                  <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-                    <div
-                      className="h-full bg-pink-600 dark:bg-pink-500 rounded-full transition-all duration-500"
-                      style={{ width: `${skill.level}%` }}
-                    />
-                  </div>
-                </div>
-              ))}
+      <h3 className="text-xl font-bold mb-4">Languages</h3>
+      <div className="flex flex-wrap gap-4">
+        {languages.map((lang) => (
+          <div
+            key={lang.name}
+            className="px-4 py-2 bg-gray-50 dark:bg-gray-800/50 rounded-lg flex items-center gap-2 text-sm"
+          >
+            <span className="font-semibold text-gray-900 dark:text-gray-100">{lang.name}:</span>
+            <span className="text-purple-600 dark:text-purple-400">{lang.proficiency}</span>
           </div>
         ))}
       </div>

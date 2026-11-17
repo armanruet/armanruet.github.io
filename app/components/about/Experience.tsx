@@ -3,26 +3,34 @@ export default function Experience() {
     <div className="mb-12">
       <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">Experience</h2>
       <div className="space-y-8">
-        {/* Dropslab Technologies */}
+        {/* LIST via DLH AI Academy */}
         <div>
           {/* Mobile View */}
           <div className="sm:hidden">
             <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-              Software Engineer
+              LLM Assistant for Scientific Data (BRAMS)
             </h3>
-            <div className="flex items-center gap-2 mb-2">
-              <span className="text-lg text-gray-700 dark:text-gray-300">Dropslab Technologies</span>
-              <span className="text-sm text-pink-600 dark:text-pink-400">2024</span>
+            <div className="flex flex-wrap items-center gap-2 mb-2">
+              <span className="text-lg text-gray-700 dark:text-gray-300">
+                AI Capstone | LIST & DLH AI Academy
+              </span>
+              <span className="text-sm text-pink-600 dark:text-pink-400">October 2026 – Present</span>
             </div>
             <ul className="list-disc pl-4 space-y-1.5 text-[16px]">
               <li className="text-gray-600 dark:text-gray-400">
-                Led intelligent workflow management solutions using low-code platform
+                Building a Gradio and Pydantic AI assistant that answers researchers&apos; questions
+                from the BRAMS radio meteor archive through validated tool calls (PyBRAMS SDK), plus
+                a local YOLOv11-n meteor echo detector.
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                Integration of technologies for improved UX
+                Runs on a local LLM (llama.cpp) or hosted OpenAI-compatible APIs; raw data stays
+                local and API keys are session-scoped, never stored or sent in prompts.
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                Research and implement new techniques for product quality
+                Added grounding checks, repeated-call guards and safe fallbacks; built an evaluation
+                harness (54 tasks, holdout set, human review) comparing 4 models, backed by{' '}
+                <strong className="font-semibold text-gray-800 dark:text-gray-200">138</strong>{' '}
+                automated tests.
               </li>
             </ul>
           </div>
@@ -31,70 +39,69 @@ export default function Experience() {
           <div className="hidden sm:block">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2 space-y-1 sm:space-y-0">
               <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">
-                Dropslab Technologies, Luxembourg
+                AI Capstone | LIST & DLH AI Academy
               </h3>
-              <span className="text-pink-600 dark:text-pink-400 text-base">Feb 2024 - Present</span>
+              <span className="text-pink-600 dark:text-pink-400 text-base flex-shrink-0">
+                October 2026 – Present
+              </span>
             </div>
             <h4 className="text-lg italic text-gray-700 dark:text-gray-300 mb-3">
-              Software Engineer
+              LLM Assistant for Scientific Data (BRAMS)
             </h4>
             <ul className="list-disc pl-4 sm:pl-5 space-y-2 text-[18px]">
               <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Led the design and implementation of intelligent workflow management solutions using
-                low-code platform development, focusing on process automation and quality control
-                systems.
+                Building a Gradio and Pydantic AI assistant that answers researchers&apos; questions
+                from the BRAMS radio meteor archive through validated tool calls (PyBRAMS SDK), plus
+                a local YOLOv11-n meteor echo detector.
               </li>
               <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Integration and customization of technologies to improve user interaction and
-                experience in applications.
+                Runs on a local LLM (llama.cpp) or hosted OpenAI-compatible APIs; raw data stays
+                local and API keys are session-scoped, never stored or sent in prompts.
               </li>
               <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Research and implement new techniques and tools for improved product quality and
-                efficiency.
-              </li>
-              <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Collaborate with UI/UX designers to create intuitive and user-friendly interfaces.
-              </li>
-              <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Participate in Agile development methodologies, including sprint planning, stand-ups,
-                and retrospectives
-              </li>
-              <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Perform validation and verification testing
-              </li>
-              <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Ensure software is up-to-date with latest technologies
+                Added grounding checks, repeated-call guards and safe fallbacks; built an evaluation
+                harness (54 tasks, holdout set, human review) comparing 4 models, backed by{' '}
+                <strong className="font-semibold text-gray-800 dark:text-gray-200">138</strong>{' '}
+                automated tests.
               </li>
             </ul>
           </div>
         </div>
 
-        {/* SnT, University of Luxembourg */}
+        {/* Dropslab Technologies */}
         <div>
           {/* Mobile View */}
           <div className="sm:hidden">
             <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-              R&D Specialist & Assistant Doctorant
+              Software Engineer — Machine Learning & Production Systems
             </h3>
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-lg text-gray-700 dark:text-gray-300">SnT, University of Luxembourg</span>
-              <span className="text-sm text-pink-600 dark:text-pink-400">2020-23</span>
+              <span className="text-lg text-gray-700 dark:text-gray-300">
+                Dropslab Technologies – Luxembourg
+              </span>
+              <span className="text-sm text-pink-600 dark:text-pink-400">Feb 2024 – Feb 2026</span>
             </div>
             <ul className="list-disc pl-4 space-y-1.5 text-[16px]">
               <li className="text-gray-600 dark:text-gray-400">
-                Awarded 250,000€ research grant for Tactile Internet System project
+                Developed and deployed a YOLOv9 computer vision model for industrial assembly
+                verification, integrating real-time inference with factory systems via FastAPI and
+                reducing manual inspection time by 70%.
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                Developed resource allocation algorithm: 35% network improvement
+                Built automated CI/CD pipelines using GitLab CI/CD, Docker, and Kubernetes,
+                reducing deployment lead time by 60%.
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                Optimized URLLC network with reinforcement learning
+                Architected and deployed an AWS-hosted MQTT message broker processing 10,000+
+                messages/sec with 99.9% uptime, enabling reliable industrial IoT data ingestion.
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                Managed data repositories with PostgreSQL: 40% faster retrieval
+                Developed automated workflows and ETL pipelines with REST API integrations, reducing
+                manual processing overhead by 40%.
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                Implemented Docker & GitLab CI/CD: 20% less downtime
+                Engineered a real-time industrial Pick-to-Light control system achieving 99.9%
+                picking accuracy through sensor feedback validation and automated control logic.
               </li>
             </ul>
           </div>
@@ -103,60 +110,151 @@ export default function Experience() {
           <div className="hidden sm:block">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2 space-y-1 sm:space-y-0">
               <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">
-                SnT, University of Luxembourg
+                Dropslab Technologies – Luxembourg
               </h3>
-              <span className="text-pink-600 dark:text-pink-400 text-base">Sep 2020 - Jun 2023</span>
+              <span className="text-pink-600 dark:text-pink-400 text-base">Feb 2024 – Feb 2026</span>
             </div>
-            <h4 className="text-lg italic text-gray-700 dark:text-gray-300 mb-3">R&D Specialist</h4>
-            <ul className="list-disc pl-4 sm:pl-5 space-y-2 text-[18px]">
-              <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Boosted user engagement 25% by consolidating websites with WikiJS.
-              </li>
-              <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Proficiently managed extensive data repositories through PostgreSQL, optimizing data
-                retrieval speed by 40%.
-              </li>
-              <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Leveraged Gitlab version control and Docker container leading to a 20% decrease in
-                system downtime and server load.
-              </li>
-              <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Demonstrated expertise in Docker, Elastic-search, HTML5, CSS, WikiJS, Gitlab, Bash,
-                and PostgreSQL, ensuring the successful integration of technologies and a 15%
-                reduction in development time.
-              </li>
-              <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Showcased advanced SQL and Oracle expertise for optimizing database performance.
-              </li>
-            </ul>
-
-            <h4 className="text-lg italic text-gray-700 dark:text-gray-300 mt-6 mb-3">
-              Assistant Doctorant
+            <h4 className="text-lg italic text-gray-700 dark:text-gray-300 mb-3">
+              Software Engineer — Machine Learning & Production Systems
             </h4>
             <ul className="list-disc pl-4 sm:pl-5 space-y-2 text-[18px]">
               <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Awarded a prestigious 250,000 euros research grant by FnR for the project Design and
-                Optimization of an Intelligent Tactile Internet System over 5G and Beyond Wireless
-                Networks.
+                Developed and deployed a YOLOv9 computer vision model for industrial assembly
+                verification, integrating real-time inference with factory systems via FastAPI and
+                reducing manual inspection time by <strong className="font-semibold text-gray-800 dark:text-gray-200">70%</strong>.
               </li>
               <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Developed an innovative joint resource allocation algorithm for latency-constrained
-                wireless networks, resulting in a 35% improvement in network performance and a 40%
-                reduction in latency.
+                Built automated CI/CD pipelines using GitLab CI/CD, Docker, and Kubernetes,
+                reducing deployment lead time by <strong className="font-semibold text-gray-800 dark:text-gray-200">60%</strong>.
               </li>
               <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Designed an efficient algorithm for optimizing URLLC network, significantly reduced
-                decoding error probability, and enhanced reliability within stringent latency
-                constraints.
+                Architected and deployed an AWS-hosted MQTT message broker processing{' '}
+                <strong className="font-semibold text-gray-800 dark:text-gray-200">10,000+ messages/sec</strong> with{' '}
+                <strong className="font-semibold text-gray-800 dark:text-gray-200">99.9% uptime</strong>, enabling reliable industrial IoT
+                data ingestion.
               </li>
               <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Proposed a reinforcement learning algorithm for URLLC, enhancing channel quality
-                estimation, reducing retransmissions, and outperforming conventional methods in
-                spectral efficiency, ensuring compliance with stringent criteria.
+                Developed automated workflows and ETL pipelines with REST API integrations, reducing
+                manual processing overhead by <strong className="font-semibold text-gray-800 dark:text-gray-200">40%</strong>.
               </li>
               <li className="text-gray-600 dark:text-gray-400 ml-1">
-                Mastered SQL optimization techniques, including query tuning and indexing, on Oracle
-                databases over a network.
+                Engineered a real-time industrial Pick-to-Light control system achieving{' '}
+                <strong className="font-semibold text-gray-800 dark:text-gray-200">99.9% picking accuracy</strong> through sensor feedback
+                validation and automated control logic.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* SnT Research Center, University of Luxembourg */}
+        <div>
+          {/* Mobile View */}
+          <div className="sm:hidden">
+            <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+              Research Software Engineer — Machine Learning & Optimization
+            </h3>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-lg text-gray-700 dark:text-gray-300">
+                SnT Research Center, University of Luxembourg
+              </span>
+              <span className="text-sm text-pink-600 dark:text-pink-400">Sep 2020 – Jun 2023</span>
+            </div>
+            <ul className="list-disc pl-4 space-y-1.5 text-[16px]">
+              <li className="text-gray-600 dark:text-gray-400">
+                Designed, trained, and evaluated reinforcement learning (Q-Learning) algorithms for
+                cognitive radio network optimization, reducing latency by 40% and improving
+                reliability by 35%.
+              </li>
+              <li className="text-gray-600 dark:text-gray-400">
+                Conducted reproducible ML experiments and hyperparameter optimization on a 16-core
+                research computing cluster using Docker.
+              </li>
+              <li className="text-gray-600 dark:text-gray-400">
+                Optimized PostgreSQL and Oracle database performance through advanced SQL query
+                tuning and indexing, reducing query latency by 40%.
+              </li>
+              <li className="text-gray-600 dark:text-gray-400">
+                Secured competitive FNR research funding and translated research into a
+                peer-reviewed IEEE Access publication and a co-invented patent on algorithmic
+                optimization.
+              </li>
+            </ul>
+          </div>
+
+          {/* Desktop View */}
+          <div className="hidden sm:block">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2 space-y-1 sm:space-y-0">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+                SnT Research Center, University of Luxembourg
+              </h3>
+              <span className="text-pink-600 dark:text-pink-400 text-base">Sep 2020 – Jun 2023</span>
+            </div>
+            <h4 className="text-lg italic text-gray-700 dark:text-gray-300 mb-3">
+              Research Software Engineer — Machine Learning & Optimization
+            </h4>
+            <ul className="list-disc pl-4 sm:pl-5 space-y-2 text-[18px]">
+              <li className="text-gray-600 dark:text-gray-400 ml-1">
+                Designed, trained, and evaluated reinforcement learning (Q-Learning) algorithms for
+                cognitive radio network optimization, reducing latency by{' '}
+                <strong className="font-semibold text-gray-800 dark:text-gray-200">40%</strong> and improving reliability by{' '}
+                <strong className="font-semibold text-gray-800 dark:text-gray-200">35%</strong>.
+              </li>
+              <li className="text-gray-600 dark:text-gray-400 ml-1">
+                Conducted reproducible ML experiments and hyperparameter optimization on a{' '}
+                <strong className="font-semibold text-gray-800 dark:text-gray-200">16-core research computing cluster</strong> using
+                Docker.
+              </li>
+              <li className="text-gray-600 dark:text-gray-400 ml-1">
+                Optimized PostgreSQL and Oracle database performance through advanced SQL query
+                tuning and indexing, reducing query latency by{' '}
+                <strong className="font-semibold text-gray-800 dark:text-gray-200">40%</strong>.
+              </li>
+              <li className="text-gray-600 dark:text-gray-400 ml-1">
+                Secured competitive FNR research funding and translated research into a
+                peer-reviewed <em>IEEE Access</em> publication and a co-invented patent on
+                algorithmic optimization.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Fiber@Home Limited */}
+        <div>
+          {/* Mobile View */}
+          <div className="sm:hidden">
+            <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+              IT Support Engineer — Network Operations
+            </h3>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-lg text-gray-700 dark:text-gray-300">
+                Fiber@Home Limited – Dhaka, Bangladesh
+              </span>
+              <span className="text-sm text-pink-600 dark:text-pink-400">Jan 2016 – Feb 2018</span>
+            </div>
+            <ul className="list-disc pl-4 space-y-1.5 text-[16px]">
+              <li className="text-gray-600 dark:text-gray-400">
+                Monitored a 56,345 km optical fiber network serving 100,000+ customers, diagnosing
+                network anomalies and coordinating incident resolution within SLA requirements.
+              </li>
+            </ul>
+          </div>
+
+          {/* Desktop View */}
+          <div className="hidden sm:block">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2 space-y-1 sm:space-y-0">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+                Fiber@Home Limited – Dhaka, Bangladesh
+              </h3>
+              <span className="text-pink-600 dark:text-pink-400 text-base">Jan 2016 – Feb 2018</span>
+            </div>
+            <h4 className="text-lg italic text-gray-700 dark:text-gray-300 mb-3">
+              IT Support Engineer — Network Operations
+            </h4>
+            <ul className="list-disc pl-4 sm:pl-5 space-y-2 text-[18px]">
+              <li className="text-gray-600 dark:text-gray-400 ml-1">
+                Monitored a <strong className="font-semibold text-gray-800 dark:text-gray-200">56,345 km optical fiber network</strong>{' '}
+                serving <strong className="font-semibold text-gray-800 dark:text-gray-200">100,000+ customers</strong>, diagnosing
+                network anomalies and coordinating incident resolution within SLA requirements.
               </li>
             </ul>
           </div>

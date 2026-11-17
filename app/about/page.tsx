@@ -17,7 +17,7 @@ export default function Page() {
       <ProfileHeader />
       <div className="prose dark:prose-invert max-w-none mb-12">
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-          I architect intelligent systems that bridge research and industry. I'm a software engineer specializing in machine learning and cloud solutions, crafting robust applications that solve complex challenges. Currently, I'm focused on building intelligent workflow management systems at Dropslab Technologies that enhance human efficiency.
+          Machine Learning Engineer with hands-on experience building, evaluating, and deploying end-to-end ML solutions using Python, PyTorch, Scikit-learn, FastAPI, and Docker. Delivered measurable impact through real-time inference systems that reduced manual inspection time by 70%, distributed data pipelines processing 10,000+ messages/sec, and database optimizations that improved query latency by 40%. Published researcher in IEEE Access and co-inventor of a patent in reinforcement learning optimization. Currently expanding expertise in deep learning, transformers, and Generative AI through DLH AI Academy.
         </p>
       </div>
       <div className="space-y-16">
